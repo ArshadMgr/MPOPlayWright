@@ -1,0 +1,185 @@
+2024-06-11 15:42:08,105 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:42:54,141 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:43:22,997 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:43:26,778 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:43:35,036 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:44:52,514 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:04,447 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:15,497 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:26,499 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:32,745 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:39,360 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:45,454 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:51,131 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:45:56,755 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:02,642 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:18,307 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:24,131 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:30,428 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:36,182 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:42,273 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:46:48,006 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:47:04,990 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:47:10,855 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:47:21,764 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:47:38,514 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:47:46,137 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:48:33,681 - TestLogger - INFO - Setting up the test environment
+2024-06-11 15:51:01,632 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:51:12,664 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:51:34,706 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:51:45,638 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:51:52,530 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:51:58,012 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:52:04,343 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:52:10,476 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:52:16,769 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:52:23,750 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:52:32,245 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:52:43,992 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:53:00,944 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:53:11,841 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:53:23,531 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:53:50,492 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:07,445 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:18,003 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:24,261 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:29,906 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:36,112 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:45,579 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:54:51,287 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:55:47,422 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:56:05,278 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:56:11,348 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:56:17,233 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 15:56:22,813 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:03:39,391 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:03:45,611 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-11 16:03:45,619 - TestLogger - INFO - Starting test: test_invalid_login
+2024-06-11 16:03:45,623 - TestLogger - INFO - Tearing down the test environment
+2024-06-11 16:03:49,667 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:03:55,925 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-11 16:03:55,934 - TestLogger - INFO - Starting test: test_invalid_login
+2024-06-11 16:03:55,938 - TestLogger - INFO - Tearing down the test environment
+2024-06-11 16:03:59,845 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:04:06,446 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:04:15,172 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:04:20,963 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-11 16:04:20,970 - TestLogger - INFO - Starting test: test_invalid_login
+2024-06-11 16:04:20,973 - TestLogger - INFO - Tearing down the test environment
+2024-06-11 16:04:24,862 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-11 16:04:31,356 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-12 00:11:45,285 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-12 00:11:50,373 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-12 00:11:50,394 - TestLogger - INFO - Starting test: test_invalid_login
+2024-06-12 00:11:50,405 - TestLogger - INFO - Tearing down the test environment
+2024-06-14 23:35:34,521 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-14 23:35:39,395 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-14 23:35:39,418 - TestLogger - INFO - Starting test: test_invalid_login
+2024-06-14 23:35:39,427 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 11:49:56,362 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-16 11:50:16,004 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 11:50:17,564 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 11:50:17,573 - TestLogger - INFO - Starting test: test_invalid_login
+2024-06-16 11:50:48,072 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 12:42:06,473 - TestLogger - INFO - Setting up the test environment(Arshad)
+2024-06-16 12:42:17,008 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 12:42:18,902 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 12:44:54,517 - TestLogger - INFO - Setting up the test environment
+2024-06-16 12:45:05,371 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 12:45:06,661 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 12:47:38,835 - TestLogger - INFO - Setting up the test environment
+2024-06-16 12:47:47,466 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 12:47:48,608 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 12:51:12,045 - TestLogger - INFO - Setting up the test environment
+2024-06-16 12:51:30,074 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 12:51:35,306 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 12:52:15,659 - TestLogger - INFO - Setting up the test environment
+2024-06-16 12:52:27,152 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 12:53:28,775 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 12:56:56,483 - TestLogger - INFO - Setting up the test environment
+2024-06-16 12:57:06,608 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 12:57:28,056 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:06:56,606 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:07:09,253 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:07:31,095 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:08:25,588 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:08:46,388 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:09:08,065 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:10:29,501 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:10:47,187 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:10:59,199 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:15:17,542 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:15:35,103 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:15:35,173 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:16:13,541 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:16:32,250 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:16:32,320 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:17:07,048 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:17:24,477 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:17:36,058 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:24:23,966 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:24:35,156 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:24:46,632 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:26:56,429 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:27:08,407 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:27:20,024 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:28:36,171 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:28:54,875 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:29:17,021 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:37:41,145 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:37:56,106 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:38:18,007 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:54:28,397 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:54:44,642 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:54:55,142 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 13:54:55,144 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:57:20,461 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:57:32,729 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:57:41,763 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 13:57:41,780 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 13:59:10,292 - TestLogger - INFO - Setting up the test environment
+2024-06-16 13:59:22,279 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 13:59:28,916 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 13:59:28,927 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:01:20,290 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:01:33,398 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:01:42,837 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:01:50,655 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:11:24,182 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:11:34,980 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:11:42,905 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:11:42,917 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:17:55,431 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:18:04,336 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:18:11,780 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:18:11,789 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:29:53,542 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:30:02,273 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:30:08,017 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:30:08,019 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:33:19,131 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:33:27,574 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:33:38,484 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:33:45,615 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:34:53,709 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:35:02,741 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:35:10,086 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:35:19,104 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 14:41:44,495 - TestLogger - INFO - Setting up the test environment
+2024-06-16 14:41:55,702 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 14:42:01,082 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 14:42:07,503 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 15:36:21,345 - TestLogger - INFO - Setting up the test environment
+2024-06-16 15:36:34,606 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 15:36:43,016 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 15:37:25,839 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 15:49:25,511 - TestLogger - INFO - Setting up the test environment
+2024-06-16 15:49:37,422 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 15:49:47,524 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 15:50:43,603 - TestLogger - INFO - Tearing down the test environment
+2024-06-16 15:54:57,890 - TestLogger - INFO - Setting up the test environment
+2024-06-16 15:55:18,356 - TestLogger - INFO - Starting test: test_valid_login
+2024-06-16 15:55:29,550 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-16 15:55:29,557 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-16 15:55:41,322 - TestLogger - INFO - Tearing down the test environment

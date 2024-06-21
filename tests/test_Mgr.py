@@ -1,6 +1,9 @@
 import pytest
 from playwright.sync_api import sync_playwright
+from playwright.sync_api import Page
+from Payload.new_hire import NewHire
 
+from pages import login_page
 from utils.config import BASE_URL
 from utils.config import USERNAME
 from utils.config import PASSWORD
@@ -17,7 +20,7 @@ def test_setup(request):
     playwright = sync_playwright().start()
     browser = playwright.chromium.launch(headless=False)
     page = browser.new_page()
-    page.goto("https://mypaperlessoffice.com/app/login.aspx")
+    page.goto(BASE_URL + "/login.aspx")
     request.cls.page = page
     request.cls.browser = browser
     yield
@@ -35,7 +38,6 @@ class TestLogin:
         login_page.enter_password(PASSWORD)
         login_page.click_login()
 
-
         login_page.clik_ee_role()
         login_page.enter_employer("Manager")
         login_page.press_enter()
@@ -48,8 +50,8 @@ class TestLogin:
 
         time.sleep(10)
 
-    def test_ee_smoke(self):
 
+    def test_ee_smoke(self):
         logger.info("Starting test: test_Page_Crashes")
         self.page.goto(BASE_URL + "/Sys/EmployerManager/Employees/NewHire.aspx")
         self.page.goto(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
@@ -106,5 +108,4 @@ class TestLogin:
         self.page.goto(BASE_URL + "/Sys/Common/MessageCenter/Messages.aspx")
         self.page.goto(BASE_URL + "/Sys/UserProfile.aspx")
         self.page.goto(BASE_URL + "/Sys/logoff.aspx")
-
 

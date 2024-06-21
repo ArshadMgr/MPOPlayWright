@@ -1,8 +1,10 @@
 from playwright.sync_api import Page
-from selenium.webdriver.common.by import By
+
+from Payload.new_hire import NewHire
 
 
 class LoginPage:
+
     def __init__(self, page: Page):
         self.page = page
         self.username_input = page.get_by_label("Username:")
@@ -45,4 +47,3 @@ class LoginPage:
 
     def press_enter(self):
         self.search_role.press("Enter")
-

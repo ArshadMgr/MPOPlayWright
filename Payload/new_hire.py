@@ -67,3 +67,9 @@ class NewHire:
 
     def getToken(self) -> str:
         return self.token
+    def create_user(name, email):
+    # Assume this function creates a user and returns a user object
+        return {
+         "name": name,
+         "email": email
+     }

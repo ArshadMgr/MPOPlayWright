@@ -1,7 +1,5 @@
 from playwright.sync_api import Page
 
-from Payload.new_hire import NewHire
-
 
 class LoginPage:
 

@@ -1,4 +1,8 @@
-2024-06-24 12:28:13,876 - TestLogger - INFO - Setting up the test environment(Demo)
-2024-06-24 12:28:28,017 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-24 12:28:38,030 - TestLogger - INFO - Starting test: test_Page_Crashes
-2024-06-24 12:28:52,665 - TestLogger - INFO - Generated fake name: Christopher Williams and fake email: rwalker@example.com
+2024-06-24 12:45:45,767 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-24 12:46:01,258 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-24 12:46:11,269 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-24 12:46:41,029 - TestLogger - INFO - Generated fake name: Maria Hawkins and fake email: icarroll@example.org
+2024-06-24 12:50:23,379 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-24 12:50:34,552 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-24 12:50:44,562 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-24 12:51:04,303 - TestLogger - INFO - Generated fake name: Jose Calhoun and fake email: sarah09@example.org

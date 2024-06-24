@@ -1,12 +1,13 @@
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 import pytest
-from Payload.new_hire import NewHire
-from utils.config import BASE_URL
-from utils.config import USERNAME
-from utils.config import PASSWORD
-from pages.login_page import LoginPage
-from utils.logger import setup_logger
+
+from MPOPlayWright.Payload.new_hire import NewHire
+from MPOPlayWright.utils.config import BASE_URL
+from MPOPlayWright.utils.config import USERNAME
+from MPOPlayWright.utils.config import PASSWORD
+from MPOPlayWright.pages.login_page import LoginPage
+from MPOPlayWright.utils.logger import setup_logger
 import time
 
 logger = setup_logger()

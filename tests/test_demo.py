@@ -39,9 +39,9 @@ def browser():
 def test_setup(browser, fake_data):
     logger.info("Setting up the test environment(Demo)")
     page = browser.new_page()
-    page.goto(BASE_URL + '/login.aspx')
-
+    #page.goto(BASE_URL + '/login.aspx')
     login_page = LoginPage(page)
+    login_page.navigate(BASE_URL + '/login.aspx')
 
     login_page.enter_username(USERNAME)
     login_page.enter_password(PASSWORD)

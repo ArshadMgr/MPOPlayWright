@@ -6,3 +6,25 @@
 2024-06-24 12:50:34,552 - TestLogger - INFO - Completed test: test_valid_login
 2024-06-24 12:50:44,562 - TestLogger - INFO - Starting test: test_Page_Crashes
 2024-06-24 12:51:04,303 - TestLogger - INFO - Generated fake name: Jose Calhoun and fake email: sarah09@example.org
+2024-06-25 10:50:26,619 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 10:56:39,791 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:02:07,289 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:02:22,653 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:05:33,892 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:07:09,671 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:12:23,561 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:12:39,196 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-25 11:26:13,949 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:26:27,012 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-25 11:28:31,385 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:28:43,890 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-25 11:34:36,864 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:37:08,481 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 11:39:57,907 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 14:48:56,063 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 14:49:23,428 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-25 14:49:33,444 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-25 14:50:03,956 - TestLogger - INFO - Generated fake name: Justin Reyes and fake email: robertsheppard@example.org
+2024-06-25 14:50:22,313 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-25 14:50:50,262 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-25 14:51:00,289 - TestLogger - INFO - Starting test: test_Page_Crashes

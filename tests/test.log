@@ -28,3 +28,18 @@
 2024-06-25 14:50:22,313 - TestLogger - INFO - Setting up the test environment(Demo)
 2024-06-25 14:50:50,262 - TestLogger - INFO - Completed test: test_valid_login
 2024-06-25 14:51:00,289 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-26 10:11:07,412 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-26 10:11:35,942 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-26 10:11:45,953 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-26 10:12:04,926 - TestLogger - INFO - Generated fake name: Cheryl Mcdaniel DDS and fake email: michellebrock@example.com
+2024-06-26 10:16:34,674 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-26 10:16:44,863 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-26 10:16:54,876 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-26 10:17:09,353 - TestLogger - INFO - Generated fake name: James Brown and fake email: jessica93@example.com
+2024-06-26 10:17:52,366 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-26 10:18:06,592 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-26 10:18:16,607 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-26 10:18:30,890 - TestLogger - INFO - Generated fake name: Amanda Jones and fake email: nicole23@example.org
+2024-06-26 10:19:07,244 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-26 10:19:17,069 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-26 10:19:27,083 - TestLogger - INFO - Starting test: test_Page_Crashes

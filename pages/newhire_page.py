@@ -27,7 +27,17 @@ class NewHirePage(BasePage):
         self.click_ee_role = page.get_by_role("textbox", name="Employee")
         self.fill_er_role = page.get_by_role("searchbox")
 
-    def first_name(self, fname):
-        self.fill(self.page.get_by_label("Username:"), fname)
+    def first_name(self):
+        return self.page.get_by_label('First Name: *')
 
+    def middle_name(self):
+        return self.page.get_by_label('Middle Initial:')
 
+    def link_newhire_btn(self):
+        return self.page.get_by_role("link", name="+ Add New Hire")
+
+    def last_name(self):
+        return self.page.get_by_label('Last Name: *')
+
+    def nick_name(self):
+        return self.page.get_by_label('Nickname:')

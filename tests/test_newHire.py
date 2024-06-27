@@ -30,7 +30,7 @@ def fake_data():
     return Faker()
 
 
-@pytest.fixture(scope="package")
+@pytest.fixture(scope="session")
 def browser():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -65,23 +65,27 @@ def test_newhire_Setup(browser, fake_data):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-    # Generate fake data using the fake_data fixture
-    fake_name = fake_data.name()
-    fake_email = fake_data.email()
+    # Generate fake data
+    first_name = fake_data.first_name_female()
+    middle_name = fake_data.first_name_female()
+    last_name = fake_data.last_name_female()
+    user_name = fake_data.user_name()
 
-    logger.info(f"Generated fake name(NewHire): {fake_name} and fake email: {fake_email}")
-    # You can use the faker
+    logger.info(f"Generated fake: "
+                f": first name->: {first_name} "
+                f": Middle Name->: {middle_name}"
+                f": Last Name->: {last_name}"
+                f": User Name->:{user_name}")
 
-    logger.info("Starting test: test_NewHire")
+    logger.info("Starting test: test_Demographics Section")
     login_page.navigate(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
     assert newhire_page.verify_page_title("New Hire Report")
-    #NewHirePage.first_name(fake_name)
-
-
-    page.goto('https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHire.aspx')
-    page.get_by_role("link", name="+ Add New Hire")
-    page.get_by_label('First Name: *').fill('John')
-    page.get_by_label('First Name: *').press('Enter')
+    newhire_page.navigate(BASE_URL + '/Sys/EmployerManager/Employees/NewHire.aspx')
+    newhire_page.link_newhire_btn()
+    newhire_page.first_name().fill(first_name)
+    newhire_page.middle_name().fill(middle_name)
+    newhire_page.last_name().fill(last_name)
+    newhire_page.nick_name().fill(first_name)
 
 
 

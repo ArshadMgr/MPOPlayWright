@@ -5,6 +5,15 @@ class BasePage:
     def navigate(self, url):
         self.page.goto(url)
 
+    def verify_page_title(self, title1):
+        return title1 in self.page.title()
+
+    def page_close(self):
+        self.page.close()
+
+    def page_pause(self):
+        self.page.pause()
+
     def click(self, selector):
         if isinstance(selector, str):
             self.page.click(selector)
@@ -23,4 +32,4 @@ class BasePage:
         else:
             return selector.text_content()
 
-        self.page.click(selector)
+            self.page.click(selector)

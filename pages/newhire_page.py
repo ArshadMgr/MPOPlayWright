@@ -1,7 +1,22 @@
+import pytest
 from playwright.sync_api import Page
+from .base_page import BasePage
+from faker import Faker
+from MPOPlayWright.utils.logger import setup_logger
+import time
+import logging
+
+logger = setup_logger()
+# Setup logger
+logger = logging.getLogger("TestLogger")
+logger.setLevel(logging.INFO)
+handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 
-class NewHirePage:
+class NewHirePage(BasePage):
 
     def __init__(self, page: Page):
         self.page = page
@@ -12,5 +27,7 @@ class NewHirePage:
         self.click_ee_role = page.get_by_role("textbox", name="Employee")
         self.fill_er_role = page.get_by_role("searchbox")
 
-    def enter_username(self, username: str):
-        self.username_input.fill(username)
+    def first_name(self, fname):
+        self.fill(self.page.get_by_label("Username:"), fname)
+
+

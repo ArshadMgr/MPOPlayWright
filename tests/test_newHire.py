@@ -9,6 +9,7 @@ from MPOPlayWright.utils.config import BASE_URL
 from MPOPlayWright.utils.config import USERNAME
 from MPOPlayWright.utils.config import PASSWORD
 from MPOPlayWright.pages.login_page import LoginPage
+from MPOPlayWright.pages.newhire_page import NewHirePage
 from MPOPlayWright.utils.logger import setup_logger
 import time
 import logging
@@ -29,19 +30,19 @@ def fake_data():
     return Faker()
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture(scope="package")
 def browser():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         yield browser
 
 
-def test_newhire(browser, fake_data):
-    logger.info("Setting up the test environment(Demo)")
+def test_newhire_Setup(browser, fake_data):
+    logger.info("Setting up the test environment(New Hire)")
     page = browser.new_page()
-    page.goto(BASE_URL + '/login.aspx')
-
     login_page = LoginPage(page)
+    newhire_page = NewHirePage(page)
+    login_page.navigate(BASE_URL + '/login.aspx')
 
     login_page.enter_username(USERNAME)
     login_page.enter_password(PASSWORD)
@@ -64,18 +65,29 @@ def test_newhire(browser, fake_data):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-    logger.info("Starting test: test_Page_Crashes")
-    page.goto(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
-    assert "New Hire Report" in page.title()
-    page.goto(BASE_URL + "/Sys/EmployerManager/Employees/EditEmployees.aspx")
-    assert "Edit Employees" in page.title()
-
     # Generate fake data using the fake_data fixture
     fake_name = fake_data.name()
     fake_email = fake_data.email()
 
-    userPayload.setFirstName(fake_name)
-    logger.info(f"Generated fake name: {userPayload.getFirstName()} and fake email: {fake_email}")
-    # You can use the fake_name and fake_email in your tests here
+    logger.info(f"Generated fake name(NewHire): {fake_name} and fake email: {fake_email}")
+    # You can use the faker
 
-    page.close()
+    logger.info("Starting test: test_NewHire")
+    login_page.navigate(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
+    assert newhire_page.verify_page_title("New Hire Report")
+    #NewHirePage.first_name(fake_name)
+
+
+    page.goto('https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHire.aspx')
+    page.get_by_role("link", name="+ Add New Hire")
+    page.get_by_label('First Name: *').fill('John')
+    page.get_by_label('First Name: *').press('Enter')
+
+
+
+
+
+
+
+    newhire_page.page_pause()
+

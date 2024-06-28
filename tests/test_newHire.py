@@ -13,6 +13,10 @@ from MPOPlayWright.pages.newhire_page import NewHirePage
 from MPOPlayWright.utils.logger import setup_logger
 import time
 import logging
+import pytest
+from cryptography.fernet import Fernet
+from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
+
 
 
 logger = setup_logger()
@@ -35,6 +39,52 @@ def browser():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         yield browser
+
+
+def decrypt_message(encrypted_message: str, key: bytes) -> str:
+    """Decrypt a message."""
+    fernet = Fernet(key)
+    decrypted_message = fernet.decrypt(encrypted_message.encode())
+    return decrypted_message.decode()
+
+
+def load_credentials_from_file(filename: str) -> tuple:
+    """Load the encryption key and encrypted credentials from a file."""
+    with open(filename, 'r') as file:
+        key_line = file.readline().strip()
+        encrypted_base_url_line = file.readline().strip()
+        encrypted_username_line = file.readline().strip()
+        encrypted_password_line = file.readline().strip()
+
+    # Extract key and encrypted values
+    key = key_line.split("Key: ")[1].encode()
+    encrypted_base_url = encrypted_base_url_line.split("BaseURL: ")[1]
+    encrypted_username = encrypted_username_line.split("Username: ")[1]
+    encrypted_password = encrypted_password_line.split("Password: ")[1]
+
+    return key, encrypted_base_url, encrypted_username, encrypted_password
+
+
+def test_encryption_decryption_with_file():
+    # Load key and encrypted data from file
+    key, encrypted_base_url, encrypted_username, encrypted_password = load_credentials_from_file("credentials.txt")
+
+    # Decrypt data
+    decrypted_base_url = decrypt_message(encrypted_base_url, key)
+    decrypted_username = decrypt_message(encrypted_username, key)
+    decrypted_password = decrypt_message(encrypted_password, key)
+
+
+    # Assertions
+    assert BASE_URL == decrypted_base_url
+    assert USERNAME == decrypted_username
+    assert PASSWORD == decrypted_password
+    logger.info(f"Assertions: "
+                f": Decripted BaseURL->: {decrypted_base_url} ")
+    logger.info(f"Assertions: "
+                f": Decripted UserName->: {decrypted_username} ")
+
+
 
 
 def test_newhire_Setup(browser, fake_data):

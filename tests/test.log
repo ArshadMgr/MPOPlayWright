@@ -1,10 +1,13 @@
 
-
-2024-06-27 12:34:00,280 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-27 12:34:00,280 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-27 12:34:16,511 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-27 12:34:16,511 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-27 12:34:26,535 - TestLogger - INFO - Generated fake: : first name->: Tammy : Middle Name->: Jacqueline: Last Name->: Adams: User Name->:davidtorres
-2024-06-27 12:34:26,535 - TestLogger - INFO - Generated fake: : first name->: Tammy : Middle Name->: Jacqueline: Last Name->: Adams: User Name->:davidtorres
-2024-06-27 12:34:26,535 - TestLogger - INFO - Starting test: test_Demographics Section
-2024-06-27 12:34:26,535 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
+2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
+2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
+2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
+2024-06-28 16:50:47,997 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-06-28 16:50:47,997 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-06-28 16:51:02,284 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-28 16:51:02,284 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-28 16:51:12,314 - TestLogger - INFO - Generated fake: : first name->: Brittany : Middle Name->: Brittany: Last Name->: Owens: User Name->:feliciaguzman
+2024-06-28 16:51:12,314 - TestLogger - INFO - Generated fake: : first name->: Brittany : Middle Name->: Brittany: Last Name->: Owens: User Name->:feliciaguzman
+2024-06-28 16:51:12,315 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-06-28 16:51:12,315 - TestLogger - INFO - Starting test: test_Demographics Section

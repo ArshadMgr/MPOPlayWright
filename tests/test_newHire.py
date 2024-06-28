@@ -65,7 +65,8 @@ def load_credentials_from_file(filename: str) -> tuple:
     return key, encrypted_base_url, encrypted_username, encrypted_password
 
 
-def test_encryption_decryption_with_file():
+def test_newhire_Setup(browser, fake_data ):
+
     # Load key and encrypted data from file
     key, encrypted_base_url, encrypted_username, encrypted_password = load_credentials_from_file("credentials.txt")
 
@@ -87,15 +88,15 @@ def test_encryption_decryption_with_file():
 
 
 
-def test_newhire_Setup(browser, fake_data):
+
     logger.info("Setting up the test environment(New Hire)")
     page = browser.new_page()
     login_page = LoginPage(page)
     newhire_page = NewHirePage(page)
     login_page.navigate(BASE_URL + '/login.aspx')
 
-    login_page.enter_username(USERNAME)
-    login_page.enter_password(PASSWORD)
+    login_page.enter_username(decrypted_username)
+    login_page.enter_password(decrypted_password)
     login_page.click_login()
 
     login_page.clik_ee_role()

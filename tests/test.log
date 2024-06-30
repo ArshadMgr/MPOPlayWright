@@ -1,35 +1,21 @@
-
-2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 16:50:47,135 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 16:50:47,997 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-28 16:50:47,997 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-28 16:51:02,284 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-28 16:51:02,284 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-28 16:51:12,314 - TestLogger - INFO - Generated fake: : first name->: Brittany : Middle Name->: Brittany: Last Name->: Owens: User Name->:feliciaguzman
-2024-06-28 16:51:12,314 - TestLogger - INFO - Generated fake: : first name->: Brittany : Middle Name->: Brittany: Last Name->: Owens: User Name->:feliciaguzman
-2024-06-28 16:51:12,315 - TestLogger - INFO - Starting test: test_Demographics Section
-2024-06-28 16:51:12,315 - TestLogger - INFO - Starting test: test_Demographics Section
-2024-06-28 17:27:00,307 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 17:27:00,307 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 17:27:00,308 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 17:27:00,308 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 17:41:43,232 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 17:41:43,232 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 17:41:43,232 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 17:41:43,232 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 17:41:43,233 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-28 17:41:43,233 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-28 17:42:44,712 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 17:42:44,712 - TestLogger - INFO - Assertions: : Decripted BaseURL->: https://mypaperlessoffice.com/app 
-2024-06-28 17:42:44,713 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 17:42:44,713 - TestLogger - INFO - Assertions: : Decripted UserName->: CharlesCR 
-2024-06-28 17:42:44,713 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-28 17:42:44,713 - TestLogger - INFO - Setting up the test environment(New Hire)
-2024-06-28 17:42:59,702 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-28 17:42:59,702 - TestLogger - INFO - Completed test: test_valid_login
-2024-06-28 17:43:09,723 - TestLogger - INFO - Generated fake: : first name->: Julia : Middle Name->: Jasmine: Last Name->: Richards: User Name->:fmanning
-2024-06-28 17:43:09,723 - TestLogger - INFO - Generated fake: : first name->: Julia : Middle Name->: Jasmine: Last Name->: Richards: User Name->:fmanning
-2024-06-28 17:43:09,724 - TestLogger - INFO - Starting test: test_Demographics Section
-2024-06-28 17:43:09,724 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-06-30 19:48:00,343 - TestLogger - INFO - Description: : Password->: Aspire321# 
+2024-06-30 19:48:00,343 - TestLogger - INFO - Description: : Password->: Aspire321# 
+2024-06-30 19:48:00,344 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-06-30 19:48:00,344 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-06-30 19:48:23,761 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 19:48:23,761 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 19:48:33,794 - TestLogger - INFO - Generated fake: : first name->: Lauren : Middle Name->: Sara: Last Name->: Smith: User Name->:sharon38
+2024-06-30 19:48:33,794 - TestLogger - INFO - Generated fake: : first name->: Lauren : Middle Name->: Sara: Last Name->: Smith: User Name->:sharon38
+2024-06-30 19:48:33,795 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-06-30 19:48:33,795 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-06-30 19:55:09,062 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-30 19:55:25,393 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 19:55:35,428 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-30 19:57:31,404 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-30 19:57:49,201 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 20:00:18,054 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-30 20:00:43,799 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 20:00:53,839 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-30 20:03:29,100 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-30 20:04:16,479 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 20:04:26,505 - TestLogger - INFO - Starting test: test_Page_Crashes

@@ -23,6 +23,3 @@ def setup_logger(name='TestLogger', level=logging.DEBUG):
 
     return logger
 
-# Example usage
-if __name__ == "__main__":
-    logger = setup

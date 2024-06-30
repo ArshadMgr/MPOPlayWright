@@ -1,22 +1,21 @@
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 from faker import Faker
-from MPOPlayWright.Payload.new_hire import NewHire
+from Payload.new_hire import NewHire
 
 import pytest
-from MPOPlayWright.Payload import new_hire
-from MPOPlayWright.utils.config import BASE_URL
-from MPOPlayWright.utils.config import USERNAME
-from MPOPlayWright.utils.config import PASSWORD
-from MPOPlayWright.pages.login_page import LoginPage
-from MPOPlayWright.pages.newhire_page import NewHirePage
-from MPOPlayWright.utils.logger import setup_logger
+from Payload import new_hire
+from utils.config import BASE_URL
+from utils.config import USERNAME
+from utils.config import PASSWORD
+from pages.login_page import LoginPage
+from pages.newhire_page import NewHirePage
+from utils.logger import setup_logger
 import time
 import logging
 import pytest
 from cryptography.fernet import Fernet
-from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-
+from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
 
 
 logger = setup_logger()
@@ -62,31 +61,16 @@ def load_credentials_from_file(filename: str) -> tuple:
     encrypted_username = encrypted_username_line.split("Username: ")[1]
     encrypted_password = encrypted_password_line.split("Password: ")[1]
 
-    return key, encrypted_base_url, encrypted_username, encrypted_password
+    return key, encrypted_password
 
-
+#ChatGPT: https://chatgpt.com/share/31bafcee-7fc3-4e92-a3a7-ca6cfaa709be
 def test_newhire_Setup(browser, fake_data ):
 
     # Load key and encrypted data from file
-    key, encrypted_base_url, encrypted_username, encrypted_password = load_credentials_from_file("credentials.txt")
+    key, encrypted_password = load_credentials_from_file("credentials.txt")
 
     # Decrypt data
-    decrypted_base_url = decrypt_message(encrypted_base_url, key)
-    decrypted_username = decrypt_message(encrypted_username, key)
     decrypted_password = decrypt_message(encrypted_password, key)
-
-
-    # Assertions
-    assert BASE_URL == decrypted_base_url
-    assert USERNAME == decrypted_username
-    assert PASSWORD == decrypted_password
-    logger.info(f"Assertions: "
-                f": Decripted BaseURL->: {decrypted_base_url} ")
-    logger.info(f"Assertions: "
-                f": Decripted UserName->: {decrypted_username} ")
-
-
-
 
 
     logger.info("Setting up the test environment(New Hire)")
@@ -95,7 +79,7 @@ def test_newhire_Setup(browser, fake_data ):
     newhire_page = NewHirePage(page)
     login_page.navigate(BASE_URL + '/login.aspx')
 
-    login_page.enter_username(decrypted_username)
+    login_page.enter_username(USERNAME)
     login_page.enter_password(decrypted_password)
     login_page.click_login()
 

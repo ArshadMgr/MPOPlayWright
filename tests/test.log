@@ -19,3 +19,10 @@
 2024-06-30 20:03:29,100 - TestLogger - INFO - Setting up the test environment(Demo)
 2024-06-30 20:04:16,479 - TestLogger - INFO - Completed test: test_valid_login
 2024-06-30 20:04:26,505 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-30 20:06:08,395 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-30 20:06:37,426 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 20:06:47,443 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-30 20:07:12,322 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-06-30 20:07:29,287 - TestLogger - INFO - Completed test: test_valid_login
+2024-06-30 20:07:39,316 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-06-30 20:08:06,679 - TestLogger - INFO - Generated fake name: Michael Soto and fake email: falvarez@example.net

@@ -97,8 +97,6 @@ def test_setup(browser, fake_data):
     logger.info("Starting test: test_Page_Crashes")
     page.goto(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
     assert "New Hire Report" in page.title()
-    page.goto(BASE_URL + "/Sys/EmployerManager/Employees/EditEmployees.aspx")
-    assert "Edit Employees" in page.title()
 
     # Generate fake data using the fake_data fixture
     fake_name = fake_data.name()

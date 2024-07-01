@@ -1,21 +1,24 @@
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 from faker import Faker
-from Payload.new_hire import NewHire
+
+from MPOPlayWright.Payload.login import Login
+from MPOPlayWright.Payload.new_hire import NewHire
 
 import pytest
-from Payload import new_hire
-from utils.config import BASE_URL
-from utils.config import USERNAME
-from utils.config import PASSWORD
-from pages.login_page import LoginPage
-from pages.newhire_page import NewHirePage
-from utils.logger import setup_logger
+from MPOPlayWright.Payload import new_hire
+from MPOPlayWright.pages import login_page, newhire_page
+from MPOPlayWright.utils.config import BASE_URL
+from MPOPlayWright.utils.config import USERNAME
+from MPOPlayWright.pages.login_page import LoginPage
+from MPOPlayWright.pages.newhire_page import NewHirePage
+from MPOPlayWright.utils.logger import setup_logger
 import time
+import logging
 import logging
 import pytest
 from cryptography.fernet import Fernet
-from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
+from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
 
 
 logger = setup_logger()
@@ -40,37 +43,12 @@ def browser():
         yield browser
 
 
-def decrypt_message(encrypted_message: str, key: bytes) -> str:
-    """Decrypt a message."""
-    fernet = Fernet(key)
-    decrypted_message = fernet.decrypt(encrypted_message.encode())
-    return decrypted_message.decode()
+def test_newhire_Setup(browser, fake_data,):
 
+    mpologin = Login()
+    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
 
-def load_credentials_from_file(filename: str) -> tuple:
-    """Load the encryption key and encrypted credentials from a file."""
-    with open(filename, 'r') as file:
-        key_line = file.readline().strip()
-        encrypted_base_url_line = file.readline().strip()
-        encrypted_username_line = file.readline().strip()
-        encrypted_password_line = file.readline().strip()
-
-    # Extract key and encrypted values
-    key = key_line.split("Key: ")[1].encode()
-    encrypted_base_url = encrypted_base_url_line.split("BaseURL: ")[1]
-    encrypted_username = encrypted_username_line.split("Username: ")[1]
-    encrypted_password = encrypted_password_line.split("Password: ")[1]
-
-    return key, encrypted_password
-
-#ChatGPT: https://chatgpt.com/share/31bafcee-7fc3-4e92-a3a7-ca6cfaa709be
-def test_newhire_Setup(browser, fake_data ):
-
-    # Load key and encrypted data from file
-    key, encrypted_password = load_credentials_from_file("credentials.txt")
-
-    # Decrypt data
-    decrypted_password = decrypt_message(encrypted_password, key)
+    decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
 
     logger.info("Setting up the test environment(New Hire)")
@@ -121,6 +99,7 @@ def test_newhire_Setup(browser, fake_data ):
     newhire_page.middle_name().fill(middle_name)
     newhire_page.last_name().fill(last_name)
     newhire_page.nick_name().fill(first_name)
+
 
 
 

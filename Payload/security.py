@@ -48,4 +48,4 @@ def load_credentials_from_file(filename: str, key: bytes) -> tuple:
     username = decrypt_message(encrypted_username, key)
     password = decrypt_message(encrypted_password, key)
 
-    return base_url, username, password
+    return key, base_url, username, password

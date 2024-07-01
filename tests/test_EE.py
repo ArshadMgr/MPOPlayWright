@@ -3,12 +3,13 @@ from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 import pytest
 
-from Payload.new_hire import NewHire
-from utils.config import BASE_URL
-from utils.config import USERNAME
-from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-from pages.login_page import LoginPage
-from utils.logger import setup_logger
+from MPOPlayWright.Payload.login import Login
+from MPOPlayWright.Payload.new_hire import NewHire
+from MPOPlayWright.utils.config import BASE_URL
+from MPOPlayWright.utils.config import USERNAME
+from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
+from MPOPlayWright.pages.login_page import LoginPage
+from MPOPlayWright.utils.logger import setup_logger
 import time
 
 logger = setup_logger()
@@ -21,35 +22,11 @@ def browser():
         yield browser
 
 
-def decrypt_message(encrypted_message: str, key: bytes) -> str:
-    """Decrypt a message."""
-    fernet = Fernet(key)
-    decrypted_message = fernet.decrypt(encrypted_message.encode())
-    return decrypted_message.decode()
-
-
-def load_credentials_from_file(filename: str) -> tuple:
-    """Load the encryption key and encrypted credentials from a file."""
-    with open(filename, 'r') as file:
-        key_line = file.readline().strip()
-        encrypted_base_url_line = file.readline().strip()
-        encrypted_username_line = file.readline().strip()
-        encrypted_password_line = file.readline().strip()
-
-    # Extract key and encrypted values
-    key = key_line.split("Key: ")[1].encode()
-    encrypted_base_url = encrypted_base_url_line.split("BaseURL: ")[1]
-    encrypted_username = encrypted_username_line.split("Username: ")[1]
-    encrypted_password = encrypted_password_line.split("Password: ")[1]
-
-    return key, encrypted_password
-
 def test_setup(browser):
-    # Load key and encrypted data from file
-    key, encrypted_password = load_credentials_from_file("credentials.txt")
+    mpologin = Login()
+    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
 
-    # Decrypt data
-    decrypted_password = decrypt_message(encrypted_password, key)
+    decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
     logger.info("Setting up the test environment(Demo)")
     page = browser.new_page()

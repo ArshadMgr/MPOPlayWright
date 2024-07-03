@@ -19,7 +19,8 @@ import logging
 import pytest
 from cryptography.fernet import Fernet
 from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-
+from  MPOPlayWright.Payload.data_validation import validate_username, validate_email, validate_age
+from MPOPlayWright.Payload.ai_validation_helper import validate_with_openai
 
 logger = setup_logger()
 # Setup logger
@@ -83,6 +84,8 @@ def test_newhire_Setup(browser, fake_data,):
     middle_name = fake_data.first_name_female()
     last_name = fake_data.last_name_female()
     user_name = fake_data.user_name()
+    assert validate_username(user_name)
+    assert validate_with_openai("username", user_name), f"Invalid username: {user_name}"
 
     logger.info(f"Generated fake: "
                 f": first name->: {first_name} "

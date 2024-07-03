@@ -1,6 +1,6 @@
 import openai
 print("OpenAI version:", openai.__version__)  # Add this line to check the version
-openai.api_key = 'sk-proj-2kbNnKptafPXAOPVutipT3BlbkFJ53R7fkITzK0pj2Pr5I7m'
+openai.api_key = ''
 
 def generate_test_input(prompt):
     response = openai.Completion.create(

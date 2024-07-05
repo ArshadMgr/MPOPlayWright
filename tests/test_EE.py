@@ -11,6 +11,7 @@ from MPOPlayWright.Payload.security import generate_key, save_credentials_to_fil
 from MPOPlayWright.pages.login_page import LoginPage
 from MPOPlayWright.utils.logger import setup_logger
 import time
+from MPOPlayWright.Payload.soft_assertion_helper import SoftAssertContext
 
 logger = setup_logger()
 
@@ -23,7 +24,8 @@ def browser():
 
 
 def test_setup(browser):
-    mpologin = Login()
+    with SoftAssertContext() as soft_assert:
+        mpologin = Login()
     key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
@@ -57,7 +59,9 @@ def test_setup(browser):
 
     logger.info("Starting test: test_Page_Crashes")
     page.goto(BASE_URL + "/Sys/Employee/EmployeeCareerProfile.aspx")
+    soft_assert.soft_assert(login_page.verify_page_title("Employee Career Profile"))
     page.goto(BASE_URL + '/Sys/Employee/DirectDeposit.aspx')
+    soft_assert.soft_assert(login_page.verify_page_title("Direct Deposit"))
     page.goto(BASE_URL + '/Sys/Employee/EmployeeEducation.aspx')
     page.goto(BASE_URL + '/Sys/Employee/EmployeeEducation.aspx')
     page.goto(BASE_URL + '/Sys/Employee/EmployeeEmergencyContact.aspx')

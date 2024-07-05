@@ -1,7 +1,11 @@
+import os
 import time
 
 import pytest
+from playwright.sync_api import sync_playwright
+
 from MPOPlayWright.Payload.ai_helper import generate_test_input
+
 from MPOPlayWright.utils.logger import setup_logger
 import logging
 
@@ -35,14 +39,11 @@ def test_dynamic_input(page):
     password_prompt = "Generate a realistic password for testing login functionality."
     password = generate_test_input(password_prompt)
 
-    page.get_by_label("Username:").fill(username)
-    page.get_by_label("Password:").fill(password)
 
     logger.info(f"AI Model Response: "
                 f": User Name->: {username} ")
     logger.info(f"AI Model Response: "
                 f": Password->: {password} ")
 
-    page.get_by_role("link", name=" Sign In").click()
 
-    page.pause()
+

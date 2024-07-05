@@ -1,0 +1,351 @@
+2024-07-04 16:58:11,114 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-04 16:58:11,114 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-04 16:58:11,114 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-04 16:58:33,424 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-04 16:58:33,424 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-04 16:58:33,424 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-04 16:59:53,438 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-04 16:59:53,438 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-04 16:59:53,438 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-04 17:00:05,927 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-04 17:00:05,927 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-04 17:00:05,927 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-04 17:00:15,944 - TestLogger - INFO - Generated fake: : first name->: Cathy : Middle Name->: Norma: Last Name->: Martin: User Name->:williamseric
+2024-07-04 17:00:15,944 - TestLogger - INFO - Generated fake: : first name->: Cathy : Middle Name->: Norma: Last Name->: Martin: User Name->:williamseric
+2024-07-04 17:00:15,944 - TestLogger - INFO - Generated fake: : first name->: Cathy : Middle Name->: Norma: Last Name->: Martin: User Name->:williamseric
+2024-07-04 17:00:15,944 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-04 17:00:15,944 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-04 17:00:15,944 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:33:50,422 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:33:50,422 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:33:50,422 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:34:13,810 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:34:13,810 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:34:13,810 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:34:23,826 - TestLogger - INFO - Generated fake: : first name->: Laurie : Middle Name->: Heather: Last Name->: Davis: User Name->:sean70
+2024-07-05 10:34:23,826 - TestLogger - INFO - Generated fake: : first name->: Laurie : Middle Name->: Heather: Last Name->: Davis: User Name->:sean70
+2024-07-05 10:34:23,826 - TestLogger - INFO - Generated fake: : first name->: Laurie : Middle Name->: Heather: Last Name->: Davis: User Name->:sean70
+2024-07-05 10:34:23,826 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:34:23,826 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:34:23,826 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:42:09,321 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:42:09,321 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:42:09,321 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:42:23,887 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:42:23,887 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:42:23,887 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:42:33,908 - TestLogger - INFO - Generated fake: : first name->: Danielle : Middle Name->: Amy: Last Name->: Conner: User Name->:theresaromero
+2024-07-05 10:42:33,908 - TestLogger - INFO - Generated fake: : first name->: Danielle : Middle Name->: Amy: Last Name->: Conner: User Name->:theresaromero
+2024-07-05 10:42:33,908 - TestLogger - INFO - Generated fake: : first name->: Danielle : Middle Name->: Amy: Last Name->: Conner: User Name->:theresaromero
+2024-07-05 10:42:33,908 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:42:33,908 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:42:33,908 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:45:59,870 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:45:59,870 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:45:59,870 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:46:22,099 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:46:22,099 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:46:22,099 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:46:32,115 - TestLogger - INFO - Generated fake: : first name->: Judy : Middle Name->: Mary: Last Name->: Hall: User Name->:kboyd
+2024-07-05 10:46:32,115 - TestLogger - INFO - Generated fake: : first name->: Judy : Middle Name->: Mary: Last Name->: Hall: User Name->:kboyd
+2024-07-05 10:46:32,115 - TestLogger - INFO - Generated fake: : first name->: Judy : Middle Name->: Mary: Last Name->: Hall: User Name->:kboyd
+2024-07-05 10:46:32,115 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:46:32,115 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:46:32,115 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:52:29,983 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:52:29,983 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:52:29,983 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:52:43,594 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:52:43,594 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:52:43,594 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:52:53,610 - TestLogger - INFO - Generated fake: : first name->: Pamela : Middle Name->: Meghan: Last Name->: Pennington: User Name->:renee43
+2024-07-05 10:52:53,610 - TestLogger - INFO - Generated fake: : first name->: Pamela : Middle Name->: Meghan: Last Name->: Pennington: User Name->:renee43
+2024-07-05 10:52:53,610 - TestLogger - INFO - Generated fake: : first name->: Pamela : Middle Name->: Meghan: Last Name->: Pennington: User Name->:renee43
+2024-07-05 10:52:53,610 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:52:53,610 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:52:53,610 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:57:03,402 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:57:03,402 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:57:03,402 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:57:18,623 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:57:18,623 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:57:18,623 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:57:28,642 - TestLogger - INFO - Generated fake: : first name->: Karen : Middle Name->: Karen: Last Name->: Chambers: User Name->:david93
+2024-07-05 10:57:28,642 - TestLogger - INFO - Generated fake: : first name->: Karen : Middle Name->: Karen: Last Name->: Chambers: User Name->:david93
+2024-07-05 10:57:28,642 - TestLogger - INFO - Generated fake: : first name->: Karen : Middle Name->: Karen: Last Name->: Chambers: User Name->:david93
+2024-07-05 10:57:28,642 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:57:28,642 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:57:28,642 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:59:27,969 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:59:27,969 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:59:27,969 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 10:59:39,602 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:59:39,602 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:59:39,602 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 10:59:49,624 - TestLogger - INFO - Generated fake: : first name->: Michele : Middle Name->: Stacy: Last Name->: Kramer: User Name->:christopher16
+2024-07-05 10:59:49,624 - TestLogger - INFO - Generated fake: : first name->: Michele : Middle Name->: Stacy: Last Name->: Kramer: User Name->:christopher16
+2024-07-05 10:59:49,624 - TestLogger - INFO - Generated fake: : first name->: Michele : Middle Name->: Stacy: Last Name->: Kramer: User Name->:christopher16
+2024-07-05 10:59:49,625 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:59:49,625 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 10:59:49,625 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:03:02,304 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:03:02,304 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:03:02,304 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:03:12,262 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:03:12,262 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:03:12,262 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:03:22,281 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: April: Last Name->: Crane: User Name->:edwardrobinson
+2024-07-05 11:03:22,281 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: April: Last Name->: Crane: User Name->:edwardrobinson
+2024-07-05 11:03:22,281 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: April: Last Name->: Crane: User Name->:edwardrobinson
+2024-07-05 11:03:22,282 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:03:22,282 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:03:22,282 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:05:56,506 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:05:56,506 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:05:56,506 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:06:14,976 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:06:14,976 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:06:14,976 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:06:24,995 - TestLogger - INFO - Generated fake: : first name->: Julia : Middle Name->: Christina: Last Name->: Villegas: User Name->:mandrews
+2024-07-05 11:06:24,995 - TestLogger - INFO - Generated fake: : first name->: Julia : Middle Name->: Christina: Last Name->: Villegas: User Name->:mandrews
+2024-07-05 11:06:24,995 - TestLogger - INFO - Generated fake: : first name->: Julia : Middle Name->: Christina: Last Name->: Villegas: User Name->:mandrews
+2024-07-05 11:06:24,995 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:06:24,995 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:06:24,995 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:07:11,396 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:07:11,396 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:07:11,396 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:07:24,226 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:07:24,226 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:07:24,226 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:07:34,239 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Melissa: Last Name->: Wright: User Name->:charlesthompson
+2024-07-05 11:07:34,239 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Melissa: Last Name->: Wright: User Name->:charlesthompson
+2024-07-05 11:07:34,239 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Melissa: Last Name->: Wright: User Name->:charlesthompson
+2024-07-05 11:07:34,240 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:07:34,240 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:07:34,240 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:10:28,441 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:10:28,441 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:10:28,441 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:10:42,847 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:10:42,847 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:10:42,847 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:10:52,866 - TestLogger - INFO - Generated fake: : first name->: Holly : Middle Name->: Julie: Last Name->: Alexander: User Name->:travis90
+2024-07-05 11:10:52,866 - TestLogger - INFO - Generated fake: : first name->: Holly : Middle Name->: Julie: Last Name->: Alexander: User Name->:travis90
+2024-07-05 11:10:52,866 - TestLogger - INFO - Generated fake: : first name->: Holly : Middle Name->: Julie: Last Name->: Alexander: User Name->:travis90
+2024-07-05 11:10:52,866 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:10:52,866 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:10:52,866 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:13:44,344 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:13:44,344 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:13:44,344 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:14:01,987 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:14:01,987 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:14:01,987 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:14:12,004 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Pamela: Last Name->: Peterson: User Name->:michelle10
+2024-07-05 11:14:12,004 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Pamela: Last Name->: Peterson: User Name->:michelle10
+2024-07-05 11:14:12,004 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Pamela: Last Name->: Peterson: User Name->:michelle10
+2024-07-05 11:14:12,005 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:14:12,005 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:14:12,005 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:17:45,045 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:17:45,045 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:17:45,045 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:17:57,764 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:17:57,764 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:17:57,764 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:18:07,782 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Lisa: Last Name->: Dawson: User Name->:arnoldjessica
+2024-07-05 11:18:07,782 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Lisa: Last Name->: Dawson: User Name->:arnoldjessica
+2024-07-05 11:18:07,782 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Lisa: Last Name->: Dawson: User Name->:arnoldjessica
+2024-07-05 11:18:07,782 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:18:07,782 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:18:07,782 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:21:11,273 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:21:11,273 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:21:11,273 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:21:28,098 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:21:28,098 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:21:28,098 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:21:38,120 - TestLogger - INFO - Generated fake: : first name->: Brandi : Middle Name->: Jacqueline: Last Name->: Mullins: User Name->:emilycameron
+2024-07-05 11:21:38,120 - TestLogger - INFO - Generated fake: : first name->: Brandi : Middle Name->: Jacqueline: Last Name->: Mullins: User Name->:emilycameron
+2024-07-05 11:21:38,120 - TestLogger - INFO - Generated fake: : first name->: Brandi : Middle Name->: Jacqueline: Last Name->: Mullins: User Name->:emilycameron
+2024-07-05 11:21:38,120 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:21:38,120 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:21:38,120 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:23:30,401 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:23:30,401 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:23:30,401 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:23:47,637 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:23:47,637 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:23:47,637 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:23:57,655 - TestLogger - INFO - Generated fake: : first name->: Nicole : Middle Name->: Annette: Last Name->: Rodriguez: User Name->:danny89
+2024-07-05 11:23:57,655 - TestLogger - INFO - Generated fake: : first name->: Nicole : Middle Name->: Annette: Last Name->: Rodriguez: User Name->:danny89
+2024-07-05 11:23:57,655 - TestLogger - INFO - Generated fake: : first name->: Nicole : Middle Name->: Annette: Last Name->: Rodriguez: User Name->:danny89
+2024-07-05 11:23:57,656 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:23:57,656 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:23:57,656 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:27:58,511 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:27:58,511 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:27:58,511 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:28:17,473 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:28:17,473 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:28:17,473 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:28:27,489 - TestLogger - INFO - Generated fake: : first name->: Caitlin : Middle Name->: Cynthia: Last Name->: Smith: User Name->:afisher
+2024-07-05 11:28:27,489 - TestLogger - INFO - Generated fake: : first name->: Caitlin : Middle Name->: Cynthia: Last Name->: Smith: User Name->:afisher
+2024-07-05 11:28:27,489 - TestLogger - INFO - Generated fake: : first name->: Caitlin : Middle Name->: Cynthia: Last Name->: Smith: User Name->:afisher
+2024-07-05 11:28:27,490 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:28:27,490 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:28:27,490 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:36:57,665 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:36:57,665 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:36:57,665 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:37:14,719 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:37:14,719 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:37:14,719 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:37:24,734 - TestLogger - INFO - Generated fake: : first name->: Jean : Middle Name->: Sara: Last Name->: Fuller: User Name->:michellechapman
+2024-07-05 11:37:24,734 - TestLogger - INFO - Generated fake: : first name->: Jean : Middle Name->: Sara: Last Name->: Fuller: User Name->:michellechapman
+2024-07-05 11:37:24,734 - TestLogger - INFO - Generated fake: : first name->: Jean : Middle Name->: Sara: Last Name->: Fuller: User Name->:michellechapman
+2024-07-05 11:37:24,735 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:37:24,735 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:37:24,735 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:39:29,376 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:39:29,376 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:39:29,376 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:46:16,524 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:46:16,524 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:46:16,524 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:46:27,918 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:46:27,918 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:46:27,918 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:46:37,932 - TestLogger - INFO - Generated fake: : first name->: Heidi : Middle Name->: Shelly: Last Name->: Evans: User Name->:philipmartinez
+2024-07-05 11:46:37,932 - TestLogger - INFO - Generated fake: : first name->: Heidi : Middle Name->: Shelly: Last Name->: Evans: User Name->:philipmartinez
+2024-07-05 11:46:37,932 - TestLogger - INFO - Generated fake: : first name->: Heidi : Middle Name->: Shelly: Last Name->: Evans: User Name->:philipmartinez
+2024-07-05 11:46:37,932 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:46:37,932 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:46:37,932 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:47:46,194 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:47:46,194 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:47:46,194 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:47:59,395 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:47:59,395 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:47:59,395 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:48:09,410 - TestLogger - INFO - Generated fake: : first name->: Angela : Middle Name->: Christie: Last Name->: Good: User Name->:timothy65
+2024-07-05 11:48:09,410 - TestLogger - INFO - Generated fake: : first name->: Angela : Middle Name->: Christie: Last Name->: Good: User Name->:timothy65
+2024-07-05 11:48:09,410 - TestLogger - INFO - Generated fake: : first name->: Angela : Middle Name->: Christie: Last Name->: Good: User Name->:timothy65
+2024-07-05 11:48:09,410 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:48:09,410 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:48:09,410 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:53:01,753 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:53:01,753 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:53:01,753 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 11:53:14,403 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:53:14,403 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:53:14,403 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 11:53:24,416 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Jennifer: Last Name->: Reyes: User Name->:holtrobert
+2024-07-05 11:53:24,416 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Jennifer: Last Name->: Reyes: User Name->:holtrobert
+2024-07-05 11:53:24,416 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Jennifer: Last Name->: Reyes: User Name->:holtrobert
+2024-07-05 11:53:24,417 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:53:24,417 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 11:53:24,417 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:05:26,948 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:05:26,948 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:05:26,948 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:05:35,508 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:05:35,508 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:05:35,508 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:05:45,525 - TestLogger - INFO - Generated fake: : first name->: Becky : Middle Name->: Brittany: Last Name->: Navarro: User Name->:cindy20
+2024-07-05 12:05:45,525 - TestLogger - INFO - Generated fake: : first name->: Becky : Middle Name->: Brittany: Last Name->: Navarro: User Name->:cindy20
+2024-07-05 12:05:45,525 - TestLogger - INFO - Generated fake: : first name->: Becky : Middle Name->: Brittany: Last Name->: Navarro: User Name->:cindy20
+2024-07-05 12:05:45,526 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:05:45,526 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:05:45,526 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:07:20,383 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:07:20,383 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:07:20,383 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:07:33,269 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:07:33,269 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:07:33,269 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:07:43,282 - TestLogger - INFO - Generated fake: : first name->: Nicole : Middle Name->: Cassandra: Last Name->: Cox: User Name->:hjohnson
+2024-07-05 12:07:43,282 - TestLogger - INFO - Generated fake: : first name->: Nicole : Middle Name->: Cassandra: Last Name->: Cox: User Name->:hjohnson
+2024-07-05 12:07:43,282 - TestLogger - INFO - Generated fake: : first name->: Nicole : Middle Name->: Cassandra: Last Name->: Cox: User Name->:hjohnson
+2024-07-05 12:07:43,283 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:07:43,283 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:07:43,283 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:18:12,532 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:18:12,532 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:18:12,532 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:18:29,219 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:18:29,219 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:18:29,219 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:18:39,236 - TestLogger - INFO - Generated fake: : first name->: Susan : Middle Name->: Chelsea: Last Name->: Jones: User Name->:michelle64
+2024-07-05 12:18:39,236 - TestLogger - INFO - Generated fake: : first name->: Susan : Middle Name->: Chelsea: Last Name->: Jones: User Name->:michelle64
+2024-07-05 12:18:39,236 - TestLogger - INFO - Generated fake: : first name->: Susan : Middle Name->: Chelsea: Last Name->: Jones: User Name->:michelle64
+2024-07-05 12:18:39,236 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:18:39,236 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:18:39,236 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:21:49,351 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:21:49,351 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:21:49,351 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:22:05,603 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:22:05,603 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:22:05,603 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:22:15,628 - TestLogger - INFO - Generated fake: : first name->: Melissa : Middle Name->: Jennifer: Last Name->: Humphrey: User Name->:dunlapdaniel
+2024-07-05 12:22:15,628 - TestLogger - INFO - Generated fake: : first name->: Melissa : Middle Name->: Jennifer: Last Name->: Humphrey: User Name->:dunlapdaniel
+2024-07-05 12:22:15,628 - TestLogger - INFO - Generated fake: : first name->: Melissa : Middle Name->: Jennifer: Last Name->: Humphrey: User Name->:dunlapdaniel
+2024-07-05 12:22:15,628 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:22:15,628 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:22:15,628 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:25:50,900 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:25:50,900 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:25:50,900 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:26:03,374 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:26:03,374 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:26:03,374 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:26:13,394 - TestLogger - INFO - Generated fake: : first name->: Regina : Middle Name->: Ann: Last Name->: Simmons: User Name->:pfrederick
+2024-07-05 12:26:13,394 - TestLogger - INFO - Generated fake: : first name->: Regina : Middle Name->: Ann: Last Name->: Simmons: User Name->:pfrederick
+2024-07-05 12:26:13,394 - TestLogger - INFO - Generated fake: : first name->: Regina : Middle Name->: Ann: Last Name->: Simmons: User Name->:pfrederick
+2024-07-05 12:26:13,395 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:26:13,395 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:26:13,395 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:38:05,874 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:38:05,874 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:38:05,874 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:38:18,941 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:38:18,941 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:38:18,941 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:38:28,967 - TestLogger - INFO - Generated fake: : first name->: Amy : Middle Name->: Karen: Last Name->: Morris: User Name->:marywood
+2024-07-05 12:38:28,967 - TestLogger - INFO - Generated fake: : first name->: Amy : Middle Name->: Karen: Last Name->: Morris: User Name->:marywood
+2024-07-05 12:38:28,967 - TestLogger - INFO - Generated fake: : first name->: Amy : Middle Name->: Karen: Last Name->: Morris: User Name->:marywood
+2024-07-05 12:38:28,968 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:38:28,968 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:38:28,968 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:42:04,997 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:42:04,997 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:42:04,997 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 12:42:18,631 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:42:18,631 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:42:18,631 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 12:42:28,655 - TestLogger - INFO - Generated fake: : first name->: Shelby : Middle Name->: Amanda: Last Name->: Kennedy: User Name->:bmorris
+2024-07-05 12:42:28,655 - TestLogger - INFO - Generated fake: : first name->: Shelby : Middle Name->: Amanda: Last Name->: Kennedy: User Name->:bmorris
+2024-07-05 12:42:28,655 - TestLogger - INFO - Generated fake: : first name->: Shelby : Middle Name->: Amanda: Last Name->: Kennedy: User Name->:bmorris
+2024-07-05 12:42:28,655 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:42:28,655 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 12:42:28,655 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 14:17:04,047 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-05 14:17:04,047 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-05 14:17:18,849 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 14:17:18,849 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 14:17:28,864 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-07-05 14:17:28,864 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-07-05 14:18:01,696 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 14:18:01,696 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 14:18:01,696 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-07-05 14:18:14,313 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 14:18:14,313 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 14:18:14,313 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 14:18:24,332 - TestLogger - INFO - Generated fake: : first name->: Suzanne : Middle Name->: Melinda: Last Name->: Gallagher: User Name->:codylee
+2024-07-05 14:18:24,332 - TestLogger - INFO - Generated fake: : first name->: Suzanne : Middle Name->: Melinda: Last Name->: Gallagher: User Name->:codylee
+2024-07-05 14:18:24,332 - TestLogger - INFO - Generated fake: : first name->: Suzanne : Middle Name->: Melinda: Last Name->: Gallagher: User Name->:codylee
+2024-07-05 14:18:24,333 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 14:18:24,333 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 14:18:24,333 - TestLogger - INFO - Starting test: test_Demographics Section

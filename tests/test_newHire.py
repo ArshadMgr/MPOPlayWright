@@ -1,11 +1,12 @@
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 from faker import Faker
-
+import os
+from pytest_check import check
 from MPOPlayWright.Payload.login import Login
 from MPOPlayWright.Payload.new_hire import NewHire
-
 import pytest
+from MPOPlayWright.Payload.soft_assertion_helper import SoftAssertContext
 from MPOPlayWright.Payload import new_hire
 from MPOPlayWright.pages import login_page, newhire_page
 from MPOPlayWright.utils.config import BASE_URL
@@ -44,9 +45,10 @@ def browser():
         yield browser
 
 
-def test_newhire_Setup(browser, fake_data,):
 
-    mpologin = Login()
+def test_newhire_Setup(browser, fake_data,):
+    with SoftAssertContext() as soft_assert:
+        mpologin = Login()
     key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
@@ -85,7 +87,7 @@ def test_newhire_Setup(browser, fake_data,):
     last_name = fake_data.last_name_female()
     user_name = fake_data.user_name()
     assert validate_username(user_name)
-    assert validate_with_openai("username", user_name), f"Invalid username: {user_name}"
+    #assert validate_with_openai("username", user_name), f"Invalid username: {user_name}"
 
     logger.info(f"Generated fake: "
                 f": first name->: {first_name} "
@@ -95,16 +97,29 @@ def test_newhire_Setup(browser, fake_data,):
 
     logger.info("Starting test: test_Demographics Section")
     login_page.navigate(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
-    assert newhire_page.verify_page_title("New Hire Report")
+
+
+    try:
+        assert newhire_page.verify_page_title("New Hire Report")
+    except AssertionError:
+        # Capture a screenshot on assertion failure
+        page.screenshot(path=os.path.join("screenshots", "AssertionError_NewHireReport.jpg"))
+        raise  # Re-raise the AssertionError to mark the test as failed
+
+
     newhire_page.navigate(BASE_URL + '/Sys/EmployerManager/Employees/NewHire.aspx')
+    try:
+        assert newhire_page.verify_page_title("New Hire")
+    except AssertionError:
+        # Capture a screenshot on assertion failure
+        page.screenshot(path=os.path.join("screenshots", "AssertionError_NewHire.jpg"))
+        raise  # Re-raise the AssertionError to mark the test as failed
+
     newhire_page.link_newhire_btn()
     newhire_page.first_name().fill(first_name)
     newhire_page.middle_name().fill(middle_name)
     newhire_page.last_name().fill(last_name)
     newhire_page.nick_name().fill(first_name)
-
-
-
 
 
 

@@ -349,3 +349,7 @@
 2024-07-05 14:18:24,333 - TestLogger - INFO - Starting test: test_Demographics Section
 2024-07-05 14:18:24,333 - TestLogger - INFO - Starting test: test_Demographics Section
 2024-07-05 14:18:24,333 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-07-05 14:45:49,993 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-05 14:45:49,993 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-05 14:46:07,949 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-05 14:46:07,949 - TestLogger - INFO - Completed test: test_valid_login

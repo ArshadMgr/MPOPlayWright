@@ -5,6 +5,7 @@ import pytest
 from playwright.sync_api import sync_playwright
 
 from MPOPlayWright.Payload.ai_helper import generate_test_input
+from MPOPlayWright.Payload.ai_validation_helper import validate_with_openai
 
 from MPOPlayWright.utils.logger import setup_logger
 import logging
@@ -20,18 +21,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 
-def test_dynamic_input(page):
-    retry_count = 3
-    for i in range(retry_count):
-        try:
-            page.goto("https://mypaperlessoffice.com/app/login.aspx")
-            break
-        except Exception as e:
-            print(f"Attempt {i + 1} failed: {e}")
-            time.sleep(2)  # wait before retrying
-    else:
-        raise Exception("Failed to navigate to the URL after multiple attempts")
-
+def test_dynamic_input():
 
     username_prompt = "Generate a realistic username for testing login functionality."
     username = generate_test_input(username_prompt)
@@ -45,7 +35,8 @@ def test_dynamic_input(page):
     logger.info(f"AI Model Response: "
                 f": Password->: {password} ")
 
-
+    assert validate_with_openai("username", username), f"Invalid username: {username}"
+    assert validate_with_openai("password", password), f"Invalid username: {password}"
 
 
 

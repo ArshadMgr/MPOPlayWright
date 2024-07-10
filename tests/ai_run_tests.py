@@ -1,6 +1,8 @@
 import openai
 import subprocess
 
+import pytest
+
 # Set your OpenAI API key
 openai.api_key = ''
 
@@ -30,10 +32,13 @@ def run_multiple_tests(test_cases):
     return results
 
 if __name__ == '__main__':
-    test_cases = [
+    test_case1 = [
         "C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/ArshadMgr/MPOPlayWright/tests/test_example.py",  # Adjust paths as needed
-        #"C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/ArshadMgr/MPOPlayWright/tests/test_EE.py",
-        # Add more test cases as necessary
+
+    ]
+    test_case2 = [
+        "C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/ArshadMgr/MPOPlayWright/tests/test_EE.py",
+
     ]
 
     while True:
@@ -47,6 +52,10 @@ if __name__ == '__main__':
         print(f"ChatGPT: {gpt_response}")
 
         # Check if the message asks to run tests
-        if "run tests" in user_message.lower():
-            test_results = run_multiple_tests(test_cases)
+        if "run example test" in user_message.lower():
+            test_results = run_multiple_tests(test_case1)
+            print(f"Overall Test Results:\n{test_results}")
+        # Check if the message asks to run tests
+        if "run employee test" in user_message.lower():
+            test_results = run_multiple_tests(test_case2)
             print(f"Overall Test Results:\n{test_results}")

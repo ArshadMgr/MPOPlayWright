@@ -1,0 +1,20 @@
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:36,793 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:36:56,143 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:51:05,355 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:51:05,355 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-07-10 10:51:25,276 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-10 10:51:25,276 - TestLogger - INFO - Completed test: test_valid_login
+2024-07-10 10:56:45,572 - TestLogger - INFO - AI Model Response: : User Name->: JSmith22_95_TestUser87 
+2024-07-10 10:56:45,572 - TestLogger - INFO - AI Model Response: : Password->: Password: P@ssw0rd1234! 

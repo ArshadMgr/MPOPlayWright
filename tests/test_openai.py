@@ -4,10 +4,10 @@ import time
 import pytest
 from playwright.sync_api import sync_playwright
 
-from MPOPlayWright.Payload.ai_helper import generate_test_input
-from MPOPlayWright.Payload.ai_validation_helper import validate_with_openai
+from Payload.ai_helper import generate_test_input
+from Payload.ai_validation_helper import validate_with_openai
 
-from MPOPlayWright.utils.logger import setup_logger
+from utils.logger import setup_logger
 import logging
 
 

@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = ''
+openai.api_key = 'sk-proj-HWRMZntMLEoEhJDpFUwxT3BlbkFJ5SR7RCq17HPrlRGaaqJ8'
 
 
 def validate_with_openai(data_type, data_value):

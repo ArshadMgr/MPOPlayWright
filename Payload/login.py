@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
 
-from MPOPlayWright.pages.login_page import LoginPage
-from MPOPlayWright.utils.config import USERNAME, BASE_URL
-from MPOPlayWright.utils.logger import setup_logger
+from pages.login_page import LoginPage
+from utils.config import USERNAME, BASE_URL
+from utils.logger import setup_logger
 import logging
 import pytest
 from cryptography.fernet import Fernet

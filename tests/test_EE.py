@@ -3,15 +3,15 @@ from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 import pytest
 
-from Payload.login import Login
-from Payload.new_hire import NewHire
-from utils.config import BASE_URL
-from utils.config import USERNAME
-from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-from pages.login_page import LoginPage
-from utils.logger import setup_logger
+from MPOPlayWright.Payload.login import Login
+from MPOPlayWright.Payload.new_hire import NewHire
+from MPOPlayWright.utils.config import BASE_URL
+from MPOPlayWright.utils.config import USERNAME
+from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
+from MPOPlayWright.pages.login_page import LoginPage
+from MPOPlayWright.utils.logger import setup_logger
 import time
-from Payload.soft_assertion_helper import SoftAssertContext
+from MPOPlayWright.Payload.soft_assertion_helper import SoftAssertContext
 
 logger = setup_logger()
 
@@ -19,7 +19,7 @@ logger = setup_logger()
 @pytest.fixture(scope="function")
 def browser():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         yield browser
 
 

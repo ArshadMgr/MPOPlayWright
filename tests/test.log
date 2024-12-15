@@ -2791,3 +2791,206 @@ Port Jessica, WA 22559: city->:South Toddside: digit->:6: zip code->:05517
 Port Jessica, WA 22559: city->:South Toddside: digit->:6: zip code->:05517
 2024-09-06 23:30:18,601 - TestLogger - INFO - Generated fake: : first name->: Virginia : Middle Name->: Ann: Last Name->: Little: User Name->:beanjulie: date of birth->:1948-06-08: ssn->:078-57-2959: gender->:F: personal email->:melissa71@example.org: work email->:joseph52@alvarez-castro.com: country name->:Antigua and Barbuda: phone number->:001-688-735-1096x66720: address->:18239 Castro Dale Apt. 303
 Port Jessica, WA 22559: city->:South Toddside: digit->:6: zip code->:05517
+2024-09-20 21:48:09,378 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-09-20 21:48:09,378 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-09-20 21:48:29,657 - TestLogger - INFO - Completed test: test_valid_login
+2024-09-20 21:48:29,657 - TestLogger - INFO - Completed test: test_valid_login
+2024-09-20 21:48:39,679 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-09-20 21:48:39,679 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 22:06:36,164 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:06:36,164 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:08:12,316 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:08:12,316 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:08:44,734 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:08:44,734 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:08:54,762 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 22:08:54,762 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 22:10:16,836 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:10:16,836 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:10:37,524 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:10:37,524 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:10:47,541 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 22:10:47,541 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 22:28:16,422 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:28:16,422 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:28:36,033 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:28:36,033 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:28:53,901 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:28:53,901 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:29:05,742 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:29:05,742 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:29:20,494 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:29:20,494 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:29:33,914 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:29:33,914 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:29:51,996 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:29:51,996 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:56:25,107 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:56:25,107 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 22:56:43,210 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:56:43,210 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 22:56:53,235 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 22:56:53,235 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 23:47:43,154 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 23:47:43,154 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-15 23:48:02,508 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 23:48:02,508 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-15 23:48:12,591 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-15 23:48:12,591 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:05:38,252 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:05:38,252 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:05:54,221 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:05:54,221 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:18:08,250 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:18:08,250 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:18:31,868 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:18:31,868 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:18:42,084 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:18:42,084 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:20:10,364 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:20:10,364 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:20:23,430 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:20:23,430 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:20:33,460 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:20:33,460 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:28:10,355 - TestLogger - INFO - Completed test: test_EE_Smoke_Test
+2024-11-16 00:28:10,355 - TestLogger - INFO - Completed test: test_EE_Smoke_Test
+2024-11-16 00:44:19,405 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:44:19,405 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-11-16 00:44:37,257 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:44:37,257 - TestLogger - INFO - Completed test: test_valid_login
+2024-11-16 00:44:47,500 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:44:47,500 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-11-16 00:52:21,150 - TestLogger - INFO - Completed test: test_EE_Smoke_Test
+2024-11-16 00:52:21,150 - TestLogger - INFO - Completed test: test_EE_Smoke_Test
+2024-12-03 20:56:13,189 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 20:56:13,189 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 20:56:39,504 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 20:56:39,504 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 20:56:49,571 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-03 20:56:49,571 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-03 20:58:11,093 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 20:58:11,093 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 20:58:32,647 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 20:58:32,647 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 20:58:42,718 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-03 20:58:42,718 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-03 21:06:02,607 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 21:06:02,607 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 21:06:31,356 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 21:06:31,356 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 21:18:36,948 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 21:18:36,948 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-03 21:18:56,759 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 21:18:56,759 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-03 21:19:06,807 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-03 21:19:06,807 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-03 21:28:08,406 - TestLogger - INFO - Completed test: test_EE_Smoke_Test
+2024-12-03 21:28:08,406 - TestLogger - INFO - Completed test: test_EE_Smoke_Test
+2024-12-15 15:58:41,926 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 15:58:41,926 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 15:59:07,499 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 15:59:07,499 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 15:59:17,540 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-15 15:59:17,540 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-15 16:00:36,311 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 16:00:36,311 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 16:00:56,433 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:00:56,433 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:01:06,454 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-15 16:01:06,454 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-15 16:07:36,248 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:07:36,248 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:07:36,248 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:07:36,248 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:08:09,083 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:08:09,083 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:08:09,083 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:08:09,083 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:08:19,107 - TestLogger - INFO - Generated fake: : first name->: Erin : Middle Name->: Morgan: Last Name->: Weiss: User Name->:tracy10: date of birth->:1949-07-22: ssn->:090-56-8809: gender->:M: personal email->:kelly85@example.org: work email->:mitchellelijah@vasquez.com: country name->:Benin: phone number->:+1-342-281-5783x780: address->:05209 Edward Village Apt. 513
+New Leefort, VA 49004: city->:South Jamesside: zip code->:64785
+2024-12-15 16:08:19,107 - TestLogger - INFO - Generated fake: : first name->: Erin : Middle Name->: Morgan: Last Name->: Weiss: User Name->:tracy10: date of birth->:1949-07-22: ssn->:090-56-8809: gender->:M: personal email->:kelly85@example.org: work email->:mitchellelijah@vasquez.com: country name->:Benin: phone number->:+1-342-281-5783x780: address->:05209 Edward Village Apt. 513
+New Leefort, VA 49004: city->:South Jamesside: zip code->:64785
+2024-12-15 16:08:19,107 - TestLogger - INFO - Generated fake: : first name->: Erin : Middle Name->: Morgan: Last Name->: Weiss: User Name->:tracy10: date of birth->:1949-07-22: ssn->:090-56-8809: gender->:M: personal email->:kelly85@example.org: work email->:mitchellelijah@vasquez.com: country name->:Benin: phone number->:+1-342-281-5783x780: address->:05209 Edward Village Apt. 513
+New Leefort, VA 49004: city->:South Jamesside: zip code->:64785
+2024-12-15 16:08:19,107 - TestLogger - INFO - Generated fake: : first name->: Erin : Middle Name->: Morgan: Last Name->: Weiss: User Name->:tracy10: date of birth->:1949-07-22: ssn->:090-56-8809: gender->:M: personal email->:kelly85@example.org: work email->:mitchellelijah@vasquez.com: country name->:Benin: phone number->:+1-342-281-5783x780: address->:05209 Edward Village Apt. 513
+New Leefort, VA 49004: city->:South Jamesside: zip code->:64785
+2024-12-15 16:11:44,661 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:11:44,661 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:11:44,661 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:11:44,661 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:12:04,059 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:12:04,059 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:12:04,059 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:12:04,059 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:12:14,083 - TestLogger - INFO - Generated fake: : first name->: Lauren : Middle Name->: Vanessa: Last Name->: Hunter: User Name->:harrischarles: date of birth->:1916-03-20: ssn->:756-20-1661: gender->:M: personal email->:jhorn@example.com: work email->:martinezeric@castro.com: country name->:France: phone number->:(422)353-7515: address->:159 Wilson Heights Suite 594
+New Kristineberg, VT 29132: city->:Andrewside: zip code->:42369
+2024-12-15 16:12:14,083 - TestLogger - INFO - Generated fake: : first name->: Lauren : Middle Name->: Vanessa: Last Name->: Hunter: User Name->:harrischarles: date of birth->:1916-03-20: ssn->:756-20-1661: gender->:M: personal email->:jhorn@example.com: work email->:martinezeric@castro.com: country name->:France: phone number->:(422)353-7515: address->:159 Wilson Heights Suite 594
+New Kristineberg, VT 29132: city->:Andrewside: zip code->:42369
+2024-12-15 16:12:14,083 - TestLogger - INFO - Generated fake: : first name->: Lauren : Middle Name->: Vanessa: Last Name->: Hunter: User Name->:harrischarles: date of birth->:1916-03-20: ssn->:756-20-1661: gender->:M: personal email->:jhorn@example.com: work email->:martinezeric@castro.com: country name->:France: phone number->:(422)353-7515: address->:159 Wilson Heights Suite 594
+New Kristineberg, VT 29132: city->:Andrewside: zip code->:42369
+2024-12-15 16:12:14,083 - TestLogger - INFO - Generated fake: : first name->: Lauren : Middle Name->: Vanessa: Last Name->: Hunter: User Name->:harrischarles: date of birth->:1916-03-20: ssn->:756-20-1661: gender->:M: personal email->:jhorn@example.com: work email->:martinezeric@castro.com: country name->:France: phone number->:(422)353-7515: address->:159 Wilson Heights Suite 594
+New Kristineberg, VT 29132: city->:Andrewside: zip code->:42369
+2024-12-15 16:14:25,518 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:14:25,518 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:14:25,518 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:14:25,518 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:14:42,746 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:14:42,746 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:14:42,746 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:14:42,746 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:14:52,770 - TestLogger - INFO - Generated fake: : first name->: Krista : Middle Name->: Tiffany: Last Name->: Leonard: User Name->:amy67: date of birth->:2017-07-31: ssn->:235-36-3472: gender->:M: personal email->:davisdonald@example.com: work email->:robertnelson@garcia.com: country name->:Chile: phone number->:225.313.8781: address->:16346 James Villages
+Williamsonside, AR 16890: city->:Port Roberthaven: zip code->:26565
+2024-12-15 16:14:52,770 - TestLogger - INFO - Generated fake: : first name->: Krista : Middle Name->: Tiffany: Last Name->: Leonard: User Name->:amy67: date of birth->:2017-07-31: ssn->:235-36-3472: gender->:M: personal email->:davisdonald@example.com: work email->:robertnelson@garcia.com: country name->:Chile: phone number->:225.313.8781: address->:16346 James Villages
+Williamsonside, AR 16890: city->:Port Roberthaven: zip code->:26565
+2024-12-15 16:14:52,770 - TestLogger - INFO - Generated fake: : first name->: Krista : Middle Name->: Tiffany: Last Name->: Leonard: User Name->:amy67: date of birth->:2017-07-31: ssn->:235-36-3472: gender->:M: personal email->:davisdonald@example.com: work email->:robertnelson@garcia.com: country name->:Chile: phone number->:225.313.8781: address->:16346 James Villages
+Williamsonside, AR 16890: city->:Port Roberthaven: zip code->:26565
+2024-12-15 16:14:52,770 - TestLogger - INFO - Generated fake: : first name->: Krista : Middle Name->: Tiffany: Last Name->: Leonard: User Name->:amy67: date of birth->:2017-07-31: ssn->:235-36-3472: gender->:M: personal email->:davisdonald@example.com: work email->:robertnelson@garcia.com: country name->:Chile: phone number->:225.313.8781: address->:16346 James Villages
+Williamsonside, AR 16890: city->:Port Roberthaven: zip code->:26565
+2024-12-15 16:25:11,549 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:25:11,549 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:25:11,549 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:25:39,210 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:25:39,210 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:25:39,210 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:25:49,257 - TestLogger - INFO - Generated fake: : first name->: Laura : Middle Name->: Amanda: Last Name->: Thompson: User Name->:amy03: date of birth->:1977-01-22: ssn->:645-13-8124: gender->:M: personal email->:xjohnson@example.net: work email->:tcarroll@cantrell.org: country name->:San Marino: phone number->:945.782.6311x60074: address->:12033 Hanson Ramp
+Michaelshire, GU 82306: city->:West Jason: zip code->:54404
+2024-12-15 16:25:49,257 - TestLogger - INFO - Generated fake: : first name->: Laura : Middle Name->: Amanda: Last Name->: Thompson: User Name->:amy03: date of birth->:1977-01-22: ssn->:645-13-8124: gender->:M: personal email->:xjohnson@example.net: work email->:tcarroll@cantrell.org: country name->:San Marino: phone number->:945.782.6311x60074: address->:12033 Hanson Ramp
+Michaelshire, GU 82306: city->:West Jason: zip code->:54404
+2024-12-15 16:25:49,257 - TestLogger - INFO - Generated fake: : first name->: Laura : Middle Name->: Amanda: Last Name->: Thompson: User Name->:amy03: date of birth->:1977-01-22: ssn->:645-13-8124: gender->:M: personal email->:xjohnson@example.net: work email->:tcarroll@cantrell.org: country name->:San Marino: phone number->:945.782.6311x60074: address->:12033 Hanson Ramp
+Michaelshire, GU 82306: city->:West Jason: zip code->:54404
+2024-12-15 16:28:14,546 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:28:14,546 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:28:14,546 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:28:33,008 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:28:33,008 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:28:33,008 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:28:43,036 - TestLogger - INFO - Generated fake: : first name->: Victoria : Middle Name->: Brittany: Last Name->: Parks: User Name->:peter58: date of birth->:1989-09-21: ssn->:433-75-4027: gender->:F: personal email->:patrickschneider@example.net: work email->:davidsnyder@hunter.com: country name->:Lao People's Democratic Republic: phone number->:7692489093: address->:465 Mark Knolls Suite 628
+Wrightland, NE 71265: city->:Leefurt: zip code->:82736
+2024-12-15 16:28:43,036 - TestLogger - INFO - Generated fake: : first name->: Victoria : Middle Name->: Brittany: Last Name->: Parks: User Name->:peter58: date of birth->:1989-09-21: ssn->:433-75-4027: gender->:F: personal email->:patrickschneider@example.net: work email->:davidsnyder@hunter.com: country name->:Lao People's Democratic Republic: phone number->:7692489093: address->:465 Mark Knolls Suite 628
+Wrightland, NE 71265: city->:Leefurt: zip code->:82736
+2024-12-15 16:28:43,036 - TestLogger - INFO - Generated fake: : first name->: Victoria : Middle Name->: Brittany: Last Name->: Parks: User Name->:peter58: date of birth->:1989-09-21: ssn->:433-75-4027: gender->:F: personal email->:patrickschneider@example.net: work email->:davidsnyder@hunter.com: country name->:Lao People's Democratic Republic: phone number->:7692489093: address->:465 Mark Knolls Suite 628
+Wrightland, NE 71265: city->:Leefurt: zip code->:82736
+2024-12-15 16:32:45,282 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 16:32:45,282 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 16:33:06,264 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:33:06,264 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:35:42,380 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 16:35:42,380 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-15 16:36:03,077 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:36:03,077 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:36:46,702 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:36:46,702 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:36:46,702 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-15 16:37:04,563 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:37:04,563 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:37:04,563 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-15 16:37:14,583 - TestLogger - INFO - Generated fake: : first name->: Michele : Middle Name->: Stephanie: Last Name->: Schmidt: User Name->:eric96: date of birth->:1916-10-04: ssn->:612-36-6608: gender->:M: personal email->:amanda74@example.net: work email->:randymorales@baker.com: country name->:Paraguay: phone number->:316.223.0203x333: address->:860 Carr Walk Suite 003
+New Andrew, CT 49391: city->:West Michaelfort: zip code->:24995
+2024-12-15 16:37:14,583 - TestLogger - INFO - Generated fake: : first name->: Michele : Middle Name->: Stephanie: Last Name->: Schmidt: User Name->:eric96: date of birth->:1916-10-04: ssn->:612-36-6608: gender->:M: personal email->:amanda74@example.net: work email->:randymorales@baker.com: country name->:Paraguay: phone number->:316.223.0203x333: address->:860 Carr Walk Suite 003
+New Andrew, CT 49391: city->:West Michaelfort: zip code->:24995
+2024-12-15 16:37:14,583 - TestLogger - INFO - Generated fake: : first name->: Michele : Middle Name->: Stephanie: Last Name->: Schmidt: User Name->:eric96: date of birth->:1916-10-04: ssn->:612-36-6608: gender->:M: personal email->:amanda74@example.net: work email->:randymorales@baker.com: country name->:Paraguay: phone number->:316.223.0203x333: address->:860 Carr Walk Suite 003
+New Andrew, CT 49391: city->:West Michaelfort: zip code->:24995
+2024-12-15 16:37:14,583 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-12-15 16:37:14,583 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-12-15 16:37:14,583 - TestLogger - INFO - Starting test: test_Demographics Section

@@ -28,7 +28,7 @@ class EditEEDependents(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def select_dependents(self):
         return self.page.get_by_role('link',name= 'Dependents ')
@@ -69,7 +69,13 @@ class EditEEDependents(BasePage):
     #Edit
 
     def edit_dependents(self):
-        return self.page.locator('#Body_Body_gvDependents_btnEdit_5')
+        return self.page.locator('#Body_Body_gvDependents_btnEdit_0')
+
+    def delete_dependents(self):
+        return self.page.locator('#Body_Body_gvDependents_btnDelete_0')
+
+    def delete_yes(self):
+        return self.page.get_by_text('Yes')
 
     def press_save(self):
         return self.page.get_by_text('Save')

@@ -27,7 +27,7 @@ class EditEERates(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
 #Rates
     #Add
@@ -81,7 +81,13 @@ class EditEERates(BasePage):
         return self.page.locator('input[type="search"]')
 
     def edit_rates(self):
-        return self.page.get_by_role('link', name= '')
+        return self.page.get_by_role('link', name= '').nth(0)
 
     def press_save(self):
         return self.page.get_by_text('Save')
+
+    def delete_rates(self):
+        return self.page.get_by_role('link', name= '').nth(0)
+
+    def enter_yes(self):
+        return self.page.locator("//button[normalize-space()='Yes']")

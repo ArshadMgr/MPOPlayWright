@@ -2,25 +2,25 @@ from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 from faker import Faker
 import os
-
-from Payload.login import Login
+from pytest_check import check
+from MPOPlayWright.Payload.login import Login
 import pytest
-from Payload.soft_assertion_helper import SoftAssertContext
-from Payload import new_hire
-from pages import login_page, editee_career_page
-from utils.config import BASE_URL
-from utils.config import USERNAME
-from pages.login_page import LoginPage
-from pages.editee_career_page import EditEECareerProfile
-from utils.logger import setup_logger
+from MPOPlayWright.Payload.soft_assertion_helper import SoftAssertContext
+from MPOPlayWright.Payload import new_hire
+from MPOPlayWright.pages import login_page, editee_career_page
+from MPOPlayWright.utils.config import BASE_URL
+from MPOPlayWright.utils.config import USERNAME
+from MPOPlayWright.pages.login_page import LoginPage
+from MPOPlayWright.pages.editee_career_page import EditEECareerProfile
+from MPOPlayWright.utils.logger import setup_logger
 import time
 import logging
 import logging
 import pytest
 from cryptography.fernet import Fernet
-from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-from Payload.data_validation import validate_username, validate_email, validate_age
-from Payload.ai_validation_helper import validate_with_openai
+from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
+from  MPOPlayWright.Payload.data_validation import validate_username, validate_email, validate_age
+from MPOPlayWright.Payload.ai_validation_helper import validate_with_openai
 
 logger = setup_logger()
 # Setup logger
@@ -138,5 +138,9 @@ def test_newhire_Setup(browser, fake_data,):
     editee_career.add_summary().fill('Test')
     editee_career.add_details().fill('The anniversary of a birth. the day of a persons birth. a day marking or commemorating the origin, founding, or beginning of something. the festivities or celebration marking such a day or anniversary')
     editee_career.save_select().click()
+
+    #delete
+    editee_career.edit_event().click()
+    editee_career.delete_event().click()
 
     editee_career.page_pause()

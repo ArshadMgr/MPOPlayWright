@@ -2,7 +2,7 @@ import pytest
 from playwright.sync_api import Page
 from .base_page import BasePage
 from faker import Faker
-from utils.logger import setup_logger
+from MPOPlayWright.utils.logger import setup_logger
 import time
 import logging
 
@@ -28,7 +28,7 @@ class EditBeneficiaries(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def select_beneficiaries(self):
         return self.page.get_by_role('link', name="Beneficiaries ")
@@ -78,4 +78,10 @@ class EditBeneficiaries(BasePage):
      # edit sections starts from here
 
     def edit_button(self):
-        return self.page.locator('#Body_Body_gvEmployeeBeneficiaries_btnEdit_1')
+        return self.page.locator('#Body_Body_gvEmployeeBeneficiaries_btnEdit_0')
+
+    def delete_beneficiaries(self):
+        return self.page.locator('#Body_Body_gvEmployeeBeneficiaries_btnDelete_0')
+
+    def enter_yes(self):
+        return self.page.get_by_text('Yes')

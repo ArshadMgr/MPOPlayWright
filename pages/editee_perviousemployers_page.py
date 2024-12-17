@@ -27,7 +27,7 @@ class EditEEPerviousEmployers(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def edit_previous_employer(self):
         return self.page.get_by_role('link', name='Previous Employers ')
@@ -75,7 +75,14 @@ class EditEEPerviousEmployers(BasePage):
         return self.page.get_by_label('Notes:')
 
     def edit_perviousemploye(self):
-        return self.page.get_by_role('link', name='').nth(1)
+        return self.page.locator("// tbody / tr[1] / td[15] / a[1] / span[1]").nth(0)
 
     def press_save(self):
         return self.page.get_by_text('Save')
+
+    def delete_perviousemploye(self):
+        return self.page.locator("(//span[@class='glyphicon glyphicon-remove'])[1]").nth(0)
+
+    def enter_yes(self):
+        return self.page.locator("//button[normalize-space()='Yes']")
+

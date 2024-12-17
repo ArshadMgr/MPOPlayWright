@@ -159,25 +159,17 @@ def test_newhire_Setup(browser, fake_data,):
 
     #edit
     editee_rates_page.edit_rates().click()
-    editee_rates_page.select_pay().click()
-    editee_rates_page.type_pay().fill("month")
-    editee_rates_page.enter_pay().press("Enter")
-    time.sleep(5)
+
     editee_rates_page.select_paytype().click()
     editee_rates_page.type_paytype().fill("Salary")
     editee_rates_page.enter_paytype().press("Enter")
     time.sleep(5)
-    editee_rates_page.select_exempt().click()
-    editee_rates_page.type_exempt().fill("Yes")
-    editee_rates_page.enter_exempt().press("Enter")
     editee_rates_page.hours().type(str(digit))
     editee_rates_page.annual().type(str(number))
-    editee_rates_page.effective_datee().click()
-    editee_rates_page.type_effective_datee().type("4")
-    editee_rates_page.enter_effective_datee().press("Enter")
     editee_rates_page.press_save().click()
 
+    editee_rates_page.delete_rates().click()
+    editee_rates_page.enter_yes().click()
     editee_rates_page.page_pause()
 
-#wFix the edit issue
 

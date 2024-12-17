@@ -134,6 +134,8 @@ def test_newhire_Setup(browser, fake_data,):
     editee_deductions.deduction_amount().fill("80")
     editee_deductions.effective_date().type("19/09/2024")
     time.sleep(2)
+
+    #Issue 
     editee_deductions.select_status().click()
     editee_deductions.type_status().fill("inactive")
     editee_deductions.enter_status().press("Enter")

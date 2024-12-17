@@ -2,7 +2,7 @@ import pytest
 from playwright.sync_api import Page
 from .base_page import BasePage
 from faker import Faker
-from utils.logger import setup_logger
+from MPOPlayWright.utils.logger import setup_logger
 import time
 import logging
 
@@ -30,7 +30,7 @@ class EditEECareerProfile(BasePage):
         # add Career Profile
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def select_careerprofile(self):
         return self.page.get_by_role('link', name='Career Profile ')
@@ -51,7 +51,9 @@ class EditEECareerProfile(BasePage):
 # edit sections starts from here
 
     def edit_event(self):
-        return self.page.locator('#Body_Body_rptItems_btnEdit_13')
+        return self.page.locator('#Body_Body_rptItems_btnEdit_0')
 
+    def delete_event(self):
+        return self.page.get_by_text('Delete')
 
 

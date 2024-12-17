@@ -28,7 +28,7 @@ class EditEEEducation(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def select_education(self):
         return self.page.get_by_role('link',name= 'Education ' )
@@ -70,7 +70,15 @@ class EditEEEducation(BasePage):
         return self.page.get_by_label('Phone:')
 
     def edit_education(self):
-        return self.page.get_by_role('link',  name= '').nth(1)
+        return self.page.get_by_role('link',  name= '').nth(0)
 
     def press_save(self):
         return self.page.get_by_text('Save')
+
+    def delete_education(self):
+        return self.page.get_by_role('link',  name='').nth(0)
+
+    def enter_yes(self):
+        return self.page.get_by_text('Yes')
+
+

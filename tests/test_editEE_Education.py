@@ -158,5 +158,7 @@ def test_newhire_Setup(browser, fake_data,):
     editee_education.phone().fill(phone_number)
     editee_education.press_save().click()
 
-
+    #delete
+    editee_education.delete_education().click()
+    editee_education.enter_yes().click()
     editee_education.page_pause()

@@ -28,7 +28,7 @@ class EditEEEEmergencyContact(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def select_emergencycontacts(self):
         return self.page.get_by_role('link',name= 'Emergency Contacts ')
@@ -75,7 +75,13 @@ class EditEEEEmergencyContact(BasePage):
     #Edit
 
     def edit_emergency(self):
-        return self.page.get_by_role('link', name='').nth(1)
+        return self.page.get_by_role('link', name='').nth(0)
 
     def press_save(self):
         return self.page.get_by_text('Save')
+
+    def delete_emergency(self):
+        return self.page.get_by_role('link', name='').nth(0)
+
+    def enter_yes(self):
+        return self.page.get_by_text('Yes')

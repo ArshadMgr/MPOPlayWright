@@ -148,7 +148,6 @@ def test_newhire_Setup(browser, fake_data,):
     editee_directdeposit.press_save().click()
 
     #edit
-
     editee_directdeposit.edit_directdeospit().click()
     editee_directdeposit.select_account().click()
     editee_directdeposit.account_typ().fill("saving")
@@ -164,4 +163,7 @@ def test_newhire_Setup(browser, fake_data,):
     editee_directdeposit.enter_amount_type().press("Enter")
     editee_directdeposit.press_save().click()
 
+    #Delete
+    editee_directdeposit.delete_directdeospit().click()
+    editee_directdeposit.enter_delete().click()
     editee_directdeposit.page_pause()

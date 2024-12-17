@@ -27,6 +27,7 @@ class NewHirePage(BasePage):
         self.click_ee_role = page.get_by_role("textbox", name="Employee")
         self.fill_er_role = page.get_by_role("searchbox")
 
+
     def first_name(self):
         return self.page.get_by_label('First Name: *')
 
@@ -319,3 +320,12 @@ class NewHirePage(BasePage):
 
     def add_new_hire_button(self):
         return self.page.get_by_role('link', name='+ Add New Hire')
+
+    def ee_select(self):
+        return self.page.get_by_role('link', name="Adnan, Stephen m")
+
+    def select_demogrpahics(self):
+        return self.page.locator("#Body_Body_hlDemographics")
+
+    def save(self):
+        return self.page.get_by_role('link', name=' Save')

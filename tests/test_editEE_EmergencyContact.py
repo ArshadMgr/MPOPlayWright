@@ -164,4 +164,7 @@ def test_newhire_Setup(browser, fake_data,):
     editee_emergencycontact.email().fill(work_email)
     editee_emergencycontact.press_save().click()
 
+    #delete
+    editee_emergencycontact.delete_emergency().click()
+    editee_emergencycontact.enter_yes().click()
     editee_emergencycontact.page_pause()

@@ -148,4 +148,8 @@ def test_newhire_Setup(browser, fake_data,):
     editee_equipment.return_to().fill(last_name)
     editee_equipment.notess().fill(note)
     editee_equipment.press_save().click()
+
+#delete
+    editee_equipment.delete_equipment().click()
+    editee_equipment.enter_yes().click()
     editee_equipment.page_pause()

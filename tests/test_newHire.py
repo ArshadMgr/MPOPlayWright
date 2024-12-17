@@ -159,7 +159,7 @@ def test_newhire_Setup(browser, fake_data,):
     newhire_page.veteran_field().click()
     newhire_page.select_veteran_field().fill('yes')
     newhire_page.enter_veteran_field().press('Enter')
-    newhire_page.employee_id().fill("1433")
+    newhire_page.employee_id().fill("143")
     # newhire_page.employee_payroll_id().type(employee_id)
 
     # Contact Information
@@ -198,7 +198,7 @@ def test_newhire_Setup(browser, fake_data,):
     # togel button seasonal skip
     newhire_page.hiring_date().fill('7/25/2024')
     newhire_page.job_title().click()
-    newhire_page.select_job_title().type('SQA')
+    newhire_page.select_job_title().fill('SQA')
     newhire_page.enter_job_title().press('Enter')
     newhire_page.tier_title().click()
     newhire_page.select_tier_title().fill('2')

@@ -147,6 +147,7 @@ def test_newhire_Setup(browser, fake_data,):
     editee_perviousemployers.duties().fill("Testing")
     editee_perviousemployers.notes().fill(note)
     editee_perviousemployers.press_save().click()
+
 #edit
 
     editee_perviousemployers.edit_perviousemploye().click()
@@ -165,4 +166,7 @@ def test_newhire_Setup(browser, fake_data,):
     editee_perviousemployers.notes().fill(note)
     editee_perviousemployers.press_save().click()
 
+#Delete
+    editee_perviousemployers.delete_perviousemploye().click()
+    editee_perviousemployers.enter_yes().click()
     editee_perviousemployers.page_pause()

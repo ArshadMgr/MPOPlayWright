@@ -124,6 +124,7 @@ def test_newhire_Setup(browser, fake_data,):
         page.screenshot(path=os.path.join("screenshots", "AssertionError_NewHire.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
 
+    #Add
     editee_dependents.ee_select().click()
     editee_dependents.select_dependents().click()
     editee_dependents.add_dependents().click()
@@ -153,5 +154,10 @@ def test_newhire_Setup(browser, fake_data,):
     editee_dependents.dob_ente().fill("04/10/1988")
     editee_dependents.press_save().click()
 
+    #Delete
+    editee_dependents.delete_dependents().click()
+    editee_dependents.delete_yes().click()
     editee_dependents.page_pause()
+
+
 

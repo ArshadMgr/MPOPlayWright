@@ -49,7 +49,7 @@ class EditEEDeductions(BasePage):
         return self.page.get_by_label('Deduction Amount:')
 
     def effective_date(self):
-        return self.page.get_by_label('Effective Date:')
+        return self.page.locator("//input[@id='Body_Body_dtEffectiveDate']")
 
     def select_status(self):
         return self.page.locator('#select2-Body_Body_ddlDeductionStatus-container')

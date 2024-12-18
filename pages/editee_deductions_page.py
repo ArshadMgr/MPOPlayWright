@@ -2,7 +2,7 @@ import pytest
 from playwright.sync_api import Page
 from .base_page import BasePage
 from faker import Faker
-from MPOPlayWright.utils.logger import setup_logger
+from utils.logger import setup_logger
 import time
 import logging
 
@@ -28,7 +28,7 @@ class EditEEDeductions(BasePage):
         self.fill_er_role = page.get_by_role("searchbox")
 
     def ee_select(self):
-        return self.page.get_by_role('link', name="Abraham, Joseph a")
+        return self.page.get_by_role('link', name="Abraham, Joseph1 m")
 
     def select_deductions(self):
         return self.page.get_by_role('link', name="Deductions ")

@@ -5754,3 +5754,268 @@ Aguilarview, DE 53168: city->:New Natashaborough: zip code->:38869
 2024-12-17 22:14:18,058 - TestLogger - INFO - Starting test: test_Demographics Section
 2024-12-17 22:14:18,058 - TestLogger - INFO - Starting test: test_Demographics Section
 2024-12-17 22:14:18,058 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-12-18 11:51:44,402 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 11:51:44,402 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 11:51:44,402 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 11:51:56,160 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 11:51:56,160 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 11:51:56,160 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 11:52:06,180 - TestLogger - INFO - Generated fake: : first name->: Tabitha : Middle Name->: Dawn: Last Name->: Thompson: User Name->:stephenbrown: date of birth->:1953-12-17: ssn->:751-45-6949: gender->:M: personal email->:fjohnson@example.net: work email->:huntercaitlin@miller-mcdonald.org: country name->:Belarus: phone number->:+1-641-442-3613x35573: address->:431 Crystal Burgs
+East Darrell, NJ 06453: city->:Lindsaymouth: zip code->:44416
+2024-12-18 11:52:06,180 - TestLogger - INFO - Generated fake: : first name->: Tabitha : Middle Name->: Dawn: Last Name->: Thompson: User Name->:stephenbrown: date of birth->:1953-12-17: ssn->:751-45-6949: gender->:M: personal email->:fjohnson@example.net: work email->:huntercaitlin@miller-mcdonald.org: country name->:Belarus: phone number->:+1-641-442-3613x35573: address->:431 Crystal Burgs
+East Darrell, NJ 06453: city->:Lindsaymouth: zip code->:44416
+2024-12-18 11:52:06,180 - TestLogger - INFO - Generated fake: : first name->: Tabitha : Middle Name->: Dawn: Last Name->: Thompson: User Name->:stephenbrown: date of birth->:1953-12-17: ssn->:751-45-6949: gender->:M: personal email->:fjohnson@example.net: work email->:huntercaitlin@miller-mcdonald.org: country name->:Belarus: phone number->:+1-641-442-3613x35573: address->:431 Crystal Burgs
+East Darrell, NJ 06453: city->:Lindsaymouth: zip code->:44416
+2024-12-18 11:52:06,181 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-12-18 11:52:06,181 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-12-18 11:52:06,181 - TestLogger - INFO - Starting test: test_Demographics Section
+2024-12-18 11:54:08,955 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 11:54:08,955 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 11:54:08,955 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 11:54:19,167 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 11:54:19,167 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 11:54:19,167 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 11:54:29,187 - TestLogger - INFO - Generated fake: : first name->: Samantha : Middle Name->: Teresa: Last Name->: Woodard: User Name->:catherinemontgomery: date of birth->:1947-06-21: ssn->:279-37-6690: gender->:F: personal email->:gstewart@example.org: work email->:robertsonsean@shaw-johns.com: country name->:Turks and Caicos Islands: phone number->:669-308-2237: address->:8761 Thomas Roads
+Camposbury, TX 99797: city->:Maryside: digit->:9: zip code->:70593
+2024-12-18 11:54:29,187 - TestLogger - INFO - Generated fake: : first name->: Samantha : Middle Name->: Teresa: Last Name->: Woodard: User Name->:catherinemontgomery: date of birth->:1947-06-21: ssn->:279-37-6690: gender->:F: personal email->:gstewart@example.org: work email->:robertsonsean@shaw-johns.com: country name->:Turks and Caicos Islands: phone number->:669-308-2237: address->:8761 Thomas Roads
+Camposbury, TX 99797: city->:Maryside: digit->:9: zip code->:70593
+2024-12-18 11:54:29,187 - TestLogger - INFO - Generated fake: : first name->: Samantha : Middle Name->: Teresa: Last Name->: Woodard: User Name->:catherinemontgomery: date of birth->:1947-06-21: ssn->:279-37-6690: gender->:F: personal email->:gstewart@example.org: work email->:robertsonsean@shaw-johns.com: country name->:Turks and Caicos Islands: phone number->:669-308-2237: address->:8761 Thomas Roads
+Camposbury, TX 99797: city->:Maryside: digit->:9: zip code->:70593
+2024-12-18 12:09:32,653 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:09:32,653 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:09:44,037 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:09:44,037 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:09:54,051 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:09:54,051 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:10:42,252 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:10:42,252 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:10:51,040 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:10:51,040 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:11:02,994 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:11:02,994 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:12:45,889 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:12:45,889 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:12:55,753 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:12:55,753 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:13:05,763 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:13:05,763 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:15:13,746 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:15:13,746 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:15:22,205 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:15:22,205 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:15:32,217 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:15:32,217 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:15:59,957 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:15:59,957 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:16:09,667 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:16:09,667 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:16:19,680 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:16:19,680 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:17:51,967 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:17:51,967 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:18:01,627 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:18:01,627 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:18:11,647 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:18:11,647 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:18:32,537 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:18:32,537 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:18:43,189 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:18:43,189 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:19:08,588 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:19:08,588 - TestLogger - INFO - Setting up the test environment(Demo)
+2024-12-18 12:19:17,114 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:19:17,114 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:19:27,142 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:19:27,142 - TestLogger - INFO - Starting test: test_Page_Crashes
+2024-12-18 12:20:00,187 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:20:00,187 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:20:00,187 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:20:10,198 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:20:10,198 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:20:10,198 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:20:20,222 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Ashley: Last Name->: Terry: User Name->:carly55: date of birth->:2013-09-09: ssn->:045-11-8039: gender->:M: personal email->:brendamoore@example.org: work email->:matthewstein@hamilton-swanson.com: country name->:Saint Kitts and Nevis: phone number->:463.450.9207x602: address->:078 Dennis Manors
+East Tonychester, OK 84172: city->:Morrisside: zip code->:94624
+2024-12-18 12:20:20,222 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Ashley: Last Name->: Terry: User Name->:carly55: date of birth->:2013-09-09: ssn->:045-11-8039: gender->:M: personal email->:brendamoore@example.org: work email->:matthewstein@hamilton-swanson.com: country name->:Saint Kitts and Nevis: phone number->:463.450.9207x602: address->:078 Dennis Manors
+East Tonychester, OK 84172: city->:Morrisside: zip code->:94624
+2024-12-18 12:20:20,222 - TestLogger - INFO - Generated fake: : first name->: Lisa : Middle Name->: Ashley: Last Name->: Terry: User Name->:carly55: date of birth->:2013-09-09: ssn->:045-11-8039: gender->:M: personal email->:brendamoore@example.org: work email->:matthewstein@hamilton-swanson.com: country name->:Saint Kitts and Nevis: phone number->:463.450.9207x602: address->:078 Dennis Manors
+East Tonychester, OK 84172: city->:Morrisside: zip code->:94624
+2024-12-18 12:21:54,668 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:21:54,668 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:21:54,668 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:22:04,041 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:22:04,041 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:22:04,041 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:22:14,062 - TestLogger - INFO - Generated fake: : first name->: Kelly : Middle Name->: Julie: Last Name->: Lynch: User Name->:marilynespinoza: date of birth->:1957-08-15: ssn->:152-95-3966: gender->:M: personal email->:hawkinsdavid@example.org: work email->:dmassey@foley.net: country name->:Maldives: phone number->:+1-781-708-1196x765: address->:94338 Elizabeth Isle Apt. 861
+New Luke, RI 10570: city->:Ramirezton: zip code->:55263
+2024-12-18 12:22:14,062 - TestLogger - INFO - Generated fake: : first name->: Kelly : Middle Name->: Julie: Last Name->: Lynch: User Name->:marilynespinoza: date of birth->:1957-08-15: ssn->:152-95-3966: gender->:M: personal email->:hawkinsdavid@example.org: work email->:dmassey@foley.net: country name->:Maldives: phone number->:+1-781-708-1196x765: address->:94338 Elizabeth Isle Apt. 861
+New Luke, RI 10570: city->:Ramirezton: zip code->:55263
+2024-12-18 12:22:14,062 - TestLogger - INFO - Generated fake: : first name->: Kelly : Middle Name->: Julie: Last Name->: Lynch: User Name->:marilynespinoza: date of birth->:1957-08-15: ssn->:152-95-3966: gender->:M: personal email->:hawkinsdavid@example.org: work email->:dmassey@foley.net: country name->:Maldives: phone number->:+1-781-708-1196x765: address->:94338 Elizabeth Isle Apt. 861
+New Luke, RI 10570: city->:Ramirezton: zip code->:55263
+2024-12-18 12:23:05,333 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:23:05,333 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:23:05,333 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:23:15,082 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:23:15,082 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:23:15,082 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:23:25,111 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Pamela: Last Name->: Dixon: User Name->:jennafrederick: date of birth->:1998-07-27: ssn->:179-84-2307: gender->:F: personal email->:sarah28@example.com: work email->:timothy43@evans.biz: country name->:Kuwait: phone number->:+1-678-618-8017x80873: address->:295 Richmond Fall
+Fernandezton, LA 58962: city->:West Lisa: zip code->:91066
+2024-12-18 12:23:25,111 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Pamela: Last Name->: Dixon: User Name->:jennafrederick: date of birth->:1998-07-27: ssn->:179-84-2307: gender->:F: personal email->:sarah28@example.com: work email->:timothy43@evans.biz: country name->:Kuwait: phone number->:+1-678-618-8017x80873: address->:295 Richmond Fall
+Fernandezton, LA 58962: city->:West Lisa: zip code->:91066
+2024-12-18 12:23:25,111 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Pamela: Last Name->: Dixon: User Name->:jennafrederick: date of birth->:1998-07-27: ssn->:179-84-2307: gender->:F: personal email->:sarah28@example.com: work email->:timothy43@evans.biz: country name->:Kuwait: phone number->:+1-678-618-8017x80873: address->:295 Richmond Fall
+Fernandezton, LA 58962: city->:West Lisa: zip code->:91066
+2024-12-18 12:24:59,649 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:24:59,649 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:24:59,649 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:25:08,131 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:25:08,131 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:25:08,131 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:25:18,155 - TestLogger - INFO - Generated fake: : first name->: Alyssa : Middle Name->: Jasmine: Last Name->: Rodriguez: User Name->:karen97: date of birth->:1975-04-01: ssn->:721-45-6951: gender->:M: personal email->:brian91@example.org: work email->:edwardswilliam@paul.net: country name->:Guinea-Bissau: phone number->:(715)908-0406x738: address->:6601 Anthony Mills Apt. 529
+Lake Mason, LA 30005: city->:East Angela: zip code->:93069
+2024-12-18 12:25:18,155 - TestLogger - INFO - Generated fake: : first name->: Alyssa : Middle Name->: Jasmine: Last Name->: Rodriguez: User Name->:karen97: date of birth->:1975-04-01: ssn->:721-45-6951: gender->:M: personal email->:brian91@example.org: work email->:edwardswilliam@paul.net: country name->:Guinea-Bissau: phone number->:(715)908-0406x738: address->:6601 Anthony Mills Apt. 529
+Lake Mason, LA 30005: city->:East Angela: zip code->:93069
+2024-12-18 12:25:18,155 - TestLogger - INFO - Generated fake: : first name->: Alyssa : Middle Name->: Jasmine: Last Name->: Rodriguez: User Name->:karen97: date of birth->:1975-04-01: ssn->:721-45-6951: gender->:M: personal email->:brian91@example.org: work email->:edwardswilliam@paul.net: country name->:Guinea-Bissau: phone number->:(715)908-0406x738: address->:6601 Anthony Mills Apt. 529
+Lake Mason, LA 30005: city->:East Angela: zip code->:93069
+2024-12-18 12:26:01,292 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:26:01,292 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:26:01,292 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:26:09,444 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:26:09,444 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:26:09,444 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:26:19,475 - TestLogger - INFO - Generated fake: : first name->: Courtney : Middle Name->: Audrey: Last Name->: Richards: User Name->:danielle39: date of birth->:1917-10-09: ssn->:796-88-3389: gender->:F: personal email->:privers@example.org: work email->:mary97@armstrong.com: country name->:Niue: phone number->:698-496-1636x9847: address->:6451 Baker Green Apt. 664
+West Alexis, ME 67867: city->:Danielleshire: zip code->:64940
+2024-12-18 12:26:19,475 - TestLogger - INFO - Generated fake: : first name->: Courtney : Middle Name->: Audrey: Last Name->: Richards: User Name->:danielle39: date of birth->:1917-10-09: ssn->:796-88-3389: gender->:F: personal email->:privers@example.org: work email->:mary97@armstrong.com: country name->:Niue: phone number->:698-496-1636x9847: address->:6451 Baker Green Apt. 664
+West Alexis, ME 67867: city->:Danielleshire: zip code->:64940
+2024-12-18 12:26:19,475 - TestLogger - INFO - Generated fake: : first name->: Courtney : Middle Name->: Audrey: Last Name->: Richards: User Name->:danielle39: date of birth->:1917-10-09: ssn->:796-88-3389: gender->:F: personal email->:privers@example.org: work email->:mary97@armstrong.com: country name->:Niue: phone number->:698-496-1636x9847: address->:6451 Baker Green Apt. 664
+West Alexis, ME 67867: city->:Danielleshire: zip code->:64940
+2024-12-18 12:27:11,056 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:27:11,056 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:27:11,056 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:27:20,146 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:27:20,146 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:27:20,146 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:27:30,170 - TestLogger - INFO - Generated fake: : first name->: Madison : Middle Name->: Amber: Last Name->: Pitts: User Name->:ehuerta: date of birth->:1934-12-06: ssn->:878-38-4044: gender->:F: personal email->:kjames@example.com: work email->:omccann@fleming.com: country name->:Montserrat: phone number->:001-707-878-5714x998: address->:7620 Ernest Freeway Suite 721
+North Keithburgh, AK 56146: city->:South Jennifer: digit->:2: zip code->:34678
+2024-12-18 12:27:30,170 - TestLogger - INFO - Generated fake: : first name->: Madison : Middle Name->: Amber: Last Name->: Pitts: User Name->:ehuerta: date of birth->:1934-12-06: ssn->:878-38-4044: gender->:F: personal email->:kjames@example.com: work email->:omccann@fleming.com: country name->:Montserrat: phone number->:001-707-878-5714x998: address->:7620 Ernest Freeway Suite 721
+North Keithburgh, AK 56146: city->:South Jennifer: digit->:2: zip code->:34678
+2024-12-18 12:27:30,170 - TestLogger - INFO - Generated fake: : first name->: Madison : Middle Name->: Amber: Last Name->: Pitts: User Name->:ehuerta: date of birth->:1934-12-06: ssn->:878-38-4044: gender->:F: personal email->:kjames@example.com: work email->:omccann@fleming.com: country name->:Montserrat: phone number->:001-707-878-5714x998: address->:7620 Ernest Freeway Suite 721
+North Keithburgh, AK 56146: city->:South Jennifer: digit->:2: zip code->:34678
+2024-12-18 12:28:18,600 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:28:18,600 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:28:18,600 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:28:28,412 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:28:28,412 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:28:28,412 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:28:38,437 - TestLogger - INFO - Generated fake: : first name->: Megan : Middle Name->: Mary: Last Name->: Gomez: User Name->:heathersloan: date of birth->:2004-03-25: ssn->:644-22-8498: gender->:F: personal email->:danny95@example.com: work email->:smithlauren@caldwell.com: country name->:Malta: phone number->:(991)929-7173: address->:822 Barber Shoal Apt. 824
+West Beth, WY 70313: city->:Lake Christian: digit->:7: zip code->:11491
+2024-12-18 12:28:38,437 - TestLogger - INFO - Generated fake: : first name->: Megan : Middle Name->: Mary: Last Name->: Gomez: User Name->:heathersloan: date of birth->:2004-03-25: ssn->:644-22-8498: gender->:F: personal email->:danny95@example.com: work email->:smithlauren@caldwell.com: country name->:Malta: phone number->:(991)929-7173: address->:822 Barber Shoal Apt. 824
+West Beth, WY 70313: city->:Lake Christian: digit->:7: zip code->:11491
+2024-12-18 12:28:38,437 - TestLogger - INFO - Generated fake: : first name->: Megan : Middle Name->: Mary: Last Name->: Gomez: User Name->:heathersloan: date of birth->:2004-03-25: ssn->:644-22-8498: gender->:F: personal email->:danny95@example.com: work email->:smithlauren@caldwell.com: country name->:Malta: phone number->:(991)929-7173: address->:822 Barber Shoal Apt. 824
+West Beth, WY 70313: city->:Lake Christian: digit->:7: zip code->:11491
+2024-12-18 12:29:25,547 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:29:25,547 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:29:25,547 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:29:35,853 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:29:35,853 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:29:35,853 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:29:45,880 - TestLogger - INFO - Generated fake: : first name->: Vicki : Middle Name->: Nicole: Last Name->: Griffin: User Name->:csmith: date of birth->:1972-08-29: ssn->:585-79-6843: gender->:M: personal email->:bnavarro@example.net: work email->:sharon52@williams.com: country name->:Lesotho: phone number->:+1-568-363-3728: address->:464 Mcdonald Road
+South Timothyport, WA 30238: city->:Andrademouth: digit->:6: zip code->:17996
+2024-12-18 12:29:45,880 - TestLogger - INFO - Generated fake: : first name->: Vicki : Middle Name->: Nicole: Last Name->: Griffin: User Name->:csmith: date of birth->:1972-08-29: ssn->:585-79-6843: gender->:M: personal email->:bnavarro@example.net: work email->:sharon52@williams.com: country name->:Lesotho: phone number->:+1-568-363-3728: address->:464 Mcdonald Road
+South Timothyport, WA 30238: city->:Andrademouth: digit->:6: zip code->:17996
+2024-12-18 12:29:45,880 - TestLogger - INFO - Generated fake: : first name->: Vicki : Middle Name->: Nicole: Last Name->: Griffin: User Name->:csmith: date of birth->:1972-08-29: ssn->:585-79-6843: gender->:M: personal email->:bnavarro@example.net: work email->:sharon52@williams.com: country name->:Lesotho: phone number->:+1-568-363-3728: address->:464 Mcdonald Road
+South Timothyport, WA 30238: city->:Andrademouth: digit->:6: zip code->:17996
+2024-12-18 12:30:40,092 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:30:40,092 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:30:40,092 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:30:50,374 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:30:50,374 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:30:50,374 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:31:00,399 - TestLogger - INFO - Generated fake: : first name->: Stephanie : Middle Name->: Melissa: Last Name->: Newton: User Name->:lrowland: date of birth->:2007-09-28: ssn->:142-79-0330: gender->:M: personal email->:odowns@example.net: work email->:moorejames@scott.com: country name->:Saint Martin: phone number->:001-461-311-0461x430: address->:393 Wilson Point Suite 921
+North Josephbury, ME 98275: city->:South Rachel: digit->:9: zip code->:23545: note->:Professional prevent improve executive point miss key. Bag find one ask.
+2024-12-18 12:31:00,399 - TestLogger - INFO - Generated fake: : first name->: Stephanie : Middle Name->: Melissa: Last Name->: Newton: User Name->:lrowland: date of birth->:2007-09-28: ssn->:142-79-0330: gender->:M: personal email->:odowns@example.net: work email->:moorejames@scott.com: country name->:Saint Martin: phone number->:001-461-311-0461x430: address->:393 Wilson Point Suite 921
+North Josephbury, ME 98275: city->:South Rachel: digit->:9: zip code->:23545: note->:Professional prevent improve executive point miss key. Bag find one ask.
+2024-12-18 12:31:00,399 - TestLogger - INFO - Generated fake: : first name->: Stephanie : Middle Name->: Melissa: Last Name->: Newton: User Name->:lrowland: date of birth->:2007-09-28: ssn->:142-79-0330: gender->:M: personal email->:odowns@example.net: work email->:moorejames@scott.com: country name->:Saint Martin: phone number->:001-461-311-0461x430: address->:393 Wilson Point Suite 921
+North Josephbury, ME 98275: city->:South Rachel: digit->:9: zip code->:23545: note->:Professional prevent improve executive point miss key. Bag find one ask.
+2024-12-18 12:31:40,239 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:31:40,239 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:31:40,239 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:31:50,372 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:31:50,372 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:31:50,372 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:32:00,396 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Priscilla: Last Name->: Nguyen: User Name->:enguyen: date of birth->:2009-01-22: ssn->:093-78-4994: gender->:F: personal email->:norma92@example.org: work email->:sydney37@reed.org: country name->:Uruguay: phone number->:001-944-212-1488x93137: address->:009 Dawson Plains Suite 030
+Nguyenmouth, CA 71296: city->:Lake Tonya: digit->:4: zip code->:57184: note->:Leave carry organization. Yeah hotel top. Mean nearly president.
+2024-12-18 12:32:00,396 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Priscilla: Last Name->: Nguyen: User Name->:enguyen: date of birth->:2009-01-22: ssn->:093-78-4994: gender->:F: personal email->:norma92@example.org: work email->:sydney37@reed.org: country name->:Uruguay: phone number->:001-944-212-1488x93137: address->:009 Dawson Plains Suite 030
+Nguyenmouth, CA 71296: city->:Lake Tonya: digit->:4: zip code->:57184: note->:Leave carry organization. Yeah hotel top. Mean nearly president.
+2024-12-18 12:32:00,396 - TestLogger - INFO - Generated fake: : first name->: Jennifer : Middle Name->: Priscilla: Last Name->: Nguyen: User Name->:enguyen: date of birth->:2009-01-22: ssn->:093-78-4994: gender->:F: personal email->:norma92@example.org: work email->:sydney37@reed.org: country name->:Uruguay: phone number->:001-944-212-1488x93137: address->:009 Dawson Plains Suite 030
+Nguyenmouth, CA 71296: city->:Lake Tonya: digit->:4: zip code->:57184: note->:Leave carry organization. Yeah hotel top. Mean nearly president.
+2024-12-18 12:32:47,711 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:32:47,711 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:32:47,711 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:32:55,623 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:32:55,623 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:32:55,623 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:33:05,642 - TestLogger - INFO - Generated fake: : first name->: Elizabeth : Middle Name->: Taylor: Last Name->: Richards: User Name->:leonard57: date of birth->:1922-11-10: ssn->:472-97-7965: gender->:M: personal email->:fmalone@example.com: work email->:miahanson@richardson.info: country name->:Mauritania: phone number->:001-298-964-0069x6114: address->:2347 Rodney Locks
+Oconnorport, FL 04095: city->:Bestland: digit->:6: zip code->:62221: note->:Common here black establish industry example. Evening admit mission. Cost art dog tax.
+2024-12-18 12:33:05,642 - TestLogger - INFO - Generated fake: : first name->: Elizabeth : Middle Name->: Taylor: Last Name->: Richards: User Name->:leonard57: date of birth->:1922-11-10: ssn->:472-97-7965: gender->:M: personal email->:fmalone@example.com: work email->:miahanson@richardson.info: country name->:Mauritania: phone number->:001-298-964-0069x6114: address->:2347 Rodney Locks
+Oconnorport, FL 04095: city->:Bestland: digit->:6: zip code->:62221: note->:Common here black establish industry example. Evening admit mission. Cost art dog tax.
+2024-12-18 12:33:05,642 - TestLogger - INFO - Generated fake: : first name->: Elizabeth : Middle Name->: Taylor: Last Name->: Richards: User Name->:leonard57: date of birth->:1922-11-10: ssn->:472-97-7965: gender->:M: personal email->:fmalone@example.com: work email->:miahanson@richardson.info: country name->:Mauritania: phone number->:001-298-964-0069x6114: address->:2347 Rodney Locks
+Oconnorport, FL 04095: city->:Bestland: digit->:6: zip code->:62221: note->:Common here black establish industry example. Evening admit mission. Cost art dog tax.
+2024-12-18 12:34:21,399 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:34:21,399 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:34:21,399 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:34:30,014 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:34:30,014 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:34:30,014 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:34:40,034 - TestLogger - INFO - Generated fake: : first name->: Kendra : Middle Name->: Shannon: Last Name->: Butler: User Name->:john28: date of birth->:2020-10-02: ssn->:874-88-0675: gender->:M: personal email->:huertalisa@example.com: work email->:jillmurphy@keith.net: country name->:Libyan Arab Jamahiriya: phone number->:289.815.2597x036: address->:39812 Christian Lodge
+Lake Karenborough, MO 28199: city->:Port Matthew: company->:Lopez, Browning and Brown: digit->:2: zip code->:79683: note->:The here inside keep name full tell follow. Successful star employee grow set move.
+2024-12-18 12:34:40,034 - TestLogger - INFO - Generated fake: : first name->: Kendra : Middle Name->: Shannon: Last Name->: Butler: User Name->:john28: date of birth->:2020-10-02: ssn->:874-88-0675: gender->:M: personal email->:huertalisa@example.com: work email->:jillmurphy@keith.net: country name->:Libyan Arab Jamahiriya: phone number->:289.815.2597x036: address->:39812 Christian Lodge
+Lake Karenborough, MO 28199: city->:Port Matthew: company->:Lopez, Browning and Brown: digit->:2: zip code->:79683: note->:The here inside keep name full tell follow. Successful star employee grow set move.
+2024-12-18 12:34:40,034 - TestLogger - INFO - Generated fake: : first name->: Kendra : Middle Name->: Shannon: Last Name->: Butler: User Name->:john28: date of birth->:2020-10-02: ssn->:874-88-0675: gender->:M: personal email->:huertalisa@example.com: work email->:jillmurphy@keith.net: country name->:Libyan Arab Jamahiriya: phone number->:289.815.2597x036: address->:39812 Christian Lodge
+Lake Karenborough, MO 28199: city->:Port Matthew: company->:Lopez, Browning and Brown: digit->:2: zip code->:79683: note->:The here inside keep name full tell follow. Successful star employee grow set move.
+2024-12-18 12:35:24,885 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:35:24,885 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:35:24,885 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:35:33,417 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:35:33,417 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:35:33,417 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:35:43,439 - TestLogger - INFO - Generated fake: : first name->: Deanna : Middle Name->: Paula: Last Name->: Combs: User Name->:ruth32: date of birth->:1911-09-06: ssn->:290-57-3473: gender->:F: personal email->:erinrichardson@example.org: work email->:kenneth93@booker.org: country name->:Belize: phone number->:001-547-868-5831x98168: address->:956 Watson Lodge Apt. 953
+Tiffanyburgh, IA 48658: city->:Johnsonfurt: zip code->:43738: digit->:8: company->:Cross LLC: note->:Family order audience company nation. Evening majority data.: date->:1999-08-16: number->:4999
+2024-12-18 12:35:43,439 - TestLogger - INFO - Generated fake: : first name->: Deanna : Middle Name->: Paula: Last Name->: Combs: User Name->:ruth32: date of birth->:1911-09-06: ssn->:290-57-3473: gender->:F: personal email->:erinrichardson@example.org: work email->:kenneth93@booker.org: country name->:Belize: phone number->:001-547-868-5831x98168: address->:956 Watson Lodge Apt. 953
+Tiffanyburgh, IA 48658: city->:Johnsonfurt: zip code->:43738: digit->:8: company->:Cross LLC: note->:Family order audience company nation. Evening majority data.: date->:1999-08-16: number->:4999
+2024-12-18 12:35:43,439 - TestLogger - INFO - Generated fake: : first name->: Deanna : Middle Name->: Paula: Last Name->: Combs: User Name->:ruth32: date of birth->:1911-09-06: ssn->:290-57-3473: gender->:F: personal email->:erinrichardson@example.org: work email->:kenneth93@booker.org: country name->:Belize: phone number->:001-547-868-5831x98168: address->:956 Watson Lodge Apt. 953
+Tiffanyburgh, IA 48658: city->:Johnsonfurt: zip code->:43738: digit->:8: company->:Cross LLC: note->:Family order audience company nation. Evening majority data.: date->:1999-08-16: number->:4999
+2024-12-18 12:36:39,271 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:36:39,271 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:36:39,271 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:36:48,113 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:36:48,113 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:36:48,113 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:36:58,136 - TestLogger - INFO - Generated fake: : first name->: Allison : Middle Name->: Jaime: Last Name->: Carter: User Name->:ethomas: date of birth->:1975-07-09: ssn->:675-32-3550: gender->:M: personal email->:alvinschmidt@example.com: work email->:erichard@grant.com: country name->:Central African Republic: phone number->:001-706-626-3460x321: address->:62167 Williams Garden Apt. 452
+South Brandonfurt, LA 30358: city->:Jasmineport: digit->:9: zip code->:51816: note->:Vote product crime seem western rest. And economic democratic early middle religious.
+2024-12-18 12:36:58,136 - TestLogger - INFO - Generated fake: : first name->: Allison : Middle Name->: Jaime: Last Name->: Carter: User Name->:ethomas: date of birth->:1975-07-09: ssn->:675-32-3550: gender->:M: personal email->:alvinschmidt@example.com: work email->:erichard@grant.com: country name->:Central African Republic: phone number->:001-706-626-3460x321: address->:62167 Williams Garden Apt. 452
+South Brandonfurt, LA 30358: city->:Jasmineport: digit->:9: zip code->:51816: note->:Vote product crime seem western rest. And economic democratic early middle religious.
+2024-12-18 12:36:58,136 - TestLogger - INFO - Generated fake: : first name->: Allison : Middle Name->: Jaime: Last Name->: Carter: User Name->:ethomas: date of birth->:1975-07-09: ssn->:675-32-3550: gender->:M: personal email->:alvinschmidt@example.com: work email->:erichard@grant.com: country name->:Central African Republic: phone number->:001-706-626-3460x321: address->:62167 Williams Garden Apt. 452
+South Brandonfurt, LA 30358: city->:Jasmineport: digit->:9: zip code->:51816: note->:Vote product crime seem western rest. And economic democratic early middle religious.
+2024-12-18 12:37:28,618 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:37:28,618 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:37:28,618 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:37:39,558 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:37:39,558 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:37:39,558 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:37:49,585 - TestLogger - INFO - Generated fake: : first name->: Christine : Middle Name->: Sandra: Last Name->: Goodwin: User Name->:wroberts: date of birth->:1989-12-17: ssn->:650-33-6180: gender->:F: personal email->:kingsophia@example.net: work email->:greenrebecca@gardner.com: country name->:China: phone number->:+1-524-552-3945: address->:45761 Randy Locks Apt. 753
+Lake Tiffany, CA 39914: city->:Erinchester: digit->:4: zip code->:42311: note->:Four then final policy. Break agent support way must. Player live serve score mother. Customer life contain.
+2024-12-18 12:37:49,585 - TestLogger - INFO - Generated fake: : first name->: Christine : Middle Name->: Sandra: Last Name->: Goodwin: User Name->:wroberts: date of birth->:1989-12-17: ssn->:650-33-6180: gender->:F: personal email->:kingsophia@example.net: work email->:greenrebecca@gardner.com: country name->:China: phone number->:+1-524-552-3945: address->:45761 Randy Locks Apt. 753
+Lake Tiffany, CA 39914: city->:Erinchester: digit->:4: zip code->:42311: note->:Four then final policy. Break agent support way must. Player live serve score mother. Customer life contain.
+2024-12-18 12:37:49,585 - TestLogger - INFO - Generated fake: : first name->: Christine : Middle Name->: Sandra: Last Name->: Goodwin: User Name->:wroberts: date of birth->:1989-12-17: ssn->:650-33-6180: gender->:F: personal email->:kingsophia@example.net: work email->:greenrebecca@gardner.com: country name->:China: phone number->:+1-524-552-3945: address->:45761 Randy Locks Apt. 753
+Lake Tiffany, CA 39914: city->:Erinchester: digit->:4: zip code->:42311: note->:Four then final policy. Break agent support way must. Player live serve score mother. Customer life contain.
+2024-12-18 12:38:34,231 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:38:34,231 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:38:34,231 - TestLogger - INFO - Setting up the test environment(New Hire)
+2024-12-18 12:38:44,821 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:38:44,821 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:38:44,821 - TestLogger - INFO - Completed test: test_valid_login
+2024-12-18 12:38:54,849 - TestLogger - INFO - Generated fake: : first name->: Victoria : Middle Name->: Michelle: Last Name->: Martin: User Name->:kristinbrown: date of birth->:1911-10-03: ssn->:318-67-6649: gender->:M: personal email->:allencody@example.com: work email->:briannanelson@cooke.net: country name->:Germany: phone number->:+1-450-977-6120: address->:444 Walsh Squares
+South Matthewmouth, VI 10106: city->:Ramosbury: digit->:4: zip code->:20601: note->:Level science network behind address owner. Production far make yard Congress.
+2024-12-18 12:38:54,849 - TestLogger - INFO - Generated fake: : first name->: Victoria : Middle Name->: Michelle: Last Name->: Martin: User Name->:kristinbrown: date of birth->:1911-10-03: ssn->:318-67-6649: gender->:M: personal email->:allencody@example.com: work email->:briannanelson@cooke.net: country name->:Germany: phone number->:+1-450-977-6120: address->:444 Walsh Squares
+South Matthewmouth, VI 10106: city->:Ramosbury: digit->:4: zip code->:20601: note->:Level science network behind address owner. Production far make yard Congress.
+2024-12-18 12:38:54,849 - TestLogger - INFO - Generated fake: : first name->: Victoria : Middle Name->: Michelle: Last Name->: Martin: User Name->:kristinbrown: date of birth->:1911-10-03: ssn->:318-67-6649: gender->:M: personal email->:allencody@example.com: work email->:briannanelson@cooke.net: country name->:Germany: phone number->:+1-450-977-6120: address->:444 Walsh Squares
+South Matthewmouth, VI 10106: city->:Ramosbury: digit->:4: zip code->:20601: note->:Level science network behind address owner. Production far make yard Congress.

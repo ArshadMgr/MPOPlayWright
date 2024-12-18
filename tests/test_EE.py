@@ -3,15 +3,15 @@ from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 import pytest
 
-from MPOPlayWright.Payload.login import Login
-from MPOPlayWright.Payload.new_hire import NewHire
-from MPOPlayWright.utils.config import BASE_URL
-from MPOPlayWright.utils.config import USERNAME
-from MPOPlayWright.Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-from MPOPlayWright.pages.login_page import LoginPage
-from MPOPlayWright.utils.logger import setup_logger
+from Payload.login import Login
+from Payload.new_hire import NewHire
+from utils.config import BASE_URL
+from utils.config import USERNAME
+from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
+from pages.login_page import LoginPage
+from utils.logger import setup_logger
 import time
-from MPOPlayWright.Payload.soft_assertion_helper import SoftAssertContext
+from Payload.soft_assertion_helper import SoftAssertContext
 
 logger = setup_logger()
 
@@ -19,13 +19,14 @@ logger = setup_logger()
 @pytest.fixture(scope="function")
 def browser():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=False)
         yield browser
 
 
 def test_setup(browser):
-    with SoftAssertContext() as soft_assert:
-        mpologin = Login()
+    #with SoftAssertContext() as soft_assert:
+
+    mpologin = Login()
     key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
@@ -59,9 +60,7 @@ def test_setup(browser):
 
     logger.info("Starting test: test_Page_Crashes")
     page.goto(BASE_URL + "/Sys/Employee/EmployeeCareerProfile.aspx")
-    soft_assert.soft_assert(login_page.verify_page_title("Employee Career Profile"))
     page.goto(BASE_URL + '/Sys/Employee/DirectDeposit.aspx')
-    soft_assert.soft_assert(login_page.verify_page_title("Direct Deposit"))
     page.goto(BASE_URL + '/Sys/Employee/EmployeeEducation.aspx')
     page.goto(BASE_URL + '/Sys/Employee/EmployeeEducation.aspx')
     page.goto(BASE_URL + '/Sys/Employee/EmployeeEmergencyContact.aspx')

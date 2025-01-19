@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 from faker import Faker
 import os
-from pytest_check import check
+
 from Payload.login import Login
 import pytest
 from Payload.soft_assertion_helper import SoftAssertContext

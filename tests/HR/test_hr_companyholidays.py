@@ -1,25 +1,18 @@
 from playwright.sync_api import sync_playwright
-from playwright.sync_api import Page
 from faker import Faker
 import os
 from Payload.login import Login
-import pytest
 from Payload.soft_assertion_helper import SoftAssertContext
 from Payload import new_hire
-from pages import login_page, hr_companyholidays_page
 from utils.config import BASE_URL
 from utils.config import USERNAME
 from pages.login_page import LoginPage
 from pages.hr_companyholidays_page import HrCompanyHolidays
 from utils.logger import setup_logger
-import time
-import logging
 import logging
 import pytest
-from cryptography.fernet import Fernet
-from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
-from  Payload.data_validation import validate_username, validate_email, validate_age
-from Payload.ai_validation_helper import validate_with_openai
+import time
+
 
 logger = setup_logger()
 # Setup logger
@@ -42,12 +35,10 @@ def browser():
         browser = p.chromium.launch(headless=False)
         yield browser
 
-
-
-def test_newhire_Setup(browser, fake_data,):
+def test_companyholiday_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -67,8 +58,6 @@ def test_newhire_Setup(browser, fake_data,):
     login_page.press_enter()
     login_page.click_go_button()
 
-    # login_page.verify_title()
-
     # Add assertions to verify successful login
     logger.info("Completed test: test_valid_login")
 
@@ -79,69 +68,30 @@ def test_newhire_Setup(browser, fake_data,):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-    # Generate fake data
-    first_name = fake_data.first_name_female()
-    middle_name = fake_data.first_name_female()
-    last_name = fake_data.last_name_female()
-    user_name = fake_data.user_name()
-    date_of_birth = fake_data.date_of_birth()
-    ssn = fake_data.ssn()
-    personal_email = fake_data.email()
-    work_email = fake_data.company_email()
-    gender = fake_data.passport_gender()
-    # employee_id = fake_data.()
-    country_name = fake_data.country()
-    phone_number = fake_data.phone_number()
-    address = fake_data.address()
-    city = fake_data.city()
-    zip_code = fake_data.zipcode()
-    digit = fake_data.random_digit()
-    note = fake_data.paragraph()
-    assert validate_username(user_name)
-    #assert validate_with_openai("username", user_name), f"Invalid username: {user_name}"
-
-    logger.info(f"Generated fake: "
-                f": first name->: {first_name} "
-                f": Middle Name->: {middle_name}"
-                f": Last Name->: {last_name}"
-                f": User Name->:{user_name}"
-                f": date of birth->:{date_of_birth}"
-                f": ssn->:{ssn}"
-                f": gender->:{gender}"
-                f": personal email->:{personal_email}"
-                f": work email->:{work_email}"
-                # f": employee id->:{employee_id}"
-                f": country name->:{country_name}"
-                f": phone number->:{phone_number}"
-                f": address->:{address}"
-                f": city->:{city}"
-                f": digit->:{digit}"
-                f": zip code->:{zip_code}"
-                f": note->:{note}")
 
     hr_companyholidays.navigate(BASE_URL + '/Sys/Employer/HR/CompanyHolidays.aspx')
     try:
         assert hr_companyholidays.verify_page_title("Company Holidays")
     except AssertionError:
         # Capture a screenshot on assertion failure
-        page.screenshot(path=os.path.join("screenshots", "AssertionError_NewHire.jpg"))
+        page.screenshot(path=os.path.join("../screenshots", "AssertionError.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
 
+    #add company holiday
     hr_companyholidays.add_holiday().click()
     hr_companyholidays.holiday_name().fill("National Holiday")
     hr_companyholidays.date().fill("1/22/2025")
     hr_companyholidays.paid().click()
     hr_companyholidays.position().click()
     hr_companyholidays.save().click()
-
-    #edit
+    logger.info("Success: Company holiday added")
+    #edit company holiday
     hr_companyholidays.edit_holiday().click()
     hr_companyholidays.holiday_name().fill("Holiday")
     hr_companyholidays.date().fill("10/20/2025")
     hr_companyholidays.save().click()
-
-    #Delete
+    logger.info("Success: Company holiday updated")
+    #Delete compnay holiday
     hr_companyholidays.delete_holiday().click()
     hr_companyholidays.yes().click()
-
-    hr_companyholidays.page_pause()
+    logger.info("Success: Company holiday updated")

@@ -121,7 +121,7 @@ def test_newhire_Setup(browser, fake_data,):
         assert editee_career.verify_page_title("Edit Employees")
     except AssertionError:
         # Capture a screenshot on assertion failure
-        page.screenshot(path=os.path.join("screenshots", "AssertionError_NewHire.jpg"))
+        page.screenshot(path=os.path.join("../screenshots", "AssertionError_NewHire.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
 
 

@@ -2,7 +2,6 @@ from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 from faker import Faker
 import os
-from pytest_check import check
 from Payload.login import Login
 import pytest
 from Payload.soft_assertion_helper import SoftAssertContext
@@ -15,12 +14,8 @@ from pages.hr_performancejournal_page import HrPerformanceJournal
 from utils.logger import setup_logger
 import time
 import logging
-import logging
 import pytest
-from cryptography.fernet import Fernet
-from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
 from  Payload.data_validation import validate_username, validate_email, validate_age
-from Payload.ai_validation_helper import validate_with_openai
 
 logger = setup_logger()
 # Setup logger
@@ -45,10 +40,10 @@ def browser():
 
 
 
-def test_newhire_Setup(browser, fake_data,):
+def test_performancejournal_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -80,54 +75,16 @@ def test_newhire_Setup(browser, fake_data,):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-    # Generate fake data
-    first_name = fake_data.first_name_female()
-    middle_name = fake_data.first_name_female()
-    last_name = fake_data.last_name_female()
-    user_name = fake_data.user_name()
-    date_of_birth = fake_data.date_of_birth()
-    ssn = fake_data.ssn()
-    personal_email = fake_data.email()
-    work_email = fake_data.company_email()
-    gender = fake_data.passport_gender()
-    # employee_id = fake_data.()
-    country_name = fake_data.country()
-    phone_number = fake_data.phone_number()
-    address = fake_data.address()
-    city = fake_data.city()
-    zip_code = fake_data.zipcode()
-    digit = fake_data.random_digit()
-    note = fake_data.paragraph()
-    assert validate_username(user_name)
-    #assert validate_with_openai("username", user_name), f"Invalid username: {user_name}"
-
-    logger.info(f"Generated fake: "
-                f": first name->: {first_name} "
-                f": Middle Name->: {middle_name}"
-                f": Last Name->: {last_name}"
-                f": User Name->:{user_name}"
-                f": date of birth->:{date_of_birth}"
-                f": ssn->:{ssn}"
-                f": gender->:{gender}"
-                f": personal email->:{personal_email}"
-                f": work email->:{work_email}"
-                # f": employee id->:{employee_id}"
-                f": country name->:{country_name}"
-                f": phone number->:{phone_number}"
-                f": address->:{address}"
-                f": city->:{city}"
-                f": digit->:{digit}"
-                f": zip code->:{zip_code}"
-                f": note->:{note}")
 
     hr_performancejournal.navigate(BASE_URL + '/Sys/Employer/HR/PerformanceReviewJournal.aspx')
     try:
         assert hr_performancejournal.verify_page_title("Performance Journal")
     except AssertionError:
         # Capture a screenshot on assertion failure
-        page.screenshot(path=os.path.join("screenshots", "AssertionError_NewHire.jpg"))
+        page.screenshot(path=os.path.join("../screenshots", "AssertionError.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
 
+    #adding performance journal
     hr_performancejournal.add_note().click()
     hr_performancejournal.employee().click()
     hr_performancejournal.add_employee().fill("amy")
@@ -138,8 +95,8 @@ def test_newhire_Setup(browser, fake_data,):
     hr_performancejournal.title().fill("Testing Employee Title")
     hr_performancejournal.save().click()
     time.sleep(10)
-
-    #delete
+    logger.info("Success: Added performance journal")
+    #delete performance journal
     hr_performancejournal.delete().click()
     hr_performancejournal.yes().click()
-    hr_performancejournal.page_pause()
+    logger.info("Success: Deleted perofrmance journal")

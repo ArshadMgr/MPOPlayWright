@@ -12,8 +12,10 @@ from utils.logger import setup_logger
 import time
 import logging
 import pytest
+import openpyxl
 
-
+# Path to the Excel file
+excel_file_path = "C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/Payload/test_Data/TestData.xlsx"
 
 
 logger = setup_logger()
@@ -38,11 +40,23 @@ def browser():
         yield browser
 
 
+# Function to read test data from the Excel file
+def get_test_data(sheet_name, cell_reference):
+    workbook = openpyxl.load_workbook(excel_file_path)
+    sheet = workbook[sheet_name]
+    data = sheet[cell_reference].value
+    workbook.close()
+    return data
+
+# Fetch test data from the Excel file
+comment_name = get_test_data("CommentTemplates", "A2")
+Comments = get_test_data("CommentTemplates", "B2")
+
 
 def test_commenttemplates_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/tests/credentials.txt")
 
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
@@ -86,8 +100,8 @@ def test_commenttemplates_Setup(browser, fake_data,):
 
      #Add Comment Template
     hr_commenttemplates.add_template().click()
-    hr_commenttemplates.comment_name().fill("Holiday")
-    hr_commenttemplates.Comments().fill("Testing Holiday")
+    hr_commenttemplates.comment_name().fill(comment_name)
+    hr_commenttemplates.Comments().fill(Comments)
     hr_commenttemplates.status().click()
     hr_commenttemplates.save().click()
     logger.info("Success: Added Comment Template")
@@ -95,3 +109,4 @@ def test_commenttemplates_Setup(browser, fake_data,):
     hr_commenttemplates.delete().click()
     hr_commenttemplates.yes().click()
     logger.info("Success: Deleted comment Template")
+    page.pause()

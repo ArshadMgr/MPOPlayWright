@@ -12,7 +12,7 @@ from utils.logger import setup_logger
 import logging
 import pytest
 import time
-
+import openpyxl
 
 logger = setup_logger()
 # Setup logger
@@ -23,6 +23,8 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
+# Path to the Excel file
+excel_file_path = "C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/Payload/test_Data/TestData.xlsx"
 
 @pytest.fixture
 def fake_data():
@@ -35,10 +37,25 @@ def browser():
         browser = p.chromium.launch(headless=False)
         yield browser
 
+# Function to read test data from the Excel file
+def get_test_data(sheet_name, cell_reference):
+    workbook = openpyxl.load_workbook(excel_file_path)
+    sheet = workbook[sheet_name]
+    data = sheet[cell_reference].value
+    workbook.close()
+    return data
+
+# Fetch test data from the Excel file
+company_holiday = get_test_data("CompanyHoliday", "A2")
+holiday_date=get_test_data("CompanyHoliday", "B2")
+company_holiday2 = get_test_data("CompanyHoliday", "C2")
+holiday_date2 = get_test_data("CompanyHoliday", "D2")
+
+
 def test_companyholiday_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -79,19 +96,21 @@ def test_companyholiday_Setup(browser, fake_data,):
 
     #add company holiday
     hr_companyholidays.add_holiday().click()
-    hr_companyholidays.holiday_name().fill("National Holiday")
-    hr_companyholidays.date().fill("1/22/2025")
+    hr_companyholidays.holiday_name().fill(company_holiday)
+    hr_companyholidays.date().fill(holiday_date)
     hr_companyholidays.paid().click()
     hr_companyholidays.position().click()
     hr_companyholidays.save().click()
     logger.info("Success: Company holiday added")
     #edit company holiday
     hr_companyholidays.edit_holiday().click()
-    hr_companyholidays.holiday_name().fill("Holiday")
-    hr_companyholidays.date().fill("10/20/2025")
+    hr_companyholidays.holiday_name().fill(company_holiday2)
+    hr_companyholidays.date().fill(holiday_date2)
     hr_companyholidays.save().click()
     logger.info("Success: Company holiday updated")
     #Delete compnay holiday
     hr_companyholidays.delete_holiday().click()
     hr_companyholidays.yes().click()
     logger.info("Success: Company holiday updated")
+
+    page.pause()

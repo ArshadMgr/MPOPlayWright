@@ -13,6 +13,8 @@ from pages.login_page import LoginPage
 from pages.hr_employeesuccession_page import EmployeeSuccession
 from utils.logger import setup_logger
 import time
+import openpyxl
+
 import logging
 import logging
 import pytest
@@ -25,6 +27,8 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
+# Path to the Excel file
+excel_file_path = "C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/Payload/test_Data/TestData.xlsx"
 
 @pytest.fixture
 def fake_data():
@@ -37,12 +41,27 @@ def browser():
         browser = p.chromium.launch(headless=False)
         yield browser
 
+# Function to read test data from the Excel file
+def get_test_data(sheet_name, cell_reference):
+    workbook = openpyxl.load_workbook(excel_file_path)
+    sheet = workbook[sheet_name]
+    data = sheet[cell_reference].value
+    workbook.close()
+    return data
 
+# Fetch test data from the Excel file
+employee = get_test_data("EmployeeSuccession", "A2")
+# Fetch test data from the Excel file
+succession = get_test_data("EmployeeSuccession", "B2")
+# Fetch test data from the Excel file
+rediness = get_test_data("EmployeeSuccession", "C2")
+# Fetch test data from the Excel file
+note = get_test_data("EmployeeSuccession", "C2")
 
 def test_succession_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -85,20 +104,21 @@ def test_succession_Setup(browser, fake_data,):
     #adding succession
     Employee_Succession.add_succession().click()
     Employee_Succession.select_employee().click()
-    Employee_Succession.employee().fill("Ali")
+    Employee_Succession.employee().fill(employee)
     Employee_Succession.enter_employee().press("Enter")
     time.sleep(5)
     Employee_Succession.select_succession().click()
-    Employee_Succession.succession().fill("amy")
+    Employee_Succession.succession().fill(succession)
     Employee_Succession.enter_succession().press("Enter")
     time.sleep(5)
     Employee_Succession.select_readiness().click()
-    Employee_Succession.readiness().fill("re")
+    Employee_Succession.readiness().fill(rediness)
     Employee_Succession.enter_readiness().press("Enter")
-    Employee_Succession.note().fill("Testing add note succession")
+    Employee_Succession.note().fill(note)
     Employee_Succession.save_button().click()
     logger.info("Success: Success Added employee Succession")
     #delete succession
     Employee_Succession.delete().click()
     Employee_Succession.yes().click()
     logger.info("Success: Deleted emplyee sucession")
+    page.pause()

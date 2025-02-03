@@ -12,7 +12,10 @@ from utils.logger import setup_logger
 import time
 import logging
 import pytest
+import openpyxl
 
+# Path to the Excel file
+excel_file_path = "E:/MPOPlayWright/Payload/test_Data/TestData.xlsx"
 
 logger = setup_logger()
 # Setup logger
@@ -35,12 +38,23 @@ def browser():
         browser = p.chromium.launch(headless=False)
         yield browser
 
+# Function to read test data from the Excel file
+def get_test_data(sheet_name, cell_reference):
+    workbook = openpyxl.load_workbook(excel_file_path)
+    sheet = workbook[sheet_name]
+    data = sheet[cell_reference].value
+    workbook.close()
+    return data
 
+# Fetch test data from the Excel file
+Name = get_test_data("PerformanceReview", "A2")
+Description = get_test_data("PerformanceReview", "B2")
+Instruction = get_test_data("PerformanceReview", "C2")
 
 def test_newhire_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("E:/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -83,9 +97,9 @@ def test_newhire_Setup(browser, fake_data,):
 
     #Add performance review checklist
     hr_performancereview.add_review_form().click()
-    hr_performancereview.name().fill("Testing name")
-    hr_performancereview.description().fill("Testing the description section")
-    hr_performancereview.instructions().fill("Testing the instructions section")
+    hr_performancereview.name().fill(Name)
+    hr_performancereview.description().fill(Description)
+    hr_performancereview.instructions().fill(Instruction)
     hr_performancereview.status().click()
     hr_performancereview.save().click()
     time.sleep(5)

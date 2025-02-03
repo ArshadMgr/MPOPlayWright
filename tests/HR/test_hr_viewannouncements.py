@@ -12,9 +12,12 @@ from pages.hr_viewannouncements_page import HrViewAnnouncemnets
 from utils.logger import setup_logger
 import time
 import logging
+import openpyxl
 import pytest
 from  Payload.data_validation import validate_username, validate_email, validate_age
 
+# Path to the Excel file
+excel_file_path = "E:/MPOPlayWright/Payload/test_Data/TestData.xlsx"
 
 logger = setup_logger()
 # Setup logger
@@ -37,12 +40,24 @@ def browser():
         browser = p.chromium.launch(headless=False)
         yield browser
 
+# Function to read test data from the Excel file
+def get_test_data(sheet_name, cell_reference):
+    workbook = openpyxl.load_workbook(excel_file_path)
+    sheet = workbook[sheet_name]
+    data = sheet[cell_reference].value
+    workbook.close()
+    return data
 
+# Fetch test data from the Excel file
+summary = get_test_data("ViewAnnouncements", "A2")
+release_date = get_test_data("ViewAnnouncements", "B2")
+release_time = get_test_data("ViewAnnouncements", "C2")
+description = get_test_data("ViewAnnouncements", "D2")
 
 def test_announcements_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("E:/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -84,10 +99,10 @@ def test_announcements_Setup(browser, fake_data,):
         raise  # Re-raise the AssertionError to mark the test as failed
     # Add view announcements
     Hr_viewannouncements.add_new().click()
-    Hr_viewannouncements.summary().fill("Summary for testing")
-    Hr_viewannouncements.release_date().fill("04/06/2025")
-    Hr_viewannouncements.release_time().fill("5:40 am")
-    Hr_viewannouncements.description().fill("Stimulate your mind as you test your typing speed with this standard English paragraph typing test.")
+    Hr_viewannouncements.summary().fill(summary)
+    Hr_viewannouncements.release_date().fill(release_date)
+    Hr_viewannouncements.release_time().fill(release_time)
+    Hr_viewannouncements.description().fill(description)
     Hr_viewannouncements.save_button().click()
     logger.info("Success: Added anouncement")
     #Edit

@@ -37,11 +37,10 @@ def browser():
         yield browser
 
 
-
 def test_360degreefeedback_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/pc planet/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("E:/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
     logger.info("Setting up the test environment(New Hire)")
@@ -85,7 +84,7 @@ def test_360degreefeedback_Setup(browser, fake_data,):
     hr_360degreefeedback.type_session().fill("arf")
     hr_360degreefeedback.enter_session().press("Enter")
     hr_360degreefeedback.employee().click()
-    hr_360degreefeedback.type_employee().fill("qa")
+    hr_360degreefeedback.type_employee().fill("ca")
     hr_360degreefeedback.enter_employee().press("Enter")
     hr_360degreefeedback.reviewer().click()
     hr_360degreefeedback.select_reviewer().click()

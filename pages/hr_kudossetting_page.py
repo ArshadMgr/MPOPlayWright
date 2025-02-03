@@ -46,7 +46,7 @@ class HrKudosSetting(BasePage):
 
     #delte
     def delete_category(self):
-        return self.page.get_by_role('row', name='Kudos testing 0 #315aaa  01/').get_by_role('link').nth(1)
+        return self.page.get_by_role('row', name='Kudos Testing 0 #315aaa  01/').get_by_role('link').nth(1)
 
     def yes(self):
         return self.page.get_by_text('Yes', exact=True)

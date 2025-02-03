@@ -28,7 +28,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Path to the Excel file
-excel_file_path = "C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/Payload/test_Data/TestData.xlsx"
+excel_file_path = "E:/MPOPlayWright/Payload/test_Data/TestData.xlsx"
 
 @pytest.fixture
 def fake_data():
@@ -61,7 +61,7 @@ note = get_test_data("EmployeeSuccession", "C2")
 def test_succession_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("C:/Users/Arshad Mehmood/OneDrive - Riphah International University/Desktop/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file("E:/MPOPlayWright/tests/credentials.txt")
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 

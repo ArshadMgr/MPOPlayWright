@@ -7,6 +7,10 @@ from Payload.soft_assertion_helper import SoftAssertContext
 from Payload import new_hire
 from utils.config import BASE_URL
 from utils.config import USERNAME
+from utils.config import excel_file_path_A
+from utils.config import excel_file_path_H
+from utils.config import CredentilasPath_A
+from utils.config import CredentilasPath_H
 from pages.login_page import LoginPage
 from pages.hr_kudossetting_page import HrKudosSetting
 from utils.logger import setup_logger
@@ -18,7 +22,7 @@ from  Payload.data_validation import validate_username, validate_email, validate
 
 
 # Path to the Excel file
-excel_file_path = "E:/MPOPlayWright/Payload/test_Data/TestData.xlsx"
+excel_file_path = excel_file_path_A
 
 
 logger = setup_logger()
@@ -57,7 +61,7 @@ Category_Name = get_test_data("KudosSetting", "A2")
 def test_Kudos_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("E:/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 

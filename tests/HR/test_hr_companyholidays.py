@@ -6,6 +6,10 @@ from Payload.soft_assertion_helper import SoftAssertContext
 from Payload import new_hire
 from utils.config import BASE_URL
 from utils.config import USERNAME
+from utils.config import excel_file_path_A
+from utils.config import excel_file_path_H
+from utils.config import CredentilasPath_A
+from utils.config import CredentilasPath_H
 from pages.login_page import LoginPage
 from pages.hr_companyholidays_page import HrCompanyHolidays
 from utils.logger import setup_logger
@@ -24,7 +28,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Path to the Excel file
-excel_file_path = "E:/MPOPlayWright/Payload/test_Data/TestData.xlsx"
+excel_file_path = excel_file_path_A
 
 @pytest.fixture
 def fake_data():
@@ -55,7 +59,7 @@ holiday_date2 = get_test_data("CompanyHoliday", "D2")
 def test_companyholiday_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("E:/MPOPlayWright/tests/credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 

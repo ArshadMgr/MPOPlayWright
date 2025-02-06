@@ -1,0 +1,54 @@
+2025-02-06 15:44:21,101 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-06 15:44:21,101 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-06 15:44:21,101 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-06 15:44:30,323 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 15:44:30,323 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 15:44:30,323 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 15:44:46,815 - TestLogger - INFO - Success: Added anouncement
+2025-02-06 15:44:46,815 - TestLogger - INFO - Success: Added anouncement
+2025-02-06 15:44:46,815 - TestLogger - INFO - Success: Added anouncement
+2025-02-06 15:44:48,101 - TestLogger - INFO - Success: Deleted announcement
+2025-02-06 15:44:48,101 - TestLogger - INFO - Success: Deleted announcement
+2025-02-06 15:44:48,101 - TestLogger - INFO - Success: Deleted announcement
+2025-02-06 16:45:11,805 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-06 16:45:11,805 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-06 16:45:11,805 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-06 16:45:21,442 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:45:21,442 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:45:21,442 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:45:35,720 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:45:35,720 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:45:35,720 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:46:27,005 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:46:27,005 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:46:27,005 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:46:34,003 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:46:34,003 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:46:34,003 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:46:48,797 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:46:48,797 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:46:48,797 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:47:35,321 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:47:35,321 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:47:35,321 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:47:40,574 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:47:40,574 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:47:40,574 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:47:52,538 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:47:52,538 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:47:52,538 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 16:58:06,277 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:58:06,277 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:58:06,277 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 16:58:15,437 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:58:15,437 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 16:58:15,437 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 17:22:47,310 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 17:22:47,310 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 17:22:47,310 - TestLogger - INFO - Setting up the test environment(Add Job Category)
+2025-02-06 17:22:54,216 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 17:22:54,216 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 17:22:54,216 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-06 17:23:09,848 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 17:23:09,848 - TestLogger - INFO - Success: Added Job Category
+2025-02-06 17:23:09,848 - TestLogger - INFO - Success: Added Job Category

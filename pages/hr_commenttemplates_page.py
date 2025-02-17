@@ -43,7 +43,7 @@ class HrCommentTemplates(BasePage):
 
     #delete
     def delete(self):
-        return self.page.get_by_role('row', name='Performance Test Comments(').get_by_role('link').nth(1)
+        return self.page.get_by_role('row', name='Testing Employee Title Test').get_by_role('link').nth(1)
 
     def yes(self):
         return self.page.locator('button').filter(has_text='Yes')

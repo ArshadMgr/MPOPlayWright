@@ -46,7 +46,7 @@ class HrCriteriaLibrary(BasePage):
 
     #delete
     def delete(self):
-        return self.page.get_by_role('row', name='Test Header 89 A detailed').get_by_role('link').nth(1)
+        return self.page.get_by_role('row', name='Testing Employee Title 89 A').get_by_role('link').nth(1)
 
     def yes(self):
         return self.page.get_by_text("Yes")

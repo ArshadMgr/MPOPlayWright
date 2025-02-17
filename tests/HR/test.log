@@ -559,3 +559,324 @@
 2025-02-06 15:41:55,540 - TestLogger - INFO - Success: Deleted announcement
 2025-02-06 15:41:55,540 - TestLogger - INFO - Success: Deleted announcement
 2025-02-06 15:41:55,540 - TestLogger - INFO - Success: Deleted announcement
+2025-02-08 03:53:31,232 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-08 03:53:31,232 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-08 03:53:31,232 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-08 03:53:41,088 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-08 03:53:41,088 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-08 03:53:41,088 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-08 03:54:00,190 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-08 03:54:00,190 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-08 03:54:00,190 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-08 03:54:08,597 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-08 03:54:08,597 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-08 03:54:08,597 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-08 03:54:25,815 - TestLogger - INFO - Success: Company holiday added
+2025-02-08 03:54:25,815 - TestLogger - INFO - Success: Company holiday added
+2025-02-08 03:54:25,815 - TestLogger - INFO - Success: Company holiday added
+2025-02-08 03:54:29,430 - TestLogger - INFO - Success: Company holiday updated
+2025-02-08 03:54:29,430 - TestLogger - INFO - Success: Company holiday updated
+2025-02-08 03:54:29,430 - TestLogger - INFO - Success: Company holiday updated
+2025-02-08 03:54:31,469 - TestLogger - INFO - Success: Company holiday updated
+2025-02-08 03:54:31,469 - TestLogger - INFO - Success: Company holiday updated
+2025-02-08 03:54:31,469 - TestLogger - INFO - Success: Company holiday updated
+2025-02-11 01:14:19,137 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:14:19,137 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:14:19,137 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:14:29,418 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:14:29,418 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:14:29,418 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:16:12,693 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:16:12,693 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:16:12,693 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:16:20,404 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:16:20,404 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:16:20,404 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:17:15,446 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:17:15,446 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:17:15,446 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:17:22,990 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:17:22,990 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:17:22,990 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:17:42,367 - TestLogger - INFO - Success: Added 360degreefeedback
+2025-02-11 01:17:42,367 - TestLogger - INFO - Success: Added 360degreefeedback
+2025-02-11 01:17:42,367 - TestLogger - INFO - Success: Added 360degreefeedback
+2025-02-11 01:17:48,038 - TestLogger - INFO - Success: Deleted 360degreefeedback
+2025-02-11 01:17:48,038 - TestLogger - INFO - Success: Deleted 360degreefeedback
+2025-02-11 01:17:48,038 - TestLogger - INFO - Success: Deleted 360degreefeedback
+2025-02-11 01:23:46,262 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:23:46,262 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:23:46,262 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:23:56,521 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:23:56,521 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:23:56,521 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:24:18,978 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:24:18,978 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:24:18,978 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:28:17,415 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:28:17,415 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:28:17,415 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:28:25,649 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:28:25,649 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:28:25,649 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:28:45,774 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:28:45,774 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:28:45,774 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:32:16,384 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:32:16,384 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:32:16,384 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-11 01:32:24,657 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:32:24,657 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:32:24,657 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:32:45,576 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:32:45,576 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:32:45,576 - TestLogger - INFO - Success: Criteria Library added
+2025-02-11 01:32:46,180 - TestLogger - INFO - Success: Criteria Library deleted
+2025-02-11 01:32:46,180 - TestLogger - INFO - Success: Criteria Library deleted
+2025-02-11 01:32:46,180 - TestLogger - INFO - Success: Criteria Library deleted
+2025-02-11 01:33:30,593 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:33:30,593 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:33:30,593 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:33:36,105 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:33:36,105 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:33:36,105 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:38:22,517 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:38:22,517 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:38:22,517 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:38:32,536 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:38:32,536 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:38:32,536 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:39:10,595 - TestLogger - INFO - Success: Success Added employee Succession
+2025-02-11 01:39:10,595 - TestLogger - INFO - Success: Success Added employee Succession
+2025-02-11 01:39:10,595 - TestLogger - INFO - Success: Success Added employee Succession
+2025-02-11 01:39:13,441 - TestLogger - INFO - Success: Deleted emplyee sucession
+2025-02-11 01:39:13,441 - TestLogger - INFO - Success: Deleted emplyee sucession
+2025-02-11 01:39:13,441 - TestLogger - INFO - Success: Deleted emplyee sucession
+2025-02-11 01:49:59,786 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:49:59,786 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:49:59,786 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:50:09,103 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:50:09,103 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:50:09,103 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:50:51,336 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-11 01:50:51,336 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-11 01:50:51,336 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-11 01:54:28,699 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:54:28,699 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:54:28,699 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:54:39,891 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:54:39,891 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:54:39,891 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:55:26,493 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-11 01:55:26,493 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-11 01:55:26,493 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-11 01:57:27,763 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:57:27,763 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:57:27,763 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:57:36,621 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:57:36,621 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:57:36,621 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:58:03,187 - TestLogger - INFO - Success: Added performance journal
+2025-02-11 01:58:03,187 - TestLogger - INFO - Success: Added performance journal
+2025-02-11 01:58:03,187 - TestLogger - INFO - Success: Added performance journal
+2025-02-11 01:58:06,260 - TestLogger - INFO - Success: Deleted perofrmance journal
+2025-02-11 01:58:06,260 - TestLogger - INFO - Success: Deleted perofrmance journal
+2025-02-11 01:58:06,260 - TestLogger - INFO - Success: Deleted perofrmance journal
+2025-02-11 01:58:27,421 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:58:27,421 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:58:27,421 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:58:33,780 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:58:33,780 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:58:33,780 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:58:54,518 - TestLogger - INFO - Success: Added performance review checklist
+2025-02-11 01:58:54,518 - TestLogger - INFO - Success: Added performance review checklist
+2025-02-11 01:58:54,518 - TestLogger - INFO - Success: Added performance review checklist
+2025-02-11 01:58:57,344 - TestLogger - INFO - Success: Updated performance review checklist
+2025-02-11 01:58:57,344 - TestLogger - INFO - Success: Updated performance review checklist
+2025-02-11 01:58:57,344 - TestLogger - INFO - Success: Updated performance review checklist
+2025-02-11 01:59:00,914 - TestLogger - INFO - Success: Deleted performance view checklist
+2025-02-11 01:59:00,914 - TestLogger - INFO - Success: Deleted performance view checklist
+2025-02-11 01:59:00,914 - TestLogger - INFO - Success: Deleted performance view checklist
+2025-02-11 01:59:19,228 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:59:19,228 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:59:19,228 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 01:59:27,214 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:59:27,214 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:59:27,214 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 01:59:45,532 - TestLogger - INFO - Success: Added review workflow
+2025-02-11 01:59:45,532 - TestLogger - INFO - Success: Added review workflow
+2025-02-11 01:59:45,532 - TestLogger - INFO - Success: Added review workflow
+2025-02-11 01:59:48,096 - TestLogger - INFO - Success: Deleted review workflow
+2025-02-11 01:59:48,096 - TestLogger - INFO - Success: Deleted review workflow
+2025-02-11 01:59:48,096 - TestLogger - INFO - Success: Deleted review workflow
+2025-02-11 02:01:19,449 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 02:01:19,449 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 02:01:19,449 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-11 02:01:24,203 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:01:24,203 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:01:24,203 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:01:41,372 - TestLogger - INFO - Success: Added anouncement
+2025-02-11 02:01:41,372 - TestLogger - INFO - Success: Added anouncement
+2025-02-11 02:01:41,372 - TestLogger - INFO - Success: Added anouncement
+2025-02-11 02:01:43,269 - TestLogger - INFO - Success: Deleted announcement
+2025-02-11 02:01:43,269 - TestLogger - INFO - Success: Deleted announcement
+2025-02-11 02:01:43,269 - TestLogger - INFO - Success: Deleted announcement
+2025-02-11 02:03:31,507 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:03:31,507 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:03:31,507 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:03:39,497 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:03:39,497 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:03:39,497 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:03:54,359 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:03:54,359 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:03:54,359 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:04:13,256 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:04:13,256 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:04:13,256 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:04:18,275 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:04:18,275 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:04:18,275 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:04:32,539 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:04:32,539 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:04:32,539 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:06:27,929 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:06:27,929 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:06:27,929 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-11 02:06:34,295 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:06:34,295 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:06:34,295 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-11 02:06:49,685 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:06:49,685 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:06:49,685 - TestLogger - INFO - Success: Added Comment Template
+2025-02-11 02:06:52,968 - TestLogger - INFO - Success: Deleted comment Template
+2025-02-11 02:06:52,968 - TestLogger - INFO - Success: Deleted comment Template
+2025-02-11 02:06:52,968 - TestLogger - INFO - Success: Deleted comment Template
+2025-02-12 01:18:07,273 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-12 01:18:07,273 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-12 01:18:07,273 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-12 01:18:12,717 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-12 01:18:12,717 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-12 01:18:12,717 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-12 01:21:19,709 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-12 01:21:19,709 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-12 01:21:19,709 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-12 01:21:26,637 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-12 01:21:26,637 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-12 01:21:26,637 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-13 22:13:41,215 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-13 22:13:41,215 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-13 22:13:41,215 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-13 22:14:50,634 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-13 22:14:50,634 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-13 22:14:50,634 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-13 22:15:00,659 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-13 22:15:00,659 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-13 22:15:00,659 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:54:36,106 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:54:36,106 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:54:36,106 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:54:43,964 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:54:43,964 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:54:43,964 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:56:45,835 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:56:45,835 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:56:45,835 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:56:52,681 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:56:52,681 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:56:52,681 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:59:42,401 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:59:42,401 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:59:42,401 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 00:59:49,019 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:59:49,019 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 00:59:49,019 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:00:52,500 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:00:52,500 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:00:52,500 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:01:00,050 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:01:00,050 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:01:00,050 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:02:48,937 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:02:48,937 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:02:48,937 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:02:53,415 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:02:53,415 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:02:53,415 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:08:06,029 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:08:06,029 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:08:06,029 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-14 01:08:10,667 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:08:10,667 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-14 01:08:10,667 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:00:18,601 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:00:18,601 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:00:18,601 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:00:27,072 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:00:27,072 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:00:27,072 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:08:11,720 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:08:11,720 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:08:11,720 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:08:19,244 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:08:19,244 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:08:19,244 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:34:30,993 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:34:30,993 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:34:30,993 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:34:39,998 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:34:39,998 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:34:39,998 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:44:10,398 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:44:10,398 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:44:10,398 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:44:15,660 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:44:15,660 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:44:15,660 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:49:50,881 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:49:50,881 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:49:50,881 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:49:59,707 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:49:59,707 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:49:59,707 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:52:01,020 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:52:01,020 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:52:01,020 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:52:08,918 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:52:08,918 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:52:08,918 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:55:11,502 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:55:11,502 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:55:11,502 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:55:20,537 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:55:20,537 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:55:20,537 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:58:24,636 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:58:24,636 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:58:24,636 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 01:58:30,322 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:58:30,322 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 01:58:30,322 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:03:30,231 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:03:30,231 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:03:30,231 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:03:40,162 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:03:40,162 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:03:40,162 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:05:18,113 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:05:18,113 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:05:18,113 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:05:25,726 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:05:25,726 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:05:25,726 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:10:11,774 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:10:11,774 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:10:11,774 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:10:22,068 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:10:22,068 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:10:22,068 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:12:31,762 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:12:31,762 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:12:31,762 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 02:12:37,064 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:12:37,064 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 02:12:37,064 - TestLogger - INFO - Completed test: test_valid_login

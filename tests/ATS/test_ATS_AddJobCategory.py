@@ -103,7 +103,9 @@ def test_announcements_Setup(browser, fake_data,):
         raise  # Re-raise the AssertionError to mark the test as failed
     # Add Job Category
     ATSPageObject.addCategory_btn().click()
-    ATSPageObject.categorytxtfield().fill('Quality Assurance')
+    ATSPageObject.categorytxtfield().fill('Quality Assurance(Automation)')
+    ATSPageObject.activeCheckBox().click()
+    #ATSPageObject.saveBtn().click()
 
 
     logger.info("Success: Added Job Category")

@@ -42,10 +42,10 @@ def browser():
 def test_360degreefeedback_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_H)
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
-    logger.info("Setting up the test environment(New Hire)")
+    logger.info("Setting up the test environment(360DegreeFeedback)")
     page = browser.new_page()
     login_page = LoginPage(page)
     hr_360degreefeedback = Hr360DegreeFeedback(page)

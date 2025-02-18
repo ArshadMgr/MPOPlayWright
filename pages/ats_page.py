@@ -33,4 +33,11 @@ class ATS(BasePage):
         return self.page.locator('#Body_tbCategory')
 
 
+    def categorytxtfield(self):
+        return self.page.locator('#Body_tbCategory')
+    def activeCheckBox(self):
+        return self.page.get_by_text('Active:')
+
+    def saveBtn(self):
+        return self.page.locator('#Body_UpdatePanel1')
 

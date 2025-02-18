@@ -880,3 +880,33 @@
 2025-02-18 02:12:37,064 - TestLogger - INFO - Completed test: test_valid_login
 2025-02-18 02:12:37,064 - TestLogger - INFO - Completed test: test_valid_login
 2025-02-18 02:12:37,064 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 10:06:39,502 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 10:06:39,502 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 10:06:39,502 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 10:06:49,579 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 10:06:49,579 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 10:06:49,579 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:04:33,883 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:04:33,883 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:04:33,883 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:04:43,065 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:04:43,065 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:04:43,065 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:05:36,497 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-18 12:05:36,497 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-18 12:05:36,497 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-18 12:06:28,621 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:06:28,621 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:06:28,621 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:06:35,012 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:06:35,012 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:06:35,012 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:07:18,546 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-18 12:07:18,546 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-18 12:07:18,546 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-18 12:08:08,236 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:08:08,236 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:08:08,236 - TestLogger - INFO - Setting up the test environment(New Hire)
+2025-02-18 12:08:17,859 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:08:17,859 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 12:08:17,859 - TestLogger - INFO - Completed test: test_valid_login

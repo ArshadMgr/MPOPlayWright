@@ -28,7 +28,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # Path to the Excel file
-excel_file_path = excel_file_path_H
+excel_file_path = excel_file_path_A
 
 @pytest.fixture
 def fake_data():
@@ -59,12 +59,12 @@ holiday_date2 = get_test_data("CompanyHoliday", "D2")
 def test_companyholiday_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_H)
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
 
-    logger.info("Setting up the test environment(New Hire)")
+    logger.info("Setting up the test environment(Company Holidays)")
     page = browser.new_page()
     login_page = LoginPage(page)
     hr_companyholidays = HrCompanyHolidays(page)

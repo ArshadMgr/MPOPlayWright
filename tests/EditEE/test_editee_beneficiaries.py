@@ -15,6 +15,8 @@ from pages.editee_beneficiaries_page import EditBeneficiaries
 from utils.logger import setup_logger
 import time
 import logging
+from utils.config import CredentilasPath_A
+from utils.config import CredentilasPath_H
 import logging
 import pytest
 from cryptography.fernet import Fernet
@@ -48,7 +50,7 @@ def browser():
 def test_newhire_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_H)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 

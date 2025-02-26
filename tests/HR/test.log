@@ -910,3 +910,159 @@
 2025-02-18 12:08:17,859 - TestLogger - INFO - Completed test: test_valid_login
 2025-02-18 12:08:17,859 - TestLogger - INFO - Completed test: test_valid_login
 2025-02-18 12:08:17,859 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 22:14:55,239 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-18 22:14:55,239 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-18 22:14:55,239 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-18 22:15:10,180 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 22:15:10,180 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-18 22:15:10,180 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:21:03,924 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-22 00:21:03,924 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-22 00:21:03,924 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-22 00:21:13,982 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:21:13,982 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:21:13,982 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:22:14,420 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-22 00:22:14,420 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-22 00:22:14,420 - TestLogger - INFO - Setting up the test environment(360DegreeFeedback)
+2025-02-22 00:22:21,672 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:22:21,672 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:22:21,672 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:22:40,048 - TestLogger - INFO - Success: Added 360degreefeedback
+2025-02-22 00:22:40,048 - TestLogger - INFO - Success: Added 360degreefeedback
+2025-02-22 00:22:40,048 - TestLogger - INFO - Success: Added 360degreefeedback
+2025-02-22 00:22:45,632 - TestLogger - INFO - Success: Deleted 360degreefeedback
+2025-02-22 00:22:45,632 - TestLogger - INFO - Success: Deleted 360degreefeedback
+2025-02-22 00:22:45,632 - TestLogger - INFO - Success: Deleted 360degreefeedback
+2025-02-22 00:24:50,032 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-22 00:24:50,032 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-22 00:24:50,032 - TestLogger - INFO - Setting up the test environment(Commenttemplate)
+2025-02-22 00:24:59,162 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:24:59,162 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:24:59,162 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:25:14,477 - TestLogger - INFO - Success: Added Comment Template
+2025-02-22 00:25:14,477 - TestLogger - INFO - Success: Added Comment Template
+2025-02-22 00:25:14,477 - TestLogger - INFO - Success: Added Comment Template
+2025-02-22 00:25:17,858 - TestLogger - INFO - Success: Deleted comment Template
+2025-02-22 00:25:17,858 - TestLogger - INFO - Success: Deleted comment Template
+2025-02-22 00:25:17,858 - TestLogger - INFO - Success: Deleted comment Template
+2025-02-22 00:25:44,852 - TestLogger - INFO - Setting up the test environment(Company Holidays)
+2025-02-22 00:25:44,852 - TestLogger - INFO - Setting up the test environment(Company Holidays)
+2025-02-22 00:25:44,852 - TestLogger - INFO - Setting up the test environment(Company Holidays)
+2025-02-22 00:25:50,566 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:25:50,566 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:25:50,566 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:26:06,354 - TestLogger - INFO - Success: Company holiday added
+2025-02-22 00:26:06,354 - TestLogger - INFO - Success: Company holiday added
+2025-02-22 00:26:06,354 - TestLogger - INFO - Success: Company holiday added
+2025-02-22 00:26:09,736 - TestLogger - INFO - Success: Company holiday updated
+2025-02-22 00:26:09,736 - TestLogger - INFO - Success: Company holiday updated
+2025-02-22 00:26:09,736 - TestLogger - INFO - Success: Company holiday updated
+2025-02-22 00:26:11,654 - TestLogger - INFO - Success: Company holiday updated
+2025-02-22 00:26:11,654 - TestLogger - INFO - Success: Company holiday updated
+2025-02-22 00:26:11,654 - TestLogger - INFO - Success: Company holiday updated
+2025-02-22 00:26:47,511 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-22 00:26:47,511 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-22 00:26:47,511 - TestLogger - INFO - Setting up the test environment(Criteria Library)
+2025-02-22 00:26:52,501 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:26:52,501 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:26:52,501 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:27:11,612 - TestLogger - INFO - Success: Criteria Library added
+2025-02-22 00:27:11,612 - TestLogger - INFO - Success: Criteria Library added
+2025-02-22 00:27:11,612 - TestLogger - INFO - Success: Criteria Library added
+2025-02-22 00:27:12,187 - TestLogger - INFO - Success: Criteria Library deleted
+2025-02-22 00:27:12,187 - TestLogger - INFO - Success: Criteria Library deleted
+2025-02-22 00:27:12,187 - TestLogger - INFO - Success: Criteria Library deleted
+2025-02-22 00:27:35,640 - TestLogger - INFO - Setting up the test environment(Employeee Succession)
+2025-02-22 00:27:35,640 - TestLogger - INFO - Setting up the test environment(Employeee Succession)
+2025-02-22 00:27:35,640 - TestLogger - INFO - Setting up the test environment(Employeee Succession)
+2025-02-22 00:27:40,729 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:27:40,729 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:27:40,729 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:28:11,296 - TestLogger - INFO - Success: Success Added employee Succession
+2025-02-22 00:28:11,296 - TestLogger - INFO - Success: Success Added employee Succession
+2025-02-22 00:28:11,296 - TestLogger - INFO - Success: Success Added employee Succession
+2025-02-22 00:28:13,869 - TestLogger - INFO - Success: Deleted emplyee sucession
+2025-02-22 00:28:13,869 - TestLogger - INFO - Success: Deleted emplyee sucession
+2025-02-22 00:28:13,869 - TestLogger - INFO - Success: Deleted emplyee sucession
+2025-02-22 00:28:45,912 - TestLogger - INFO - Setting up the test environment(Employee Warning)
+2025-02-22 00:28:45,912 - TestLogger - INFO - Setting up the test environment(Employee Warning)
+2025-02-22 00:28:45,912 - TestLogger - INFO - Setting up the test environment(Employee Warning)
+2025-02-22 00:28:50,693 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:28:50,693 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:28:50,693 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:29:53,094 - TestLogger - INFO - Setting up the test environment(Kudos Settings)
+2025-02-22 00:29:53,094 - TestLogger - INFO - Setting up the test environment(Kudos Settings)
+2025-02-22 00:29:53,094 - TestLogger - INFO - Setting up the test environment(Kudos Settings)
+2025-02-22 00:30:00,217 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:30:00,217 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:30:00,217 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:30:43,509 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-22 00:30:43,509 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-22 00:30:43,509 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-22 00:32:36,701 - TestLogger - INFO - Setting up the test environment(Kudos Settings)
+2025-02-22 00:32:36,701 - TestLogger - INFO - Setting up the test environment(Kudos Settings)
+2025-02-22 00:32:36,701 - TestLogger - INFO - Setting up the test environment(Kudos Settings)
+2025-02-22 00:32:43,160 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:32:43,160 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:32:43,160 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:33:23,658 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-22 00:33:23,658 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-22 00:33:23,658 - TestLogger - INFO - Success: Added Kudos Settings
+2025-02-22 00:33:57,514 - TestLogger - INFO - Setting up the test environment(OKR)
+2025-02-22 00:33:57,514 - TestLogger - INFO - Setting up the test environment(OKR)
+2025-02-22 00:33:57,514 - TestLogger - INFO - Setting up the test environment(OKR)
+2025-02-22 00:34:02,325 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:34:02,325 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:34:02,325 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:35:24,048 - TestLogger - INFO - Setting up the test environment(Performance Journal)
+2025-02-22 00:35:24,048 - TestLogger - INFO - Setting up the test environment(Performance Journal)
+2025-02-22 00:35:24,048 - TestLogger - INFO - Setting up the test environment(Performance Journal)
+2025-02-22 00:35:28,984 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:35:28,984 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:35:28,984 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:35:55,261 - TestLogger - INFO - Success: Added performance journal
+2025-02-22 00:35:55,261 - TestLogger - INFO - Success: Added performance journal
+2025-02-22 00:35:55,261 - TestLogger - INFO - Success: Added performance journal
+2025-02-22 00:35:57,719 - TestLogger - INFO - Success: Deleted perofrmance journal
+2025-02-22 00:35:57,719 - TestLogger - INFO - Success: Deleted perofrmance journal
+2025-02-22 00:35:57,719 - TestLogger - INFO - Success: Deleted perofrmance journal
+2025-02-22 00:36:16,369 - TestLogger - INFO - Setting up the test environment(Performance Review)
+2025-02-22 00:36:16,369 - TestLogger - INFO - Setting up the test environment(Performance Review)
+2025-02-22 00:36:16,369 - TestLogger - INFO - Setting up the test environment(Performance Review)
+2025-02-22 00:36:21,855 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:36:21,855 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:36:21,855 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 00:36:40,690 - TestLogger - INFO - Success: Added performance review checklist
+2025-02-22 00:36:40,690 - TestLogger - INFO - Success: Added performance review checklist
+2025-02-22 00:36:40,690 - TestLogger - INFO - Success: Added performance review checklist
+2025-02-22 00:36:42,653 - TestLogger - INFO - Success: Updated performance review checklist
+2025-02-22 00:36:42,653 - TestLogger - INFO - Success: Updated performance review checklist
+2025-02-22 00:36:42,653 - TestLogger - INFO - Success: Updated performance review checklist
+2025-02-22 00:36:46,169 - TestLogger - INFO - Success: Deleted performance view checklist
+2025-02-22 00:36:46,169 - TestLogger - INFO - Success: Deleted performance view checklist
+2025-02-22 00:36:46,169 - TestLogger - INFO - Success: Deleted performance view checklist
+2025-02-22 01:21:49,455 - TestLogger - INFO - Setting up the test environment(Review Workflow)
+2025-02-22 01:21:49,455 - TestLogger - INFO - Setting up the test environment(Review Workflow)
+2025-02-22 01:21:49,455 - TestLogger - INFO - Setting up the test environment(Review Workflow)
+2025-02-22 01:21:59,079 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 01:21:59,079 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 01:21:59,079 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 01:22:17,477 - TestLogger - INFO - Success: Added review workflow
+2025-02-22 01:22:17,477 - TestLogger - INFO - Success: Added review workflow
+2025-02-22 01:22:17,477 - TestLogger - INFO - Success: Added review workflow
+2025-02-22 01:22:20,329 - TestLogger - INFO - Success: Deleted review workflow
+2025-02-22 01:22:20,329 - TestLogger - INFO - Success: Deleted review workflow
+2025-02-22 01:22:20,329 - TestLogger - INFO - Success: Deleted review workflow
+2025-02-22 01:22:38,948 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-02-22 01:22:38,948 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-02-22 01:22:38,948 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-02-22 01:22:46,201 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 01:22:46,201 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 01:22:46,201 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-22 01:23:03,071 - TestLogger - INFO - Success: Added anouncement
+2025-02-22 01:23:03,071 - TestLogger - INFO - Success: Added anouncement
+2025-02-22 01:23:03,071 - TestLogger - INFO - Success: Added anouncement
+2025-02-22 01:23:04,970 - TestLogger - INFO - Success: Deleted announcement
+2025-02-22 01:23:04,970 - TestLogger - INFO - Success: Deleted announcement
+2025-02-22 01:23:04,970 - TestLogger - INFO - Success: Deleted announcement

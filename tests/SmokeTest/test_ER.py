@@ -12,6 +12,8 @@ from utils.config import USERNAME
 from pages.login_page import LoginPage
 from utils.logger import setup_logger
 import time
+from utils.config import CredentilasPath_A
+from utils.config import CredentilasPath_H
 
 logger = setup_logger()
 
@@ -25,7 +27,7 @@ def browser():
 
 def test_setup(browser):
     mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 
@@ -58,9 +60,18 @@ def test_setup(browser):
 
     logger.info("Starting test: test_Page_Crashes")
     page.goto(BASE_URL + "/Sys/EmployerManager/Employees/NewHireReport.aspx")
-    assert "New Hire Report" in page.title()
+
+    if "New Hire Report" not in page.title():
+        page.screenshot(path="New_Hire_Report.png")
+        assert False, "Title does not contain 'New Hire Report'"
+
+
     page.goto(BASE_URL + "/Sys/EmployerManager/Employees/EditEmployees.aspx")
-    assert "Edit Employees" in page.title()
+
+    if "Edit Employees" not in page.title():
+        page.screenshot(path="Edit_Employees.png")
+        assert False, "Title does not contain 'Edit Employees'"
+
     page.goto(BASE_URL + "/Sys/EmployerManager/Employees/TerminateEmployee.aspx")
     page.goto(BASE_URL + "/Sys/EmployerManager/Employees/TerminationReport.aspx")
     page.goto(BASE_URL + "/Sys/Common/UserManagement/ManagerAssignment.aspx")

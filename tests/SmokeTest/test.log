@@ -1,0 +1,12 @@
+2025-02-27 15:53:27,704 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-02-27 15:53:27,704 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-02-27 15:53:44,527 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-27 15:53:44,527 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-27 15:53:54,548 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-02-27 15:53:54,548 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-02-27 16:24:06,437 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-02-27 16:24:06,437 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-02-27 16:24:21,975 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-27 16:24:21,975 - TestLogger - INFO - Completed test: test_valid_login
+2025-02-27 16:24:31,991 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-02-27 16:24:31,991 - TestLogger - INFO - Starting test: test_Page_Crashes

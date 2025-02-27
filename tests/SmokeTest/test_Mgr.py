@@ -2,7 +2,8 @@ from cryptography.fernet import Fernet
 from playwright.sync_api import sync_playwright
 from playwright.sync_api import Page
 import pytest
-
+from utils.config import CredentilasPath_A
+from utils.config import CredentilasPath_H
 from Payload.login import Login
 from Payload.new_hire import NewHire
 from utils.config import BASE_URL
@@ -25,7 +26,7 @@ def browser():
 
 def test_setup(browser):
     mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 

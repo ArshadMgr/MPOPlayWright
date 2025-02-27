@@ -22,7 +22,8 @@ from cryptography.fernet import Fernet
 from Payload.security import generate_key, save_credentials_to_file, encrypt_message, load_credentials_from_file
 from  Payload.data_validation import validate_username, validate_email, validate_age
 from Payload.ai_validation_helper import validate_with_openai
-
+from utils.config import CredentilasPath_A
+from utils.config import CredentilasPath_H
 logger = setup_logger()
 # Setup logger
 logger = logging.getLogger("TestLogger")
@@ -49,7 +50,7 @@ def browser():
 def test_newhire_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
         mpologin = Login()
-    key, encrypted_password = mpologin.load_credentials_from_file("credentials.txt")
+    key, encrypted_password = mpologin.load_credentials_from_file(CredentilasPath_A)
 
     decrypted_password = mpologin.decrypt_message(encrypted_password, key)
 

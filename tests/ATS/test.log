@@ -154,3 +154,65 @@
 2025-02-10 17:32:23,446 - TestLogger - INFO - Success: Added Job Category
 2025-02-10 17:32:23,446 - TestLogger - INFO - Success: Added Job Category
 2025-02-10 17:32:23,446 - TestLogger - INFO - Success: Added Job Category
+2025-03-06 11:34:09,022 - TestLogger - INFO - Setting up the test environment for Employer
+2025-03-06 11:34:09,022 - TestLogger - INFO - Setting up the test environment for Employer
+2025-03-06 11:34:19,128 - TestLogger - INFO - Setting up the test environment for Manager
+2025-03-06 11:34:19,128 - TestLogger - INFO - Setting up the test environment for Manager
+2025-03-06 11:34:29,501 - TestLogger - INFO - Setting up the test environment for Employee
+2025-03-06 11:34:29,501 - TestLogger - INFO - Setting up the test environment for Employee
+2025-03-06 11:36:54,781 - TestLogger - INFO - Setting up the test environment for Employer
+2025-03-06 11:36:54,781 - TestLogger - INFO - Setting up the test environment for Employer
+2025-03-06 11:37:18,932 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHireReport.aspx | Time: 4.02s
+2025-03-06 11:37:18,932 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHireReport.aspx | Time: 4.02s
+2025-03-06 11:37:23,438 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/EditEmployees.aspx | Time: 4.50s
+2025-03-06 11:37:23,438 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/EditEmployees.aspx | Time: 4.50s
+2025-03-06 11:37:25,147 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/TerminateEmployee.aspx | Time: 1.71s
+2025-03-06 11:37:25,147 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/TerminateEmployee.aspx | Time: 1.71s
+2025-03-06 11:37:26,974 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/TerminationReport.aspx | Time: 1.83s
+2025-03-06 11:37:26,974 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/TerminationReport.aspx | Time: 1.83s
+2025-03-06 11:37:28,662 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Common/UserManagement/ManagerAssignment.aspx | Time: 1.69s
+2025-03-06 11:37:28,662 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Common/UserManagement/ManagerAssignment.aspx | Time: 1.69s
+2025-03-06 11:37:30,515 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Common/CompanyManagement/CompanyLevelsHierarchy.aspx | Time: 1.85s
+2025-03-06 11:37:30,515 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Common/CompanyManagement/CompanyLevelsHierarchy.aspx | Time: 1.85s
+2025-03-06 11:37:31,939 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/Employees/JobTitles.aspx | Time: 1.42s
+2025-03-06 11:37:31,939 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/Employees/JobTitles.aspx | Time: 1.42s
+2025-03-06 11:37:34,537 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/WelcomeEmail/WelcomeEmailReport.aspx | Time: 2.60s
+2025-03-06 11:37:34,537 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/WelcomeEmail/WelcomeEmailReport.aspx | Time: 2.60s
+2025-03-06 11:37:36,970 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/Onboarding/OnboardingReport.aspx | Time: 2.43s
+2025-03-06 11:37:36,970 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/Onboarding/OnboardingReport.aspx | Time: 2.43s
+2025-03-06 11:37:38,373 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/Onboarding/OnboardingTemplateSettings.aspx | Time: 1.40s
+2025-03-06 11:37:38,373 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employer/Onboarding/OnboardingTemplateSettings.aspx | Time: 1.40s
+2025-03-06 11:37:41,586 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 3.21s
+2025-03-06 11:37:41,586 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 3.21s
+2025-03-06 11:37:41,587 - TestLogger - INFO - Load times saved to Employer_page_load_times.csv
+2025-03-06 11:37:41,587 - TestLogger - INFO - Load times saved to Employer_page_load_times.csv
+2025-03-06 11:37:44,502 - TestLogger - INFO - Setting up the test environment for Manager
+2025-03-06 11:37:44,502 - TestLogger - INFO - Setting up the test environment for Manager
+2025-03-06 11:38:07,369 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHire.aspx | Time: 3.75s
+2025-03-06 11:38:07,369 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHire.aspx | Time: 3.75s
+2025-03-06 11:38:09,255 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHireReport.aspx | Time: 1.89s
+2025-03-06 11:38:09,255 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/EmployerManager/Employees/NewHireReport.aspx | Time: 1.89s
+2025-03-06 11:38:10,970 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Manager/HR/EmployeeNotesReport.aspx | Time: 1.71s
+2025-03-06 11:38:10,970 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Manager/HR/EmployeeNotesReport.aspx | Time: 1.71s
+2025-03-06 11:38:12,581 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Manager/HR/EquipmentReport.aspx | Time: 1.61s
+2025-03-06 11:38:12,581 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Manager/HR/EquipmentReport.aspx | Time: 1.61s
+2025-03-06 11:38:15,513 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 2.93s
+2025-03-06 11:38:15,513 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 2.93s
+2025-03-06 11:38:15,514 - TestLogger - INFO - Load times saved to Manager_page_load_times.csv
+2025-03-06 11:38:15,514 - TestLogger - INFO - Load times saved to Manager_page_load_times.csv
+2025-03-06 11:38:18,768 - TestLogger - INFO - Setting up the test environment for Employee
+2025-03-06 11:38:18,768 - TestLogger - INFO - Setting up the test environment for Employee
+2025-03-06 11:38:37,973 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/EmployeeNotes.aspx | Time: 1.44s
+2025-03-06 11:38:37,973 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/EmployeeNotes.aspx | Time: 1.44s
+2025-03-06 11:38:39,527 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/EmployeeSkills.aspx | Time: 1.55s
+2025-03-06 11:38:39,527 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/EmployeeSkills.aspx | Time: 1.55s
+2025-03-06 11:38:40,887 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/EmployeeUserAccounts.aspx | Time: 1.36s
+2025-03-06 11:38:40,887 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/EmployeeUserAccounts.aspx | Time: 1.36s
+2025-03-06 11:38:42,318 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/Demographics.aspx | Time: 1.43s
+2025-03-06 11:38:42,318 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Employee/Demographics.aspx | Time: 1.43s
+2025-03-06 11:38:45,509 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Common/MessageCenter/Messages.aspx | Time: 3.19s
+2025-03-06 11:38:45,509 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/Common/MessageCenter/Messages.aspx | Time: 3.19s
+2025-03-06 11:38:47,368 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 1.86s
+2025-03-06 11:38:47,368 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 1.86s
+2025-03-06 11:38:47,369 - TestLogger - INFO - Load times saved to Employee_page_load_times.csv
+2025-03-06 11:38:47,369 - TestLogger - INFO - Load times saved to Employee_page_load_times.csv

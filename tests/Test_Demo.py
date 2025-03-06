@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from playwright.sync_api import sync_playwright
 
@@ -10,15 +12,17 @@ def browser():
         browser.close()
 
 
-def test_visit_google(browser):
+def test_rahulshettyacademy(browser):
     context = browser.new_context()
     page = context.new_page()
 
-    # Navigate to Google
-    page.goto("https://www.google.com")
+    # Navigate to website
+    page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+    page.locator('//input[@id="username"]').fill("rahulshettyacademy");
+    time.sleep(2)
+    page.locator('//input[@id="password"]').fill("learning");
+    time.sleep(2)
+    page.locator('//input[@id="signInBtn"]').click();
 
-    if "Google" not in page.title():
-        page.screenshot(path="google_homepage.png")
-        assert False, "Title does not contain 'Google'"
-
-    context.close()
+    #context.close()
+    page.pause()

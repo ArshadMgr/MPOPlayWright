@@ -1,0 +1,82 @@
+2025-03-06 11:00:56,627 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:00:56,627 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:01:06,574 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:01:06,574 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:01:16,596 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:01:16,596 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:01:48,147 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:01:48,147 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:01:54,337 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:01:54,337 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:04:36,074 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:04:36,074 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:04:36,074 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:04:46,352 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:04:46,352 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:04:46,352 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:04:56,376 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:04:56,376 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:04:56,376 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:05:25,808 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:05:25,808 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:05:25,808 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:05:34,184 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:05:34,184 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:05:34,184 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:05:56,520 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:05:56,520 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:05:56,520 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:06:03,359 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:06:03,359 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:06:03,359 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:17:11,563 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:17:11,563 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:17:11,563 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:17:20,487 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:17:20,487 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:17:20,487 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:17:30,506 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:17:30,506 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:17:30,506 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:18:01,050 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:18:01,050 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:18:01,050 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:18:10,550 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:18:10,550 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:18:10,550 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:18:34,639 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:18:34,639 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:18:34,639 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:18:41,286 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:18:41,286 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:18:41,286 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:19:25,486 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:19:25,486 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:19:25,486 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:19:59,083 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:19:59,083 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:19:59,083 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:20:29,904 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:20:29,904 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:20:29,904 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:22:41,529 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:22:41,529 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:22:41,529 - TestLogger - INFO - Setting up the test environment(ER)
+2025-03-06 11:22:50,827 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:22:50,827 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:22:50,827 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:23:00,839 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:23:00,839 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:23:00,839 - TestLogger - INFO - Starting test: test_Page_Crashes
+2025-03-06 11:23:34,441 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:23:34,441 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:23:34,441 - TestLogger - INFO - Setting up the test environment(Manager)
+2025-03-06 11:23:44,923 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:23:44,923 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:23:44,923 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:24:13,715 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:24:13,715 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:24:13,715 - TestLogger - INFO - Setting up the test environment(Demo)
+2025-03-06 11:24:20,842 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:24:20,842 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-06 11:24:20,842 - TestLogger - INFO - Completed test: test_valid_login

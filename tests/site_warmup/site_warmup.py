@@ -13,7 +13,7 @@ logger = setup_logger()
 @pytest.fixture(scope="function")
 def browser():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         yield browser
 
 def measure_page_load(page, url):

@@ -216,3 +216,57 @@
 2025-03-06 11:38:47,368 - TestLogger - INFO - Loaded: https://mypaperlessoffice.com/app/Sys/UserProfile.aspx | Time: 1.86s
 2025-03-06 11:38:47,369 - TestLogger - INFO - Load times saved to Employee_page_load_times.csv
 2025-03-06 11:38:47,369 - TestLogger - INFO - Load times saved to Employee_page_load_times.csv
+2025-03-06 12:06:00,716 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:06:00,716 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:09:23,468 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:09:23,468 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:09:34,081 - TestLogger - INFO - Successfully logged in.
+2025-03-06 12:09:34,081 - TestLogger - INFO - Successfully logged in.
+2025-03-06 12:09:34,081 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-06 12:09:34,081 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-06 12:09:38,428 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-06 12:09:38,428 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-06 12:09:43,785 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-06 12:09:43,785 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-06 12:17:32,233 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:17:32,233 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:17:43,060 - TestLogger - INFO - Successfully logged in.
+2025-03-06 12:17:43,060 - TestLogger - INFO - Successfully logged in.
+2025-03-06 12:17:43,061 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-06 12:17:43,061 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-06 12:17:47,045 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-06 12:17:47,045 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-06 12:17:52,614 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-06 12:17:52,614 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-06 12:17:55,585 - TestLogger - INFO - Successfully verified: Employee Termination
+2025-03-06 12:17:55,585 - TestLogger - INFO - Successfully verified: Employee Termination
+2025-03-06 12:18:14,749 - TestLogger - INFO - Successfully verified: Performance Review Dashboard
+2025-03-06 12:18:14,749 - TestLogger - INFO - Successfully verified: Performance Review Dashboard
+2025-03-06 12:18:17,886 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-06 12:18:17,886 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-06 12:18:48,449 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:18:48,449 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-06 12:18:57,721 - TestLogger - INFO - Successfully logged in.
+2025-03-06 12:18:57,721 - TestLogger - INFO - Successfully logged in.
+2025-03-06 12:18:57,721 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-06 12:18:57,721 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-06 12:19:00,898 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-06 12:19:00,898 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-06 12:19:06,493 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-06 12:19:06,493 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-06 12:19:09,476 - TestLogger - INFO - Successfully verified: Employee Termination
+2025-03-06 12:19:09,476 - TestLogger - INFO - Successfully verified: Employee Termination
+2025-03-06 12:19:26,645 - TestLogger - INFO - Successfully verified: Performance Review Dashboard
+2025-03-06 12:19:26,645 - TestLogger - INFO - Successfully verified: Performance Review Dashboard
+2025-03-06 12:19:29,583 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-06 12:19:29,583 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-06 12:19:32,437 - TestLogger - INFO - Successfully verified: Time Off Request
+2025-03-06 12:19:32,437 - TestLogger - INFO - Successfully verified: Time Off Request
+2025-03-06 12:19:37,429 - TestLogger - INFO - Successfully verified: File Cabinet
+2025-03-06 12:19:37,429 - TestLogger - INFO - Successfully verified: File Cabinet
+2025-03-06 12:19:40,190 - TestLogger - INFO - Successfully verified: Pay History
+2025-03-06 12:19:40,190 - TestLogger - INFO - Successfully verified: Pay History
+2025-03-06 12:19:42,745 - TestLogger - INFO - Successfully verified: Sync Change Report
+2025-03-06 12:19:42,745 - TestLogger - INFO - Successfully verified: Sync Change Report
+2025-03-06 12:19:42,745 - TestLogger - INFO - Test completed successfully.
+2025-03-06 12:19:42,745 - TestLogger - INFO - Test completed successfully.

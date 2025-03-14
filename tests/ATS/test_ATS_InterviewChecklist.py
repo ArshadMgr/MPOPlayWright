@@ -12,7 +12,7 @@ from utils.config import excel_file_path_H
 from utils.config import CredentilasPath_A
 from utils.config import CredentilasPath_H
 from pages.login_page import LoginPage
-from pages.ats_page import ATS
+from pages.ats_interviewchecklist_page import InterviewChecklist
 from utils.logger import setup_logger
 import time
 import logging
@@ -53,10 +53,9 @@ def get_test_data(sheet_name, cell_reference):
     return data
 
 # Fetch test data from the Excel file
-summary = get_test_data("ViewAnnouncements", "A2")
-release_date = get_test_data("ViewAnnouncements", "B2")
-release_time = get_test_data("ViewAnnouncements", "C2")
-description = get_test_data("ViewAnnouncements", "D2")
+checklist_name = get_test_data("InterviewLists", "A2")
+interviewer_instructions = get_test_data("InterviewLists", "B2")
+question = get_test_data("InterviewLists", "C2")
 
 def test_announcements_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
@@ -69,7 +68,7 @@ def test_announcements_Setup(browser, fake_data,):
     logger.info("Setting up the test environment(Add Job Category)")
     page = browser.new_page()
     login_page = LoginPage(page)
-    ATSPageObject = ATS(page)
+    ATSIC = InterviewChecklist(page)
     login_page.navigate(BASE_URL + '/login.aspx')
 
     login_page.enter_username(USERNAME)
@@ -93,24 +92,77 @@ def test_announcements_Setup(browser, fake_data,):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-
-    ATSPageObject.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/JobPostsSettings.aspx')
+    ATSIC.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/ManageInterviewsChecklists.aspx')
     try:
-        assert ATSPageObject.verify_page_title("Manage Jobs")
+        assert ATSIC.verify_page_title("Interview Checklists")
     except AssertionError:
         # Capture a screenshot on assertion failure
         page.screenshot(path=os.path.join("../screenshots", "AssertionError.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
-    # Add Job Category
-    ATSPageObject.addCategory_btn().click()
-    ATSPageObject.categorytxtfield().fill('Quality Assurance(Automation)')
-    ATSPageObject.activeCheckBox().click()
-    #ATSPageObject.saveBtn().click()
 
 
-    logger.info("Success: Added Job Category")
+    # Interview CheckLists
+    ATSIC.interview_tab().click()
+    ATSIC.add_interviewlist().click()
+    ATSIC.checklist_name().fill(checklist_name)
+    ATSIC.associate_job().click()
+    ATSIC.enter_associate_job().fill("Hr Manager")
+    ATSIC.enter_associate_job().press("Enter")
+    ATSIC.interviewer_instructions().fill(interviewer_instructions)
+    ATSIC.active().click()
+    ATSIC.save().click()
+    time.sleep(2)
+    #add Question
+    ATSIC.add_question().click()
+    ATSIC.question().fill(question)
+    ATSIC.active1().click()
+    ATSIC.save().click()
+    time.sleep(2)
+    ATSIC.save_sort().click()
+    time.sleep(2)
+    ATSIC.cancel().click()
+    time.sleep(2)
 
+    # Interview
+    ATSIC.schedule_interview().click()
+    ATSIC.interview_list().click()
+    ATSIC.select_interview_list().fill("Testing list")
+    ATSIC.select_interview_list().press("Enter")
+    time.sleep(2)
+    ATSIC.applicant().click()
+    ATSIC.select_applicant().fill("John")
+    ATSIC.select_applicant().press("Enter")
+    time.sleep(2)
+    ATSIC.interview_date().click()
+    ATSIC.interview_date().fill("8/21/2025 12:57 am")
+    ATSIC.interview_date().press("Enter")
+    time.sleep(2)
+    ATSIC.interviewer_list().click()
+    ATSIC.select_interviewer().click()
+    ATSIC.close_list().click()
+    time.sleep(2)
+    ATSIC.location().click()
+    ATSIC.location_select().fill("ALA")
+    ATSIC.location_select().press("Enter")
+    time.sleep(2)
+    ATSIC.interviewer_list().click()
+    ATSIC.select_interviewer().click()
+    ATSIC.close_list().click()
+    time.sleep(2)
+    ATSIC.schedule_done().click()
 
+    #Delete Section
+    time.sleep(2)
+    ATSIC.search_date().fill("8/21/2025")
+    ATSIC.search().click()
+    time.sleep(2)
+    ATSIC.delete().click()
+    ATSIC.yes().click()
+    time.sleep(2)
 
-
-    page.pause()
+    page.goto("https://mypaperlessoffice.com/app/Sys/EmployerManager/ApplicantTrackingSystem/ManageInterviewsChecklists.aspx")
+    ATSIC.interview_tab().click()
+    time.sleep(2)
+    ATSIC.delete_list().click()
+    ATSIC.yes().click()
+    time.sleep(2)

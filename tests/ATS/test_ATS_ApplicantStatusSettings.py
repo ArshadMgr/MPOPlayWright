@@ -12,7 +12,7 @@ from utils.config import excel_file_path_H
 from utils.config import CredentilasPath_A
 from utils.config import CredentilasPath_H
 from pages.login_page import LoginPage
-from pages.ats_page import ATS
+from pages.ats_applicantstatussettings_page import ApplicantStatusSettings
 from utils.logger import setup_logger
 import time
 import logging
@@ -52,11 +52,6 @@ def get_test_data(sheet_name, cell_reference):
     workbook.close()
     return data
 
-# Fetch test data from the Excel file
-summary = get_test_data("ViewAnnouncements", "A2")
-release_date = get_test_data("ViewAnnouncements", "B2")
-release_time = get_test_data("ViewAnnouncements", "C2")
-description = get_test_data("ViewAnnouncements", "D2")
 
 def test_announcements_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
@@ -69,7 +64,7 @@ def test_announcements_Setup(browser, fake_data,):
     logger.info("Setting up the test environment(Add Job Category)")
     page = browser.new_page()
     login_page = LoginPage(page)
-    ATSPageObject = ATS(page)
+    ATSSS = ApplicantStatusSettings(page)
     login_page.navigate(BASE_URL + '/login.aspx')
 
     login_page.enter_username(USERNAME)
@@ -93,24 +88,28 @@ def test_announcements_Setup(browser, fake_data,):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-
-    ATSPageObject.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/JobPostsSettings.aspx')
+    ATSSS.navigate(BASE_URL + '/Sys/Employer/ApplicantTrackingSystem/JobPostingStageSettings.aspx')
     try:
-        assert ATSPageObject.verify_page_title("Manage Jobs")
+        assert ATSSS.verify_page_title("Applicant Status Settings")
     except AssertionError:
         # Capture a screenshot on assertion failure
         page.screenshot(path=os.path.join("../screenshots", "AssertionError.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
-    # Add Job Category
-    ATSPageObject.addCategory_btn().click()
-    ATSPageObject.categorytxtfield().fill('Quality Assurance(Automation)')
-    ATSPageObject.activeCheckBox().click()
-    #ATSPageObject.saveBtn().click()
+
+    # Add Quiz section
+    ATSSS.add_stage().click()
+    ATSSS.select_job_title().click()
+    ATSSS.enter_job_title().fill("sqa")
+    ATSSS.enter_job_title().press("Enter")
+    ATSSS.enter_stage().click()
+    ATSSS.enter_stage_title().fill("interview")
+    ATSSS.enter_stage_title().press("Enter")
+    time.sleep(2)
+    ATSSS.save().click()
+
+    #Delete Section
+    ATSSS.delete().click()
+    ATSSS.yes().click()
 
 
-    logger.info("Success: Added Job Category")
 
-
-
-
-    page.pause()

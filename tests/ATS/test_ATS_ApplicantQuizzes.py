@@ -12,7 +12,7 @@ from utils.config import excel_file_path_H
 from utils.config import CredentilasPath_A
 from utils.config import CredentilasPath_H
 from pages.login_page import LoginPage
-from pages.ats_page import ATS
+from pages.ats_applicantquizzes_page import ApplicantQuizzes
 from utils.logger import setup_logger
 import time
 import logging
@@ -53,10 +53,11 @@ def get_test_data(sheet_name, cell_reference):
     return data
 
 # Fetch test data from the Excel file
-summary = get_test_data("ViewAnnouncements", "A2")
-release_date = get_test_data("ViewAnnouncements", "B2")
-release_time = get_test_data("ViewAnnouncements", "C2")
-description = get_test_data("ViewAnnouncements", "D2")
+quiz_name = get_test_data("Quiz", "A3")
+score = get_test_data("Quiz", "B3")
+description = get_test_data("Quiz", "C3")
+question = get_test_data("Quiz", "D3")
+question_score = get_test_data("Quiz", "E3")
 
 def test_announcements_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
@@ -69,7 +70,7 @@ def test_announcements_Setup(browser, fake_data,):
     logger.info("Setting up the test environment(Add Job Category)")
     page = browser.new_page()
     login_page = LoginPage(page)
-    ATSPageObject = ATS(page)
+    ATSAQ = ApplicantQuizzes(page)
     login_page.navigate(BASE_URL + '/login.aspx')
 
     login_page.enter_username(USERNAME)
@@ -93,24 +94,27 @@ def test_announcements_Setup(browser, fake_data,):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-
-    ATSPageObject.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/JobPostsSettings.aspx')
+    ATSAQ.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/Quizzes.aspx')
     try:
-        assert ATSPageObject.verify_page_title("Manage Jobs")
+        assert ATSAQ.verify_page_title("Applicant Quizzes")
     except AssertionError:
         # Capture a screenshot on assertion failure
         page.screenshot(path=os.path.join("../screenshots", "AssertionError.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
-    # Add Job Category
-    ATSPageObject.addCategory_btn().click()
-    ATSPageObject.categorytxtfield().fill('Quality Assurance(Automation)')
-    ATSPageObject.activeCheckBox().click()
-    #ATSPageObject.saveBtn().click()
 
+    # Add Quiz
+    ATSAQ.add_quiz().click()
+    ATSAQ.quiz_name().fill(quiz_name)
+    ATSAQ.score().fill(score)
+    ATSAQ.description().fill(description)
+    ATSAQ.save().click()
+    time.sleep(2)
+    ATSAQ.question().fill(question)
+    ATSAQ.question_score().fill(question_score)
+    ATSAQ.save_question().click()
+    ATSAQ.back().click()
+    time.sleep(2)
 
-    logger.info("Success: Added Job Category")
-
-
-
-
-    page.pause()
+    #Delete Quiz
+    ATSAQ.delete().click()
+    ATSAQ.yes().click()

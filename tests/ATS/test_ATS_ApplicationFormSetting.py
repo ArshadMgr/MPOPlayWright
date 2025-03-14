@@ -12,7 +12,7 @@ from utils.config import excel_file_path_H
 from utils.config import CredentilasPath_A
 from utils.config import CredentilasPath_H
 from pages.login_page import LoginPage
-from pages.ats_page import ATS
+from pages.ats_applicationformsetting_page import ApplicationFormSetting
 from utils.logger import setup_logger
 import time
 import logging
@@ -53,10 +53,9 @@ def get_test_data(sheet_name, cell_reference):
     return data
 
 # Fetch test data from the Excel file
-summary = get_test_data("ViewAnnouncements", "A2")
-release_date = get_test_data("ViewAnnouncements", "B2")
-release_time = get_test_data("ViewAnnouncements", "C2")
-description = get_test_data("ViewAnnouncements", "D2")
+form_name = get_test_data("ApplicationFormSetting", "A2")
+field_name = get_test_data("ApplicationFormSetting", "B2")
+
 
 def test_announcements_Setup(browser, fake_data,):
     with SoftAssertContext() as soft_assert:
@@ -69,7 +68,7 @@ def test_announcements_Setup(browser, fake_data,):
     logger.info("Setting up the test environment(Add Job Category)")
     page = browser.new_page()
     login_page = LoginPage(page)
-    ATSPageObject = ATS(page)
+    ATSFS = ApplicationFormSetting(page)
     login_page.navigate(BASE_URL + '/login.aspx')
 
     login_page.enter_username(USERNAME)
@@ -93,24 +92,26 @@ def test_announcements_Setup(browser, fake_data,):
     userPayload.setFirstName("CharlesCR")
     assert userPayload.getFirstName() == "CharlesCR"
 
-
-    ATSPageObject.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/JobPostsSettings.aspx')
+    ATSFS.navigate(BASE_URL + '/Sys/EmployerManager/ApplicantTrackingSystem/ApplicationFormSettings.aspx')
     try:
-        assert ATSPageObject.verify_page_title("Manage Jobs")
+        assert ATSFS.verify_page_title("Application Form Settings")
     except AssertionError:
         # Capture a screenshot on assertion failure
         page.screenshot(path=os.path.join("../screenshots", "AssertionError.jpg"))
         raise  # Re-raise the AssertionError to mark the test as failed
-    # Add Job Category
-    ATSPageObject.addCategory_btn().click()
-    ATSPageObject.categorytxtfield().fill('Quality Assurance(Automation)')
-    ATSPageObject.activeCheckBox().click()
-    #ATSPageObject.saveBtn().click()
 
-
-    logger.info("Success: Added Job Category")
-
-
-
-
-    page.pause()
+    # Add Quiz section
+    ATSFS.add_form().click()
+    ATSFS.form_name().fill(form_name)
+    ATSFS.save().click()
+    time.sleep(3)
+    ATSFS.add_new_field().click()
+    ATSFS.field_name().fill(field_name)
+    ATSFS.save_field().click()
+    ATSFS.save_order().click()
+    ATSFS.cancel().click()
+    time.sleep(2)
+    ATSFS.active().click()
+    time.sleep(2)
+    ATSFS.delete().click()
+    ATSFS.yes().click()

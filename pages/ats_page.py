@@ -39,5 +39,5 @@ class ATS(BasePage):
         return self.page.get_by_text('Active:')
 
     def saveBtn(self):
-        return self.page.locator('#Body_UpdatePanel1')
+        return self.page.locator('#Body_btnSaveCategory')
 

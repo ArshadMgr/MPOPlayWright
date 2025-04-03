@@ -1066,3 +1066,27 @@
 2025-02-22 01:23:04,970 - TestLogger - INFO - Success: Deleted announcement
 2025-02-22 01:23:04,970 - TestLogger - INFO - Success: Deleted announcement
 2025-02-22 01:23:04,970 - TestLogger - INFO - Success: Deleted announcement
+2025-03-15 10:55:36,740 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-03-15 10:55:36,740 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-03-15 10:55:36,740 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-03-15 10:55:47,738 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-15 10:55:47,738 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-15 10:55:47,738 - TestLogger - INFO - Completed test: test_valid_login
+2025-03-15 10:56:05,247 - TestLogger - INFO - Success: Added anouncement
+2025-03-15 10:56:05,247 - TestLogger - INFO - Success: Added anouncement
+2025-03-15 10:56:05,247 - TestLogger - INFO - Success: Added anouncement
+2025-04-03 15:20:56,735 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:20:56,735 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:20:56,735 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:21:07,097 - TestLogger - INFO - Completed test: test_valid_login
+2025-04-03 15:21:07,097 - TestLogger - INFO - Completed test: test_valid_login
+2025-04-03 15:21:07,097 - TestLogger - INFO - Completed test: test_valid_login
+2025-04-03 15:22:25,495 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:22:25,495 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:22:25,495 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:23:00,094 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:23:00,094 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:23:00,094 - TestLogger - INFO - Setting up the test environment(Announcements)
+2025-04-03 15:23:06,098 - TestLogger - INFO - Completed test: test_valid_login
+2025-04-03 15:23:06,098 - TestLogger - INFO - Completed test: test_valid_login
+2025-04-03 15:23:06,098 - TestLogger - INFO - Completed test: test_valid_login

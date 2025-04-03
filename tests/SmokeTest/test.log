@@ -8342,3 +8342,237 @@
 2025-03-08 18:15:01,967 - TestLogger - INFO - Successfully verified: Applicant Report
 2025-03-08 18:15:04,558 - TestLogger - INFO - Successfully verified: Quizzes
 2025-03-08 18:15:04,558 - TestLogger - INFO - Successfully verified: Quizzes
+2025-03-15 10:35:59,773 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-15 10:35:59,773 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-15 10:36:11,783 - TestLogger - INFO - Successfully logged in.
+2025-03-15 10:36:11,783 - TestLogger - INFO - Successfully logged in.
+2025-03-15 10:36:11,784 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-15 10:36:11,784 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-15 10:36:17,697 - TestLogger - INFO - Successfully verified: Employee Career Profile
+2025-03-15 10:36:17,697 - TestLogger - INFO - Successfully verified: Employee Career Profile
+2025-03-15 10:36:20,511 - TestLogger - INFO - Successfully verified: Direct Deposit
+2025-03-15 10:36:20,511 - TestLogger - INFO - Successfully verified: Direct Deposit
+2025-03-25 16:10:53,406 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-25 16:10:53,406 - TestLogger - INFO - Starting test: test_valid_login
+2025-03-25 16:11:04,849 - TestLogger - INFO - Successfully logged in.
+2025-03-25 16:11:04,849 - TestLogger - INFO - Successfully logged in.
+2025-03-25 16:11:04,849 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-25 16:11:04,849 - TestLogger - INFO - New Hire Setup verified successfully.
+2025-03-25 16:11:12,474 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-25 16:11:12,474 - TestLogger - INFO - Successfully verified: New Hire Report
+2025-03-25 16:11:16,961 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-25 16:11:16,961 - TestLogger - INFO - Successfully verified: Edit Employees
+2025-03-25 16:11:20,750 - TestLogger - INFO - Successfully verified: Employee Termination
+2025-03-25 16:11:20,750 - TestLogger - INFO - Successfully verified: Employee Termination
+2025-03-25 16:11:23,800 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-25 16:11:23,800 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-25 16:11:26,523 - TestLogger - INFO - Successfully verified: Time Off Request
+2025-03-25 16:11:26,523 - TestLogger - INFO - Successfully verified: Time Off Request
+2025-03-25 16:11:31,997 - TestLogger - INFO - Successfully verified: File Cabinet
+2025-03-25 16:11:31,997 - TestLogger - INFO - Successfully verified: File Cabinet
+2025-03-25 16:11:34,717 - TestLogger - INFO - Successfully verified: Pay History
+2025-03-25 16:11:34,717 - TestLogger - INFO - Successfully verified: Pay History
+2025-03-25 16:11:37,342 - TestLogger - INFO - Successfully verified: Sync Change Report
+2025-03-25 16:11:37,342 - TestLogger - INFO - Successfully verified: Sync Change Report
+2025-03-25 16:11:40,462 - TestLogger - INFO - Successfully verified: Termination Report
+2025-03-25 16:11:40,462 - TestLogger - INFO - Successfully verified: Termination Report
+2025-03-25 16:11:43,223 - TestLogger - INFO - Successfully verified: Manager Assignment
+2025-03-25 16:11:43,223 - TestLogger - INFO - Successfully verified: Manager Assignment
+2025-03-25 16:11:46,509 - TestLogger - INFO - Successfully verified: Company Levels Hierarchy
+2025-03-25 16:11:46,509 - TestLogger - INFO - Successfully verified: Company Levels Hierarchy
+2025-03-25 16:11:49,017 - TestLogger - INFO - Successfully verified: Job Titles
+2025-03-25 16:11:49,017 - TestLogger - INFO - Successfully verified: Job Titles
+2025-03-25 16:11:52,231 - TestLogger - INFO - Successfully verified: Welcome Email Report
+2025-03-25 16:11:52,231 - TestLogger - INFO - Successfully verified: Welcome Email Report
+2025-03-25 16:11:56,878 - TestLogger - INFO - Successfully verified: Onboarding Report
+2025-03-25 16:11:56,878 - TestLogger - INFO - Successfully verified: Onboarding Report
+2025-03-25 16:11:59,538 - TestLogger - INFO - Successfully verified: Onboarding Settings
+2025-03-25 16:11:59,538 - TestLogger - INFO - Successfully verified: Onboarding Settings
+2025-03-25 16:12:08,013 - TestLogger - INFO - Successfully verified: Onboarding Dashboard Settings
+2025-03-25 16:12:08,013 - TestLogger - INFO - Successfully verified: Onboarding Dashboard Settings
+2025-03-25 16:12:10,533 - TestLogger - INFO - Successfully verified: Onboarding Reminder Alert Settings
+2025-03-25 16:12:10,533 - TestLogger - INFO - Successfully verified: Onboarding Reminder Alert Settings
+2025-03-25 16:12:13,047 - TestLogger - INFO - Successfully verified: Orientation
+2025-03-25 16:12:13,047 - TestLogger - INFO - Successfully verified: Orientation
+2025-03-25 16:12:15,584 - TestLogger - INFO - Successfully verified: Announcements
+2025-03-25 16:12:15,584 - TestLogger - INFO - Successfully verified: Announcements
+2025-03-25 16:12:18,735 - TestLogger - INFO - Successfully verified: Performance Review Setup Wizard
+2025-03-25 16:12:18,735 - TestLogger - INFO - Successfully verified: Performance Review Setup Wizard
+2025-03-25 16:12:21,689 - TestLogger - INFO - Successfully verified: Performance Journal
+2025-03-25 16:12:21,689 - TestLogger - INFO - Successfully verified: Performance Journal
+2025-03-25 16:12:24,199 - TestLogger - INFO - Successfully verified: Review Forms
+2025-03-25 16:12:24,199 - TestLogger - INFO - Successfully verified: Review Forms
+2025-03-25 16:12:27,124 - TestLogger - INFO - Successfully verified: Review Sessions
+2025-03-25 16:12:27,124 - TestLogger - INFO - Successfully verified: Review Sessions
+2025-03-25 16:12:29,711 - TestLogger - INFO - Successfully verified: Criteria Library
+2025-03-25 16:12:29,711 - TestLogger - INFO - Successfully verified: Criteria Library
+2025-03-25 16:12:32,399 - TestLogger - INFO - Successfully verified: Comment Templates
+2025-03-25 16:12:32,399 - TestLogger - INFO - Successfully verified: Comment Templates
+2025-03-25 16:12:34,906 - TestLogger - INFO - Successfully verified: Review Workflows
+2025-03-25 16:12:34,906 - TestLogger - INFO - Successfully verified: Review Workflows
+2025-03-25 16:12:37,783 - TestLogger - INFO - Successfully verified: Employee Performance Reports
+2025-03-25 16:12:37,783 - TestLogger - INFO - Successfully verified: Employee Performance Reports
+2025-03-25 16:12:41,087 - TestLogger - INFO - Successfully verified: 360 Degree Feedback
+2025-03-25 16:12:41,087 - TestLogger - INFO - Successfully verified: 360 Degree Feedback
+2025-03-25 16:12:43,591 - TestLogger - INFO - Successfully verified: Performance Review Reminder Alert Settings
+2025-03-25 16:12:43,591 - TestLogger - INFO - Successfully verified: Performance Review Reminder Alert Settings
+2025-03-25 16:12:46,490 - TestLogger - INFO - Successfully verified: Knowledge Base
+2025-03-25 16:12:46,490 - TestLogger - INFO - Successfully verified: Knowledge Base
+2025-03-25 16:12:56,552 - TestLogger - INFO - Successfully verified: Kudos Settings
+2025-03-25 16:12:56,552 - TestLogger - INFO - Successfully verified: Kudos Settings
+2025-03-25 16:13:15,300 - TestLogger - INFO - Successfully verified: Kudos
+2025-03-25 16:13:15,300 - TestLogger - INFO - Successfully verified: Kudos
+2025-03-25 16:13:18,426 - TestLogger - INFO - Successfully verified: Kudos Report
+2025-03-25 16:13:18,426 - TestLogger - INFO - Successfully verified: Kudos Report
+2025-03-25 16:13:21,387 - TestLogger - INFO - Successfully verified: Objective & Key Results
+2025-03-25 16:13:21,387 - TestLogger - INFO - Successfully verified: Objective & Key Results
+2025-03-25 16:13:28,732 - TestLogger - INFO - Successfully verified: Succession
+2025-03-25 16:13:28,732 - TestLogger - INFO - Successfully verified: Succession
+2025-03-25 16:13:31,379 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-25 16:13:31,379 - TestLogger - INFO - Successfully verified: Employee Warnings
+2025-03-25 16:13:34,328 - TestLogger - INFO - Successfully verified: Employee Suggestions Report
+2025-03-25 16:13:34,328 - TestLogger - INFO - Successfully verified: Employee Suggestions Report
+2025-03-25 16:13:39,210 - TestLogger - INFO - Successfully verified: Benefit Enrollment Wizard
+2025-03-25 16:13:39,210 - TestLogger - INFO - Successfully verified: Benefit Enrollment Wizard
+2025-03-25 16:13:42,836 - TestLogger - INFO - Successfully verified: Benefit Plans
+2025-03-25 16:13:42,836 - TestLogger - INFO - Successfully verified: Benefit Plans
+2025-03-25 16:13:45,766 - TestLogger - INFO - Successfully verified: Life Events
+2025-03-25 16:13:45,766 - TestLogger - INFO - Successfully verified: Life Events
+2025-03-25 16:13:48,400 - TestLogger - INFO - Successfully verified: Benefit EDI Report
+2025-03-25 16:13:48,400 - TestLogger - INFO - Successfully verified: Benefit EDI Report
+2025-03-25 16:13:51,206 - TestLogger - INFO - Successfully verified: Benefit Duration Templates
+2025-03-25 16:13:51,206 - TestLogger - INFO - Successfully verified: Benefit Duration Templates
+2025-03-25 16:13:53,959 - TestLogger - INFO - Successfully verified: Benefit Coverages
+2025-03-25 16:13:53,959 - TestLogger - INFO - Successfully verified: Benefit Coverages
+2025-03-25 16:13:56,695 - TestLogger - INFO - Successfully verified: Benefit Comparison Summary Templates
+2025-03-25 16:13:56,695 - TestLogger - INFO - Successfully verified: Benefit Comparison Summary Templates
+2025-03-25 16:13:59,229 - TestLogger - INFO - Successfully verified: Flex Credits
+2025-03-25 16:13:59,229 - TestLogger - INFO - Successfully verified: Flex Credits
+2025-03-25 16:14:01,898 - TestLogger - INFO - Successfully verified: Benefit Forms
+2025-03-25 16:14:01,898 - TestLogger - INFO - Successfully verified: Benefit Forms
+2025-03-25 16:14:05,050 - TestLogger - INFO - Successfully verified: Beneficiaries Report
+2025-03-25 16:14:05,050 - TestLogger - INFO - Successfully verified: Beneficiaries Report
+2025-03-25 16:14:07,899 - TestLogger - INFO - Successfully verified: Dependents Report
+2025-03-25 16:14:07,899 - TestLogger - INFO - Successfully verified: Dependents Report
+2025-03-25 16:14:10,969 - TestLogger - INFO - Successfully verified: Benefit Approval Report
+2025-03-25 16:14:10,969 - TestLogger - INFO - Successfully verified: Benefit Approval Report
+2025-03-25 16:14:13,635 - TestLogger - INFO - Successfully verified: Benefit Clone Report
+2025-03-25 16:14:13,635 - TestLogger - INFO - Successfully verified: Benefit Clone Report
+2025-03-25 16:14:16,038 - TestLogger - INFO - Successfully verified: Benefit EDI Report
+2025-03-25 16:14:16,038 - TestLogger - INFO - Successfully verified: Benefit EDI Report
+2025-03-25 16:14:18,824 - TestLogger - INFO - Successfully verified: Benefit Activities Report
+2025-03-25 16:14:18,824 - TestLogger - INFO - Successfully verified: Benefit Activities Report
+2025-03-25 16:14:21,299 - TestLogger - INFO - Successfully verified: Enrollment Summary Report
+2025-03-25 16:14:21,299 - TestLogger - INFO - Successfully verified: Enrollment Summary Report
+2025-03-25 16:14:23,865 - TestLogger - INFO - Successfully verified: Insurance Applications Report
+2025-03-25 16:14:23,865 - TestLogger - INFO - Successfully verified: Insurance Applications Report
+2025-03-25 16:14:26,653 - TestLogger - INFO - Successfully verified: 401(k) Enrollment Report
+2025-03-25 16:14:26,653 - TestLogger - INFO - Successfully verified: 401(k) Enrollment Report
+2025-03-25 16:14:29,345 - TestLogger - INFO - Successfully verified: Benefits Consolidated Billing Report
+2025-03-25 16:14:29,345 - TestLogger - INFO - Successfully verified: Benefits Consolidated Billing Report
+2025-03-25 16:14:31,849 - TestLogger - INFO - Successfully verified: Time Off Request
+2025-03-25 16:14:31,849 - TestLogger - INFO - Successfully verified: Time Off Request
+2025-03-25 16:14:34,389 - TestLogger - INFO - Successfully verified: Time Off Approval/Denial Report
+2025-03-25 16:14:34,389 - TestLogger - INFO - Successfully verified: Time Off Approval/Denial Report
+2025-03-25 16:14:37,883 - TestLogger - INFO - Successfully verified: Time Off Balance Report
+2025-03-25 16:14:37,883 - TestLogger - INFO - Successfully verified: Time Off Balance Report
+2025-03-25 16:14:40,294 - TestLogger - INFO - Successfully verified: Time Off Settings: Lock Dates
+2025-03-25 16:14:40,294 - TestLogger - INFO - Successfully verified: Time Off Settings: Lock Dates
+2025-03-25 16:14:44,435 - TestLogger - INFO - Successfully verified: Accrual Profiles
+2025-03-25 16:14:44,435 - TestLogger - INFO - Successfully verified: Accrual Profiles
+2025-03-25 16:14:47,222 - TestLogger - INFO - Successfully verified: Calendar Rules
+2025-03-25 16:14:47,222 - TestLogger - INFO - Successfully verified: Calendar Rules
+2025-03-25 16:14:50,677 - TestLogger - INFO - Successfully verified: Holiday Rules
+2025-03-25 16:14:50,677 - TestLogger - INFO - Successfully verified: Holiday Rules
+2025-03-25 16:14:53,095 - TestLogger - INFO - Successfully verified: Time Sheet Settings
+2025-03-25 16:14:53,095 - TestLogger - INFO - Successfully verified: Time Sheet Settings
+2025-03-25 16:14:57,099 - TestLogger - INFO - Successfully verified: Import Time
+2025-03-25 16:14:57,099 - TestLogger - INFO - Successfully verified: Import Time
+2025-03-25 16:14:59,711 - TestLogger - INFO - Successfully verified: Time Card Type
+2025-03-25 16:14:59,711 - TestLogger - INFO - Successfully verified: Time Card Type
+2025-03-25 16:15:03,852 - TestLogger - INFO - Successfully verified: Payroll Batches
+2025-03-25 16:15:03,852 - TestLogger - INFO - Successfully verified: Payroll Batches
+2025-03-25 16:15:06,650 - TestLogger - INFO - Successfully verified: Custom Report
+2025-03-25 16:15:06,650 - TestLogger - INFO - Successfully verified: Custom Report
+2025-03-25 16:15:13,110 - TestLogger - INFO - Successfully verified: Deduction Approval Report
+2025-03-25 16:15:13,110 - TestLogger - INFO - Successfully verified: Deduction Approval Report
+2025-03-25 16:15:16,984 - TestLogger - INFO - Successfully verified: Scheduled Report
+2025-03-25 16:15:16,984 - TestLogger - INFO - Successfully verified: Scheduled Report
+2025-03-25 16:15:19,758 - TestLogger - INFO - Successfully verified: Anniversary Report
+2025-03-25 16:15:19,758 - TestLogger - INFO - Successfully verified: Anniversary Report
+2025-03-25 16:15:22,496 - TestLogger - INFO - Successfully verified: Birthday Report
+2025-03-25 16:15:22,496 - TestLogger - INFO - Successfully verified: Birthday Report
+2025-03-25 16:15:25,049 - TestLogger - INFO - Successfully verified: Education Report
+2025-03-25 16:15:25,049 - TestLogger - INFO - Successfully verified: Education Report
+2025-03-25 16:15:27,789 - TestLogger - INFO - Successfully verified: Emergency Contact Report
+2025-03-25 16:15:27,789 - TestLogger - INFO - Successfully verified: Emergency Contact Report
+2025-03-25 16:15:30,518 - TestLogger - INFO - Successfully verified: Employee Notes Report
+2025-03-25 16:15:30,518 - TestLogger - INFO - Successfully verified: Employee Notes Report
+2025-03-25 16:15:32,958 - TestLogger - INFO - Successfully verified: Equipment Report
+2025-03-25 16:15:32,958 - TestLogger - INFO - Successfully verified: Equipment Report
+2025-03-25 16:15:35,574 - TestLogger - INFO - Successfully verified: License Tracking Report
+2025-03-25 16:15:35,574 - TestLogger - INFO - Successfully verified: License Tracking Report
+2025-03-25 16:15:39,747 - TestLogger - INFO - Successfully verified: Employee Count Report
+2025-03-25 16:15:39,747 - TestLogger - INFO - Successfully verified: Employee Count Report
+2025-03-25 16:15:42,353 - TestLogger - INFO - Successfully verified: Employee Turnover & Retention Report
+2025-03-25 16:15:42,353 - TestLogger - INFO - Successfully verified: Employee Turnover & Retention Report
+2025-03-25 16:15:45,275 - TestLogger - INFO - Successfully verified: Employee User Account Report
+2025-03-25 16:15:45,275 - TestLogger - INFO - Successfully verified: Employee User Account Report
+2025-03-25 16:15:47,938 - TestLogger - INFO - Successfully verified: Employee EEO Report
+2025-03-25 16:15:47,938 - TestLogger - INFO - Successfully verified: Employee EEO Report
+2025-03-25 16:15:50,867 - TestLogger - INFO - Successfully verified: I9 Expiration Report
+2025-03-25 16:15:50,867 - TestLogger - INFO - Successfully verified: I9 Expiration Report
+2025-03-25 16:15:53,626 - TestLogger - INFO - Successfully verified: Employee Skill Report
+2025-03-25 16:15:53,626 - TestLogger - INFO - Successfully verified: Employee Skill Report
+2025-03-25 16:15:58,618 - TestLogger - INFO - Successfully verified: Organization Chart
+2025-03-25 16:15:58,618 - TestLogger - INFO - Successfully verified: Organization Chart
+2025-03-25 16:16:02,169 - TestLogger - INFO - Successfully verified: Workforce Age Report
+2025-03-25 16:16:02,169 - TestLogger - INFO - Successfully verified: Workforce Age Report
+2025-03-25 16:16:05,088 - TestLogger - INFO - Successfully verified: VETS Report
+2025-03-25 16:16:05,088 - TestLogger - INFO - Successfully verified: VETS Report
+2025-03-25 16:16:07,629 - TestLogger - INFO - Successfully verified: Pay History
+2025-03-25 16:16:07,629 - TestLogger - INFO - Successfully verified: Pay History
+2025-03-25 16:16:11,168 - TestLogger - INFO - Successfully verified: Pay Rates
+2025-03-25 16:16:11,168 - TestLogger - INFO - Successfully verified: Pay Rates
+2025-03-25 16:16:14,110 - TestLogger - INFO - Successfully verified: Termination Trend
+2025-03-25 16:16:14,110 - TestLogger - INFO - Successfully verified: Termination Trend
+2025-03-25 16:16:17,035 - TestLogger - INFO - Successfully verified: Sync Change Report
+2025-03-25 16:16:17,035 - TestLogger - INFO - Successfully verified: Sync Change Report
+2025-03-25 16:16:21,057 - TestLogger - INFO - Successfully verified: File Cabinet
+2025-03-25 16:16:21,057 - TestLogger - INFO - Successfully verified: File Cabinet
+2025-03-25 16:16:23,916 - TestLogger - INFO - Successfully verified: Employee Forms
+2025-03-25 16:16:23,916 - TestLogger - INFO - Successfully verified: Employee Forms
+2025-03-25 16:16:26,829 - TestLogger - INFO - Successfully verified: Employee Forms Report
+2025-03-25 16:16:26,829 - TestLogger - INFO - Successfully verified: Employee Forms Report
+2025-03-25 16:16:31,509 - TestLogger - INFO - Successfully verified: Schedule
+2025-03-25 16:16:31,509 - TestLogger - INFO - Successfully verified: Schedule
+2025-03-25 16:16:34,105 - TestLogger - INFO - Successfully verified: Schedule Display Settings
+2025-03-25 16:16:34,105 - TestLogger - INFO - Successfully verified: Schedule Display Settings
+2025-03-25 16:16:37,140 - TestLogger - INFO - Successfully verified: Rejected Shifts
+2025-03-25 16:16:37,140 - TestLogger - INFO - Successfully verified: Rejected Shifts
+2025-03-25 16:16:39,801 - TestLogger - INFO - Successfully verified: Manage Jobs
+2025-03-25 16:16:39,801 - TestLogger - INFO - Successfully verified: Manage Jobs
+2025-03-25 16:16:42,350 - TestLogger - INFO - Successfully verified: Application Form Settings
+2025-03-25 16:16:42,350 - TestLogger - INFO - Successfully verified: Application Form Settings
+2025-03-25 16:16:45,136 - TestLogger - INFO - Successfully verified: Interview Checklists
+2025-03-25 16:16:45,136 - TestLogger - INFO - Successfully verified: Interview Checklists
+2025-03-25 16:16:47,633 - TestLogger - INFO - Successfully verified: Applicant Status Settings
+2025-03-25 16:16:47,633 - TestLogger - INFO - Successfully verified: Applicant Status Settings
+2025-03-25 16:16:50,146 - TestLogger - INFO - Successfully verified: Recruiting Pipeline
+2025-03-25 16:16:50,146 - TestLogger - INFO - Successfully verified: Recruiting Pipeline
+2025-03-25 16:16:52,588 - TestLogger - INFO - Successfully verified: External Job Board Settings
+2025-03-25 16:16:52,588 - TestLogger - INFO - Successfully verified: External Job Board Settings
+2025-03-25 16:16:55,748 - TestLogger - INFO - Successfully verified: Applicant Report
+2025-03-25 16:16:55,748 - TestLogger - INFO - Successfully verified: Applicant Report
+2025-03-25 16:16:58,207 - TestLogger - INFO - Successfully verified: Quizzes
+2025-03-25 16:16:58,207 - TestLogger - INFO - Successfully verified: Quizzes
+2025-03-25 16:17:01,202 - TestLogger - INFO - Successfully verified: Task Board
+2025-03-25 16:17:01,202 - TestLogger - INFO - Successfully verified: Task Board
+2025-03-25 16:17:04,468 - TestLogger - INFO - Successfully verified: Task
+2025-03-25 16:17:04,468 - TestLogger - INFO - Successfully verified: Task
+2025-03-25 16:17:06,946 - TestLogger - INFO - Successfully verified: Task Group
+2025-03-25 16:17:06,946 - TestLogger - INFO - Successfully verified: Task Group
+2025-03-25 16:17:09,739 - TestLogger - INFO - Successfully verified: Task List
+2025-03-25 16:17:09,739 - TestLogger - INFO - Successfully verified: Task List
+2025-03-25 16:17:12,335 - TestLogger - INFO - Successfully verified: Messages
+2025-03-25 16:17:12,335 - TestLogger - INFO - Successfully verified: Messages
